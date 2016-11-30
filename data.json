@@ -18,6 +18,12 @@
         "text":"The idea of self-government is in the first three words of the Constitution. What are these words?",
         "answers": ["We the People"],
         "additionalInfo":"The Constitution says:\n\n\"We the People of the United States, in Order to form a more perfect Union, establish Justice, insure domestic Tranquility, provide for the common defence, promote the general Welfare, and secure the Blessings of Liberty to ourselves and our Posterity, do ordain and establish this Constitution for the United States of America.\"\n\nWith the words \"We the People,\" the Constitution states that the people set up the government. The government works for the people and protects the rights of people. In the United States, the power to govern comes from the people, who are the highest power. This is called \"popular sovereignty.\" The people elect representatives to make laws."
+      },
+      {
+        "id":4,
+        "text":"What is an amendment?",
+        "answers": ["a change (to the Constitution)","an addition (to the Constitution)"],
+        "additionalInfo":"An amendment is a change or addition to the Constitution. The Framers of the Constitution knew that laws can change as a country grows. They did not want to make it too easy to modify the Constitution, the supreme law of the land. The Framers also did not want the Constitution to lose its meaning. For this reason, the Framers decided that Congress could pass amendments in only two ways: by a two-thirds vote in the U.S. Senate and the House of Representatives or by a special convention. A special convention has to be requested by two-thirds of the states. After an amendment has passed in Congress or by a special convention, the amendment must then be ratified (accepted) by the legislatures of three-fourths of the states. The amendment can also be ratified by a special convention in three-fourths of the states. Not all proposed amendments are ratified. Six times in U.S. history amendments have passed in Congress but were not approved by enough states to be ratified."
       }
     ]
   }
