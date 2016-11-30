@@ -6,6 +6,12 @@
         "text":"What is the supreme law of the land?",
         "answers": ["the Constitution"],
         "additionalInfo":"The Founding Fathers of the United States wrote the Constitution in 1787. The Constitution is the “supreme law of the land.” The U.S. Constitution has lasted longer than any other country’s constitution. It establishes the basic principles of the United States government. The Constitution establishes a system of government called “representative democracy.” In a representative democracy, citizens choose representatives to make the laws. U.S. citizens also choose a president to lead the executive branch of government. The Constitution lists fundamental rights for all citizens and other people living in the United States. Laws made in the United States must follow the Constitution."
+      },
+      {
+        "id":2,
+        "text":"What does the Constitution do?",
+        "answers": ["sets up the government","defines the government","protects basic rights of Americans"],
+        "additionalInfo":"The Constitution of the United States divides government power between the national government and state governments. The name for this division of power is \"federalism.\" Federalism is an important idea in the Constitution. We call the Founding Fathers who wrote the Constitution the \"Framers\" of the Constitution. The Framers wanted to limit the powers of the government, so they separated the powers into three branches: executive, legislative, and judicial. The Constitution explains the power of each branch. The Constitution also includes changes and additions, called \"amendments.\" The first 10 amendments are called the \"Bill of Rights.\" The Bill of Rights established the individual rights and liberties of all Americans."
       }]
   }
 }
