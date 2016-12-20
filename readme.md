@@ -13,3 +13,8 @@ content according to its conditions:
 >The information presented in _Learn About the United States: Quick Civics Lessons 
 for the Naturalization Test_ is considered public information and may be 
 distributed or copied without alteration unless otherwise specified.
+
+## Some messing around
+I'm playing with the Go Playground for some of this:
+
+[Here's an example](https://play.golang.org/p/twW3LLHeQt)
