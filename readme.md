@@ -4,7 +4,7 @@
 Information collected here is taken from the document 
 M-638 (rev. 07/14) of the department of U.S. Citizenship 
 and Immigration Services. It can be found 
-<a href="https://www.uscis.gov/sites/default/files/USCIS/Office%20of%20Citizenship/Citizenship%20Resource%20Center%20Site/Publications/PDFs/M-638_red.pdf">here</a>.
+[here](https://www.uscis.gov/sites/default/files/USCIS/Office%20of%20Citizenship/Citizenship%20Resource%20Center%20Site/Publications/PDFs/M-638_red.pdf).
 
 No copyright on the content of the quiz is claimed and no infringement 
 is intended. Per the terms spelled out in the document, I am copying the 
