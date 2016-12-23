@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"io"
 	"io/ioutil"
+	"strconv"
 	"strings"
 )
 
@@ -23,10 +24,18 @@ type Data struct {
 }
 
 func main() {
+	questions := ShowQuestions()
+	fmt.Println(questions)
+}
+
+// ----------------------------------------------------------------------------
+
+func ShowQuestions() string {
 	jsonData := GetQuizJson()
 
 	quizDecoder := json.NewDecoder(strings.NewReader(jsonData))
 
+	showQuestions := ""
 	for {
 		var quiz Quiz
 
@@ -37,16 +46,14 @@ func main() {
 			panic(fmt.Sprintf("%s", err))
 		}
 
-		fmt.Printf("%s\n", quiz.About)
-
 		fmt.Printf("Questions:\n")
 		for _, question := range quiz.Data.Questions {
-			fmt.Printf("\t%d - %s\n", question.Id, question.Text)
+			showQuestions += strconv.Itoa(question.Id) + " - " + question.Text + "\n"
 		}
 	}
-}
 
-// ----------------------------------------------------------------------------
+	return showQuestions
+}
 
 func GetQuizJson() string {
 	// read the whole file at once - it's not that big
