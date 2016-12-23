@@ -12,4 +12,9 @@ The `for` structure is similar to the `foreach` in C#, but different
 in syntax. I like the `_` structure as way of dealing with unneeded
 returns from functions. 
 
-[I'm snapshotting this now](https://play.golang.org/p/bpvjBNronw).
+[I'm snapshotting this now.](https://play.golang.org/p/bpvjBNronw)
+
+[Here's a slightly nicer format.](https://play.golang.org/p/O23pqgNQdv)
+
+
+--------------
