@@ -34,7 +34,8 @@ func main() {
 		if err := quizDecoder.Decode(&quiz); err == io.EOF {
 			break
 		} else if err != nil {
-			log.Fatal(err)
+			fmt.Println("Something weird happened trying to open the data file.")
+			panic(fmt.Sprintf("%s", err))
 		}
 
 		fmt.Printf("%s\n", quiz.About)
