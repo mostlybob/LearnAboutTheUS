@@ -15,12 +15,14 @@ type Quiz struct {
 }
 
 type Data struct {
-	Questions []struct {
-		Id             int
-		Text           string
-		Answers        []string
-		AdditionalInfo string
-	}
+	Questions []Question
+}
+
+type Question struct {
+	Id             int
+	Text           string
+	Answers        []string
+	AdditionalInfo string
 }
 
 func main() {
