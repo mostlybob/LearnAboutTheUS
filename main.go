@@ -23,9 +23,9 @@ type Data struct {
 }
 
 func main() {
-	testString := getTestString()
+	jsonData := GetQuizJson()
 
-	quizDecoder := json.NewDecoder(strings.NewReader(testString))
+	quizDecoder := json.NewDecoder(strings.NewReader(jsonData))
 
 	for {
 		var quiz Quiz
@@ -48,7 +48,7 @@ func main() {
 
 // ----------------------------------------------------------------------------
 
-func getTestString() string {
+func GetQuizJson() string {
 	// read the whole file at once - it's not that big
 	data, err := ioutil.ReadFile("data.json")
 	if err != nil {
