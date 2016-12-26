@@ -26,13 +26,35 @@ type Question struct {
 }
 
 func main() {
-	questions := ShowQuestions()
+	questions := ShowAllQuestions()
 	fmt.Println(questions)
+
+	question := GetRandomQuestion()
+	fmt.Println(question)
 }
 
 // ----------------------------------------------------------------------------
 
-func ShowQuestions() string {
+func GetRandomQuestion() int {
+	jsonData := GetQuizJson()
+
+	quizDecoder := json.NewDecoder(strings.NewReader(jsonData))
+
+	var quiz Quiz
+
+	err := quizDecoder.Decode(&quiz)
+
+	if err != nil {
+		fmt.Println("Something weird happened trying to open the data file.")
+		panic(fmt.Sprintf("%s", err))
+	}
+
+	numberOfQuestions := len(quiz.Data.Questions)
+
+	return numberOfQuestions
+}
+
+func ShowAllQuestions() string {
 	jsonData := GetQuizJson()
 
 	quizDecoder := json.NewDecoder(strings.NewReader(jsonData))
