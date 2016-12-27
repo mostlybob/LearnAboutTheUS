@@ -25,6 +25,7 @@ _testmain.go
 
 # project-specific stuff
 LearnAboutTheUS
+main
 
 *.sublime-project
 *.sublime-workspace
