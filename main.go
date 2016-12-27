@@ -32,12 +32,13 @@ func main() {
 	// fmt.Println(questions)
 
 	question := GetRandomQuestion()
-	fmt.Println(question)
+	fmt.Println(question.Id)
+	fmt.Println(question.Text)
 }
 
 // ----------------------------------------------------------------------------
 
-func GetRandomQuestion() string {
+func GetRandomQuestion() Question {
 	jsonData := GetQuizJson()
 
 	quizDecoder := json.NewDecoder(strings.NewReader(jsonData))
@@ -54,7 +55,7 @@ func GetRandomQuestion() string {
 	numberOfQuestions := len(quiz.Data.Questions)
 	randomQuestionIndex := getRandomNumber(numberOfQuestions)
 
-	randomQuestion := quiz.Data.Questions[randomQuestionIndex].Text
+	randomQuestion := quiz.Data.Questions[randomQuestionIndex]
 
 	return randomQuestion
 }
