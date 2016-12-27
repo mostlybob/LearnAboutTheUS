@@ -5,8 +5,10 @@ import (
 	"fmt"
 	"io"
 	"io/ioutil"
+	"math/rand"
 	"strconv"
 	"strings"
+	"time"
 )
 
 type Quiz struct {
@@ -51,11 +53,15 @@ func GetRandomQuestion() int {
 
 	numberOfQuestions := len(quiz.Data.Questions)
 
-	return getRandomNumber(0, numberOfQuestions)
+	return getRandomNumber(numberOfQuestions)
 }
 
-func getRandomNumber(lower int, upper int) int {
-	return 3
+func getRandomNumber(upper int) int {
+	r := rand.New(rand.NewSource(time.Now().UnixNano()))
+
+	randomNumber := r.Intn(upper - 1)
+
+	return randomNumber
 }
 
 func ShowAllQuestions() string {
