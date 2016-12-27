@@ -51,7 +51,11 @@ func GetRandomQuestion() int {
 
 	numberOfQuestions := len(quiz.Data.Questions)
 
-	return numberOfQuestions
+	return getRandomNumber(0, numberOfQuestions)
+}
+
+func getRandomNumber(lower int, upper int) int {
+	return 3
 }
 
 func ShowAllQuestions() string {
