@@ -28,8 +28,8 @@ type Question struct {
 }
 
 func main() {
-	questions := ShowAllQuestions()
-	fmt.Println(questions)
+	// questions := ShowAllQuestions()
+	// fmt.Println(questions)
 
 	question := GetRandomQuestion()
 	fmt.Println(question)
@@ -37,7 +37,7 @@ func main() {
 
 // ----------------------------------------------------------------------------
 
-func GetRandomQuestion() int {
+func GetRandomQuestion() string {
 	jsonData := GetQuizJson()
 
 	quizDecoder := json.NewDecoder(strings.NewReader(jsonData))
@@ -52,8 +52,11 @@ func GetRandomQuestion() int {
 	}
 
 	numberOfQuestions := len(quiz.Data.Questions)
+	randomQuestionIndex := getRandomNumber(numberOfQuestions)
 
-	return getRandomNumber(numberOfQuestions)
+	randomQuestion := quiz.Data.Questions[randomQuestionIndex].Text
+
+	return randomQuestion
 }
 
 func getRandomNumber(upper int) int {
