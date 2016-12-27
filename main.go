@@ -32,11 +32,37 @@ func main() {
 	// fmt.Println(questions)
 
 	question := GetRandomQuestion()
-	fmt.Println(question.Id)
+	questionId := question.Id
 	fmt.Println(question.Text)
+
+	question = GetQuestion(questionId)
+
 }
 
 // ----------------------------------------------------------------------------
+
+func GetQuestion(id int) Question {
+	jsonData := GetQuizJson()
+
+	quizDecoder := json.NewDecoder(strings.NewReader(jsonData))
+
+	var quiz Quiz
+
+	err := quizDecoder.Decode(&quiz)
+
+	if err != nil {
+		fmt.Println("Something weird happened trying to open the data file.")
+		panic(fmt.Sprintf("%s", err))
+	}
+
+	for _, question := range quiz.Data.Questions {
+		if (question.Id == id) {
+			return question
+		}
+	}
+
+	return new Question
+}
 
 func GetRandomQuestion() Question {
 	jsonData := GetQuizJson()
