@@ -56,12 +56,12 @@ func GetQuestion(id int) Question {
 	}
 
 	for _, question := range quiz.Data.Questions {
-		if (question.Id == id) {
+		if question.Id == id {
 			return question
 		}
 	}
 
-	return new Question
+	return nil
 }
 
 func GetRandomQuestion() Question {
