@@ -18,3 +18,6 @@ distributed or copied without alteration unless otherwise specified.
 I'm playing with the Go Playground for some of this:
 
 [Here's an example](https://play.golang.org/p/twW3LLHeQt)
+
+## Ginkgo & Gomega
+I want to get some testing in here, so I'm also playing with these two libraries. Instructions for them can be found [here](https://onsi.github.io/ginkgo/).
