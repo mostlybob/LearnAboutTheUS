@@ -61,7 +61,8 @@ func GetQuestion(id int) Question {
 		}
 	}
 
-	return nil
+	var blankQuestion Question
+	return blankQuestion
 }
 
 func GetRandomQuestion() Question {
