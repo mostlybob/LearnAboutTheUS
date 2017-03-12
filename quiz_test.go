@@ -64,21 +64,23 @@ var _ = Describe("Quiz", func() {
 
 	Describe("Working with JSON", func() {
 		It("can create a Quiz from some JSON", func() {
-			quiz = CreateQuizFromJSON(`{
-  "About": "This is the test quiz JSON",
-  "Questions": [
-    {
-      "Id": 1,
-      "Text": "What is JSON?",
-      "Answers": [
-        "Javascript Object Notation",
-        "a data communication standard",
-        "much, much better than XML for data communication"
-      ],
-      "AdditionalInfo": "JSON is a language-independent data format. It derives from JavaScript, but as of 2017 many programming languages include code to generate and parse JSON-format data. The official Internet media type for JSON is application/json. JSON filenames use the extension .json."
-    }
-  ]
-}`)
+			quiz = CreateQuizFromJSON(`
+				{
+				  "About": "This is the test quiz JSON",
+				  "Questions": [
+				    {
+				      "Id": 1,
+				      "Text": "What is JSON?",
+				      "Answers": [
+				        "Javascript Object Notation",
+				        "a data communication standard",
+				        "much, much better than XML for data communication"
+				      ],
+				      "AdditionalInfo": "JSON is a language-independent data format. It derives from JavaScript, but as of 2017 many programming languages include code to generate and parse JSON-format data. The official Internet media type for JSON is application/json. JSON filenames use the extension .json."
+				    }
+				  ]
+			    }
+			`)
 		})
 	})
 })
