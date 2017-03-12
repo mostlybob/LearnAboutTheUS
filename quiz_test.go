@@ -17,7 +17,10 @@ var _ = Describe("Quiz", func() {
 
 	BeforeEach(func() {
 		quiz = Quiz{}
-		quiz.Data.Questions = append(quiz.Data.Questions, Question{Id: 1, Text: "Here's some text?"})
+		quiz.Data.Questions = append(quiz.Data.Questions, Question{
+			Id:   1,
+			Text: "Here's some text?",
+		})
 	})
 
 	Describe("First test for Quiz", func() {
@@ -42,6 +45,10 @@ var _ = Describe("Quiz", func() {
 
 			It("The question text", func() {
 				Expect(question.Text).ToNot(BeEmpty())
+			})
+
+			It("A collection of answers", func() {
+				Expect(len(question.Answers)).ToNot(Equal(0))
 			})
 		})
 	})
