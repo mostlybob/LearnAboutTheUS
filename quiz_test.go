@@ -31,11 +31,13 @@ var _ = Describe("Quiz", func() {
 		})
 	})
 
-	// Describe("Questions are part of a Quiz", func() {
-	// 	Context("A Question has some attributes", func() {
-	// 		question := quiz.Data.Questions[0]
+	Describe("Questions are part of a Quiz", func() {
+		Context("A Question has some attributes", func() {
+			It("An id", func() {
+				question := quiz.Data.Questions[0]
 
-	// 		Expect(question.Id).ToNot(Equal(0))
-	// 	})
-	// })
+				Expect(question.Id).ToNot(Equal(0))
+			})
+		})
+	})
 })
