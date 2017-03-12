@@ -37,8 +37,19 @@ func main() {
 
 // ----------------------------------------------------------------------------
 
-func CreateQuizFromJSON(json string) Quiz {
+func CreateQuizFromJSON(jsonData string) Quiz {
+	quizDecoder := json.NewDecoder(strings.NewReader(jsonData))
 
+	var quiz Quiz
+
+	err := quizDecoder.Decode(&quiz)
+
+	if err != nil {
+		fmt.Println("There was an error creating the Quiz from the JSON.")
+		panic(fmt.Sprintf("%s", err))
+	}
+
+	return quiz
 }
 
 func GetQuestion(id int) Question {
