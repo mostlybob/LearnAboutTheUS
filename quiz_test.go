@@ -15,13 +15,14 @@ var _ = Describe("Quiz", func() {
 	)
 
 	BeforeEach(func() {
-		//questions[0] := Question{}
+		// questions[0] = Question{}
 
 		// quiz = Quiz{
 		// 	Data: []Question,
 		// }
 
 		quiz = Quiz{}
+		quiz.Data.Questions = append(quiz.Data.Questions, Question{})
 	})
 
 	Describe("First test for Quiz", func() {
