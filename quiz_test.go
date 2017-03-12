@@ -17,15 +17,12 @@ var _ = Describe("Quiz", func() {
 
 	BeforeEach(func() {
 		quiz = Quiz{}
-		quiz.Data.Questions = append(quiz.Data.Questions, Question{Id: 1})
+		quiz.Data.Questions = append(quiz.Data.Questions, Question{Id: 1, Text: "Here's some text?"})
 	})
 
 	Describe("First test for Quiz", func() {
 		Context("A Quiz has Questions", func() {
 			It("should have at least one question", func() {
-				fmt.Println("number of questions")
-				fmt.Println(len(quiz.Data.Questions))
-
 				Expect(len(quiz.Data.Questions)).ToNot(Equal(0))
 			})
 		})
@@ -35,8 +32,11 @@ var _ = Describe("Quiz", func() {
 		Context("A Question has some attributes", func() {
 			It("An id", func() {
 				question := quiz.Data.Questions[0]
-
 				Expect(question.Id).ToNot(Equal(0))
+			})
+			It("The question text", func() {
+				question := quiz.Data.Questions[0]
+				Expect(question.Text).ToNot(BeEmpty())
 			})
 		})
 	})
