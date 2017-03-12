@@ -15,7 +15,7 @@ var _ = Describe("Quiz", func() {
 
 	BeforeEach(func() {
 		quiz = Quiz{}
-		quiz.Data.Questions = append(quiz.Data.Questions, Question{})
+		quiz.Data.Questions = append(quiz.Data.Questions, Question{Id: 1})
 	})
 
 	Describe("First test for Quiz", func() {
@@ -23,6 +23,14 @@ var _ = Describe("Quiz", func() {
 			It("should have at least one question", func() {
 				Expect(len(quiz.Data.Questions)).ToNot(Equal(0))
 			})
+		})
+	})
+
+	Describe("Questions are part of a Quiz", func() {
+		Context("A Question has some attributes", func() {
+			question := quiz.Data.Questions[0]
+
+			Expect(question.Id).ToNot(Equal(0))
 		})
 	})
 })
