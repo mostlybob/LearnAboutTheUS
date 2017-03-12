@@ -14,12 +14,7 @@ import (
 type Quiz struct {
 	About     string
 	Questions []Question
-	// Data  Data
 }
-
-// type Data struct {
-// 	Questions []Question
-// }
 
 type Question struct {
 	Id             int
@@ -56,7 +51,7 @@ func GetQuestion(id int) Question {
 		panic(fmt.Sprintf("%s", err))
 	}
 
-	for _, question := range quiz.Data.Questions {
+	for _, question := range quiz.Questions {
 		if question.Id == id {
 			return question
 		}
@@ -80,10 +75,10 @@ func GetRandomQuestion() Question {
 		panic(fmt.Sprintf("%s", err))
 	}
 
-	numberOfQuestions := len(quiz.Data.Questions)
+	numberOfQuestions := len(quiz.Questions)
 	randomQuestionIndex := getRandomNumber(numberOfQuestions)
 
-	randomQuestion := quiz.Data.Questions[randomQuestionIndex]
+	randomQuestion := quiz.Questions[randomQuestionIndex]
 
 	return randomQuestion
 }
@@ -113,7 +108,7 @@ func ShowAllQuestions() string {
 		}
 
 		fmt.Printf("Questions:\n")
-		for _, question := range quiz.Data.Questions {
+		for _, question := range quiz.Questions {
 			showQuestions += strconv.Itoa(question.Id) + " - " + question.Text + "\n"
 		}
 	}
