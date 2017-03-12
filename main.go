@@ -37,6 +37,10 @@ func main() {
 
 // ----------------------------------------------------------------------------
 
+func CreateQuizFromJSON(json string) Quiz {
+
+}
+
 func GetQuestion(id int) Question {
 	jsonData := GetQuizJson()
 
