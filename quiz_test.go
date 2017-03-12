@@ -30,7 +30,11 @@ var _ = Describe("Quiz", func() {
 
 	Describe("Questions are part of a Quiz", func() {
 		Context("A Question has some attributes", func() {
-			question := quiz.Data.Questions[0]
+			var question Question
+			BeforeEach(func() {
+
+				question = quiz.Data.Questions[0]
+			})
 			It("An id", func() {
 				Expect(question.Id).ToNot(Equal(0))
 			})
