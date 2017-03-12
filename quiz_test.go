@@ -11,16 +11,9 @@ var _ = Describe("Quiz", func() {
 
 	var (
 		quiz Quiz
-		// questions [1]Question
 	)
 
 	BeforeEach(func() {
-		// questions[0] = Question{}
-
-		// quiz = Quiz{
-		// 	Data: []Question,
-		// }
-
 		quiz = Quiz{}
 		quiz.Data.Questions = append(quiz.Data.Questions, Question{})
 	})
