@@ -7,54 +7,21 @@ import (
 	. "github.com/onsi/gomega"
 )
 
-// var _ = Describe("Quiz", func() {
-//     var quiz Quiz
+var _ = Describe("Quiz", func() {
 
-//     BeforeEach(func(){
+	var (
+		quiz Quiz
+	)
 
-//         answers := [1]string
-//         answers[0] = "yes"
+	BeforeEach(func() {
+		quiz = Quiz{}
+	})
 
-//         testQuestion := Question {
-//             Id: 100,
-//             Text: "Is this the first question?",
-//             Answers: answers,
-//             AdditionalInfo: "If there were further information, I would surely tell you."
-//         }
-
-//         questions:=[1] Question
-//         questions[0]=testQuestion
-
-//         quiz:=Quiz{
-//             About: "This is the quiz",
-//             Data: Data{
-//                 Questions: questions
-//             }
-//         }
-//     }
-// }
-// )
-
-//     var quiz quiz
-
-//     BeforeEach(func(){
-
-//         var answers [1]string
-//         answers[0]="yes"
-
-//         testQuestion := Question{
-// Id: 100,
-//                     Text: "Is this the first question?",
-//                     Answers: answers,
-//                     AdditionalInfo: "If there were further information, I would surely tell you.",
-//                     }
-
-//         var questions [1]question
-//         questions[0]=testQuestion
-
-//         quiz= Quiz{
-//             About: "This is the quiz",
-//             Data: Data{
-//                 Questions: questions,
-//         })
-// })
+	Describe("First test for Quiz", func() {
+		Context("A Quiz has Questions", func() {
+			It("should have at least one question", func() {
+				Expect(len(quiz.Data.Questions)).ToNot(BeEmpty())
+			})
+		})
+	})
+})
