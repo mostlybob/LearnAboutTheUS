@@ -10,17 +10,22 @@ import (
 var _ = Describe("Quiz", func() {
 
 	var (
-		quiz Quiz
+		quiz      Quiz
+		questions [1]Question
 	)
 
 	BeforeEach(func() {
-		quiz = Quiz{}
+		//questions[0] := Question{}
+
+		quiz = Quiz{
+			Data: []Question,
+		}
 	})
 
 	Describe("First test for Quiz", func() {
 		Context("A Quiz has Questions", func() {
 			It("should have at least one question", func() {
-				Expect(len(quiz.Data.Questions)).ToNot(BeEmpty())
+				Expect(len(quiz.Data.Questions)).ToNot(Equal(0))
 			})
 		})
 	})
