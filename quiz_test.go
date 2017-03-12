@@ -31,13 +31,15 @@ var _ = Describe("Quiz", func() {
 	Describe("Questions are part of a Quiz", func() {
 		Context("A Question has some attributes", func() {
 			var question Question
-			BeforeEach(func() {
 
+			BeforeEach(func() {
 				question = quiz.Data.Questions[0]
 			})
+
 			It("An id", func() {
 				Expect(question.Id).ToNot(Equal(0))
 			})
+
 			It("The question text", func() {
 				Expect(question.Text).ToNot(BeEmpty())
 			})
