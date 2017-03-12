@@ -40,16 +40,20 @@ var _ = Describe("Quiz", func() {
 				question = quiz.Data.Questions[0]
 			})
 
-			It("An id", func() {
+			It("has an id", func() {
 				Expect(question.Id).ToNot(Equal(0))
 			})
 
-			It("The question text", func() {
+			It("has the question text", func() {
 				Expect(question.Text).ToNot(BeEmpty())
 			})
 
-			It("A collection of answers", func() {
+			It("has a collection of answers", func() {
 				Expect(len(question.Answers)).ToNot(Equal(0))
+			})
+
+			It("has additional information", func() {
+				Expect(question.AdditionalInfo).ToNot(BeEmpty())
 			})
 		})
 	})
