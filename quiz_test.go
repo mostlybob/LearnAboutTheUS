@@ -10,16 +10,18 @@ import (
 var _ = Describe("Quiz", func() {
 
 	var (
-		quiz      Quiz
-		questions [1]Question
+		quiz Quiz
+		// questions [1]Question
 	)
 
 	BeforeEach(func() {
 		//questions[0] := Question{}
 
-		quiz = Quiz{
-			Data: []Question,
-		}
+		// quiz = Quiz{
+		// 	Data: []Question,
+		// }
+
+		quiz = Quiz{}
 	})
 
 	Describe("First test for Quiz", func() {
