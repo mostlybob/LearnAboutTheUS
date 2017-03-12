@@ -12,13 +12,14 @@ import (
 )
 
 type Quiz struct {
-	About string
-	Data  Data
+	About     string
+	Questions []Question
+	// Data  Data
 }
 
-type Data struct {
-	Questions []Question
-}
+// type Data struct {
+// 	Questions []Question
+// }
 
 type Question struct {
 	Id             int
