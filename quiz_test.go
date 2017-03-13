@@ -64,7 +64,18 @@ var _ = Describe("Quiz", func() {
 
 	Describe("Working with JSON", func() {
 		It("can create a Quiz from some JSON", func() {
-			quiz = CreateQuizFromJSON(`
+			quiz = CreateQuizFromJSON(GetTestJSON())
+		})
+	})
+
+	Describe("Functions of the Quiz object", func() {
+
+	})
+
+})
+
+func GetTestJSON() string {
+	return `
 				{
 				  "About": "This is the test quiz JSON",
 				  "Questions": [
@@ -80,19 +91,8 @@ var _ = Describe("Quiz", func() {
 				    }
 				  ]
 			    }
-			`)
-
-			It("should read in the expected values", func() {
-				question := quiz.Questions[0]
-			})
-		})
-	})
-
-	Describe("Functions of the Quiz object", func() {
-
-	})
-
-})
+			`
+}
 
 func GetTestQuizObject() Quiz {
 	return Quiz{
