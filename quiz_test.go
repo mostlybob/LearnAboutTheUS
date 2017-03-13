@@ -90,6 +90,11 @@ var _ = Describe("Quiz", func() {
 	})
 
 	Describe("Functions of the Quiz object", func() {
+		It("can create a test Quiz object", func() {
+			quiz = GetTestQuizObject()
+			Expect(len(quiz.Questions)).ToNot(Equal(0))
+			Expect(len(quiz.Questions)).To(Equal(5))
+		})
 
 	})
 
