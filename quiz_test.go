@@ -81,6 +81,10 @@ var _ = Describe("Quiz", func() {
 				  ]
 			    }
 			`)
+
+			It("should read in the expected values", func() {
+				question := quiz.Questions[0]
+			})
 		})
 	})
 
