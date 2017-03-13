@@ -69,7 +69,6 @@ var _ = Describe("Quiz", func() {
 		})
 
 		Context("Testing the quiz created from JSON", func() {
-
 			var question Question
 
 			BeforeEach(func() {
@@ -91,6 +90,7 @@ var _ = Describe("Quiz", func() {
 	})
 
 	Describe("Functions of the Quiz object", func() {
+
 	})
 
 })
@@ -122,30 +122,30 @@ func GetTestQuizObject() Quiz {
 				Id:             1,
 				Text:           "Question 1?",
 				Answers:        []string{"aaaaa1", "aaaaa2", "aaaaa3", "aaaaa4"},
-				AdditionalInfo: "some additional information",
+				AdditionalInfo: "some additional information for 1",
 			},
 			Question{
 				Id:             2,
 				Text:           "Question 2?",
 				Answers:        []string{"bbbbb1", "bbbbb2", "bbbbb3", "bbbbb4"},
-				AdditionalInfo: "some additional information",
+				AdditionalInfo: "some additional information for 2",
 			},
 			Question{
 				Id:             3,
 				Text:           "Question 3?",
 				Answers:        []string{"ccccc1", "ccccc2", "ccccc3", "ccccc4"},
-				AdditionalInfo: "some additional information",
+				AdditionalInfo: "some additional information for 3",
 			},
 			Question{
 				Text:           "Question 4?",
 				Answers:        []string{"ddddd1", "ddddd2", "ddddd3", "ddddd4"},
-				AdditionalInfo: "some additional information",
+				AdditionalInfo: "some additional information for 4",
 			},
 			Question{
 				Id:             5,
 				Text:           "Question 5?",
 				Answers:        []string{"eeeee1", "eeeee2", "eeeee3", "eeeee4"},
-				AdditionalInfo: "some additional information",
+				AdditionalInfo: "some additional information for 5",
 			},
 		},
 	}
