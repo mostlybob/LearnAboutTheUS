@@ -82,7 +82,10 @@ var _ = Describe("Quiz", func() {
 				Expect(question.Id).To(Equal(1))
 				Expect(question.Text).To(Equal("What is JSON?"))
 				Expect(question.AdditionalInfo).To(Equal("JSON is a language-independent data format. It derives from JavaScript, but as of 2017 many programming languages include code to generate and parse JSON-format data. The official Internet media type for JSON is application/json. JSON filenames use the extension .json."))
-
+				Expect(len(question.Answers)).To(Equal(3))
+				Expect(question.Answers[0]).To(Equal("Javascript Object Notation"))
+				Expect(question.Answers[1]).To(Equal("a data communication standard"))
+				Expect(question.Answers[2]).To(Equal("much, much better than XML for data communication"))
 			})
 		})
 	})
