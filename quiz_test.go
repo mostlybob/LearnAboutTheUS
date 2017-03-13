@@ -83,4 +83,45 @@ var _ = Describe("Quiz", func() {
 			`)
 		})
 	})
+
+	Describe("Functions of the Quiz object", func() {
+
+	})
+
 })
+
+func GetTestQuizObject() Quiz {
+	return Quiz{
+		Questions: []Question{
+			Question{
+				Id:             1,
+				Text:           "Question 1?",
+				Answers:        []string{"aaaaa1", "aaaaa2", "aaaaa3", "aaaaa4"},
+				AdditionalInfo: "some additional information",
+			},
+			Question{
+				Id:             2,
+				Text:           "Question 2?",
+				Answers:        []string{"bbbbb1", "bbbbb2", "bbbbb3", "bbbbb4"},
+				AdditionalInfo: "some additional information",
+			},
+			Question{
+				Id:             3,
+				Text:           "Question 3?",
+				Answers:        []string{"ccccc1", "ccccc2", "ccccc3", "ccccc4"},
+				AdditionalInfo: "some additional information",
+			},
+			Question{
+				Text:           "Question 4?",
+				Answers:        []string{"ddddd1", "ddddd2", "ddddd3", "ddddd4"},
+				AdditionalInfo: "some additional information",
+			},
+			Question{
+				Id:             5,
+				Text:           "Question 5?",
+				Answers:        []string{"eeeee1", "eeeee2", "eeeee3", "eeeee4"},
+				AdditionalInfo: "some additional information",
+			},
+		},
+	}
+}
