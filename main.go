@@ -42,6 +42,10 @@ func main() {
 
 // ----------------------------------------------------------------------------
 
+func (quiz Quiz) GetRandomQuestion() Question {
+	return Question{}
+}
+
 func (quiz Quiz) GetQuestionIds() []int {
 	var ids []int
 
