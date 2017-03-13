@@ -37,6 +37,10 @@ func main() {
 
 // ----------------------------------------------------------------------------
 
+func (quiz Quiz) GetQuestionById(id int) Question {
+	return Question{}
+}
+
 func CreateQuizFromJSON(jsonData string) Quiz {
 	quizDecoder := json.NewDecoder(strings.NewReader(jsonData))
 

@@ -1,12 +1,13 @@
 package main_test
 
-// import (
-// 	. "github.com/mostlybob/LearnAboutTheUS"
+import (
+	. "github.com/mostlybob/LearnAboutTheUS"
 
-// 	. "github.com/onsi/ginkgo"
-// 	. "github.com/onsi/gomega"
+	. "github.com/onsi/ginkgo"
+	. "github.com/onsi/gomega"
 
 	"fmt"
+)
 
 var _ = Describe("Quiz", func() {
 	fmt.Println("Here's my obligatory intro, since Go doesn't allow unused imports :-)")
@@ -102,6 +103,8 @@ var _ = Describe("Quiz", func() {
 
 			It("should get a question by Id", func() {
 				question := quiz.GetQuestionById(1)
+
+				Expect(question.Id).To(Equal(1))
 			})
 		})
 	})
