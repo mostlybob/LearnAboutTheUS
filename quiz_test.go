@@ -96,6 +96,15 @@ var _ = Describe("Quiz", func() {
 			Expect(len(quiz.Questions)).To(Equal(5))
 		})
 
+		Context("Testing the ability to get a question", func() {
+			BeforeEach(func() {
+				quiz = CreateQuizFromJSON(GetTestJSON())
+			})
+
+			It("should get a question by Id", func() {
+				question := quiz.GetQuestionById(1)
+			})
+		})
 	})
 
 })
