@@ -69,14 +69,16 @@ var _ = Describe("Quiz", func() {
 		})
 
 		Context("Testing the quiz created from JSON", func() {
+
 			var question Question
 
 			BeforeEach(func() {
-				question = CreateQuizFromJSON(GetTestJSON()).Questions[0]
+				quiz = CreateQuizFromJSON(GetTestJSON())
+				question = quiz.Questions[0]
 			})
 
 			It("should see the expected values", func() {
-
+				Expect(quiz.About).To(Equal("This is the test quiz JSON"))
 			})
 		})
 	})
