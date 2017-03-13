@@ -98,7 +98,7 @@ var _ = Describe("Quiz", func() {
 
 		Context("Testing the ability to get a question", func() {
 			BeforeEach(func() {
-				quiz = CreateQuizFromJSON(GetTestJSON())
+				quiz = GetTestQuizObject()
 			})
 
 			It("should get a question by Id", func() {
@@ -108,6 +108,7 @@ var _ = Describe("Quiz", func() {
 			})
 
 			It("should get a list of question ids", func() {
+
 				refIds := []int{1, 2, 3, 4, 5}
 				questionIds := quiz.GetQuestionIds()
 
@@ -173,6 +174,7 @@ func GetTestQuizObject() Quiz {
 				AdditionalInfo: "some additional information for 3",
 			},
 			Question{
+				Id:             4,
 				Text:           "Question 4?",
 				Answers:        []string{"ddddd1", "ddddd2", "ddddd3", "ddddd4"},
 				AdditionalInfo: "some additional information for 4",
