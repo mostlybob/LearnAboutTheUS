@@ -69,12 +69,19 @@ var _ = Describe("Quiz", func() {
 		})
 
 		Context("Testing the quiz created from JSON", func() {
-			question = CreateQuizFromJSON(GetTestJSON()).Questions[0]
+			var question Question
+
+			BeforeEach(func() {
+				question = CreateQuizFromJSON(GetTestJSON()).Questions[0]
+			})
+
+			It("should see the expected values", func() {
+
+			})
 		})
 	})
 
 	Describe("Functions of the Quiz object", func() {
-
 	})
 
 })
