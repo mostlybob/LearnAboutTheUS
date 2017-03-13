@@ -42,6 +42,16 @@ func main() {
 
 // ----------------------------------------------------------------------------
 
+func (quiz Quiz) GetQuestionIds() []int {
+	var ids []int
+
+	for _, question := range quiz.Questions {
+		ids = append(ids, question.Id)
+	}
+
+	return ids
+}
+
 func (quiz Quiz) GetQuestionById(id int) Question {
 	for _, question := range quiz.Questions {
 		if question.Id == id {
