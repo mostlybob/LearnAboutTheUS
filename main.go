@@ -12,11 +12,7 @@ import (
 )
 
 type Quiz struct {
-	About string
-	Data  Data
-}
-
-type Data struct {
+	About     string
 	Questions []Question
 }
 
@@ -41,6 +37,21 @@ func main() {
 
 // ----------------------------------------------------------------------------
 
+func CreateQuizFromJSON(jsonData string) Quiz {
+	quizDecoder := json.NewDecoder(strings.NewReader(jsonData))
+
+	var quiz Quiz
+
+	err := quizDecoder.Decode(&quiz)
+
+	if err != nil {
+		fmt.Println("There was an error creating the Quiz from the JSON.")
+		panic(fmt.Sprintf("%s", err))
+	}
+
+	return quiz
+}
+
 func GetQuestion(id int) Question {
 	jsonData := GetQuizJson()
 
@@ -55,7 +66,7 @@ func GetQuestion(id int) Question {
 		panic(fmt.Sprintf("%s", err))
 	}
 
-	for _, question := range quiz.Data.Questions {
+	for _, question := range quiz.Questions {
 		if question.Id == id {
 			return question
 		}
@@ -79,10 +90,10 @@ func GetRandomQuestion() Question {
 		panic(fmt.Sprintf("%s", err))
 	}
 
-	numberOfQuestions := len(quiz.Data.Questions)
+	numberOfQuestions := len(quiz.Questions)
 	randomQuestionIndex := getRandomNumber(numberOfQuestions)
 
-	randomQuestion := quiz.Data.Questions[randomQuestionIndex]
+	randomQuestion := quiz.Questions[randomQuestionIndex]
 
 	return randomQuestion
 }
@@ -112,7 +123,7 @@ func ShowAllQuestions() string {
 		}
 
 		fmt.Printf("Questions:\n")
-		for _, question := range quiz.Data.Questions {
+		for _, question := range quiz.Questions {
 			showQuestions += strconv.Itoa(question.Id) + " - " + question.Text + "\n"
 		}
 	}
