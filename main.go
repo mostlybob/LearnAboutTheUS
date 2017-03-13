@@ -38,7 +38,13 @@ func main() {
 // ----------------------------------------------------------------------------
 
 func (quiz Quiz) GetQuestionById(id int) Question {
-	return Question{}
+	for i := 0; i < len(quiz.Questions); i++ {
+		if quiz.Questions[i].Id == id {
+			return quiz.Questions[i]
+		}
+	}
+
+	return Question{} //do we want to throw when question isn't found?
 }
 
 func CreateQuizFromJSON(jsonData string) Quiz {
