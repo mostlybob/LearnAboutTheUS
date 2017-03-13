@@ -38,9 +38,9 @@ func main() {
 // ----------------------------------------------------------------------------
 
 func (quiz Quiz) GetQuestionById(id int) Question {
-	for i := 0; i < len(quiz.Questions); i++ {
-		if quiz.Questions[i].Id == id {
-			return quiz.Questions[i]
+	for _, question := range quiz.Questions {
+		if question.Id == id {
+			return question
 		}
 	}
 
