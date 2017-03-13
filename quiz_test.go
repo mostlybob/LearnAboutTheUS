@@ -65,6 +65,11 @@ var _ = Describe("Quiz", func() {
 	Describe("Working with JSON", func() {
 		It("can create a Quiz from some JSON", func() {
 			quiz = CreateQuizFromJSON(GetTestJSON())
+			Expect(len(quiz.Questions)).ToNot(Equal(0))
+		})
+
+		Context("Testing the quiz created from JSON", func() {
+			question = CreateQuizFromJSON(GetTestJSON()).Questions[0]
 		})
 	})
 
