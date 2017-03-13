@@ -106,6 +106,22 @@ var _ = Describe("Quiz", func() {
 
 				Expect(question.Id).To(Equal(1))
 			})
+
+			It("should get a list of question ids", func() {
+				refIds := []int{1, 2, 3, 4, 5}
+				questionIds := quiz.GetQuestionIds()
+
+				for i := 0; i < len(questionIds); i++ {
+					Expect(refIds).To(ContainElement(questionIds[i]))
+				}
+			})
+
+			// It("should be able to get a random question", func () {
+			//     questionIds := quiz.GetQuestionIds()
+			//     question := quiz.GetRandomQuestion()
+
+			//     Expect(questionIds).To(ContainElement(question.Id), ...)
+			// })
 		})
 	})
 

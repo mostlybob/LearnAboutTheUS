@@ -27,11 +27,16 @@ func main() {
 	// questions := ShowAllQuestions()
 	// fmt.Println(questions)
 
-	question := GetRandomQuestion()
-	questionId := question.Id
-	fmt.Println(question.Text)
+	// question := GetRandomQuestion()
+	// questionId := question.Id
+	// fmt.Println(question.Text)
 
-	question = GetQuestion(questionId)
+	// question = GetQuestion(questionId)
+
+	quiz := CreateQuizFromJSON(GetQuizJson())
+	question := quiz.GetQuestionById(1)
+
+	fmt.Println(question.Text)
 
 }
 
@@ -62,29 +67,29 @@ func CreateQuizFromJSON(jsonData string) Quiz {
 	return quiz
 }
 
-func GetQuestion(id int) Question {
-	jsonData := GetQuizJson()
+// func GetQuestion(id int) Question {
+// 	jsonData := GetQuizJson()
 
-	quizDecoder := json.NewDecoder(strings.NewReader(jsonData))
+// 	quizDecoder := json.NewDecoder(strings.NewReader(jsonData))
 
-	var quiz Quiz
+// 	var quiz Quiz
 
-	err := quizDecoder.Decode(&quiz)
+// 	err := quizDecoder.Decode(&quiz)
 
-	if err != nil {
-		fmt.Println("Something weird happened trying to open the data file.")
-		panic(fmt.Sprintf("%s", err))
-	}
+// 	if err != nil {
+// 		fmt.Println("Something weird happened trying to open the data file.")
+// 		panic(fmt.Sprintf("%s", err))
+// 	}
 
-	for _, question := range quiz.Questions {
-		if question.Id == id {
-			return question
-		}
-	}
+// 	for _, question := range quiz.Questions {
+// 		if question.Id == id {
+// 			return question
+// 		}
+// 	}
 
-	var blankQuestion Question
-	return blankQuestion
-}
+// 	var blankQuestion Question
+// 	return blankQuestion
+// }
 
 func GetRandomQuestion() Question {
 	jsonData := GetQuizJson()
