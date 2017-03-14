@@ -34,10 +34,15 @@ func main() {
 	// question = GetQuestion(questionId)
 
 	quiz := CreateQuizFromJSON(GetQuizJson())
-	question := quiz.GetQuestionById(1)
+	// question := quiz.GetQuestionById(1)
+	// fmt.Println(question.Text)
 
+	question := quiz.GetRandomQuestion()
 	fmt.Println(question.Text)
 
+	for _, answer := range question.Answers {
+		fmt.Println(answer)
+	}
 }
 
 // ----------------------------------------------------------------------------
