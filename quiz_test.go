@@ -130,6 +130,12 @@ var _ = Describe("Quiz", func() {
 					Expect(questionIds).To(ContainElement(question.Id))
 				}
 			})
+
+			It("should be able to display all the questions", func() {
+				// questions := quiz.ShowAllQuestions()
+				// questionIds := quiz.GetQuestionIds()
+				fmt.Println("not sure what I want ShowAllQuestions to do yet")
+			})
 		})
 	})
 })
