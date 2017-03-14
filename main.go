@@ -39,6 +39,10 @@ func main() {
 
 	question := quiz.GetRandomQuestion()
 	fmt.Println(question.Text)
+	fmt.Println("(press enter to show answers)")
+
+	var input string
+	fmt.Scanln(&input)
 
 	for _, answer := range question.Answers {
 		fmt.Println(answer)
