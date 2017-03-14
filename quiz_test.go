@@ -132,7 +132,6 @@ var _ = Describe("Quiz", func() {
 			})
 		})
 	})
-
 })
 
 func GetTestJSON() string {

@@ -68,36 +68,6 @@ func CreateQuizFromJSON(jsonData string) Quiz {
 	return quiz
 }
 
-func GetRandomQuestion() Question {
-	jsonData := GetQuizJson()
-
-	quizDecoder := json.NewDecoder(strings.NewReader(jsonData))
-
-	var quiz Quiz
-
-	err := quizDecoder.Decode(&quiz)
-
-	if err != nil {
-		fmt.Println("Something weird happened trying to open the data file.")
-		panic(fmt.Sprintf("%s", err))
-	}
-
-	numberOfQuestions := len(quiz.Questions)
-	randomQuestionIndex := getRandomNumber(numberOfQuestions)
-
-	randomQuestion := quiz.Questions[randomQuestionIndex]
-
-	return randomQuestion
-}
-
-func getRandomNumber(upper int) int {
-	r := rand.New(rand.NewSource(time.Now().UnixNano()))
-
-	randomNumber := r.Intn(upper - 1)
-
-	return randomNumber
-}
-
 func ShowAllQuestions() string {
 	jsonData := GetQuizJson()
 
@@ -131,4 +101,12 @@ func GetQuizJson() string {
 	}
 
 	return string(data)
+}
+
+func getRandomNumber(upper int) int {
+	r := rand.New(rand.NewSource(time.Now().UnixNano()))
+
+	randomNumber := r.Intn(upper - 1)
+
+	return randomNumber
 }
