@@ -81,30 +81,6 @@ func CreateQuizFromJSON(jsonData string) Quiz {
 	return quiz
 }
 
-// func GetQuestion(id int) Question {
-// 	jsonData := GetQuizJson()
-
-// 	quizDecoder := json.NewDecoder(strings.NewReader(jsonData))
-
-// 	var quiz Quiz
-
-// 	err := quizDecoder.Decode(&quiz)
-
-// 	if err != nil {
-// 		fmt.Println("Something weird happened trying to open the data file.")
-// 		panic(fmt.Sprintf("%s", err))
-// 	}
-
-// 	for _, question := range quiz.Questions {
-// 		if question.Id == id {
-// 			return question
-// 		}
-// 	}
-
-// 	var blankQuestion Question
-// 	return blankQuestion
-// }
-
 func GetRandomQuestion() Question {
 	jsonData := GetQuizJson()
 
