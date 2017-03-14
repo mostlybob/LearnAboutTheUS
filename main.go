@@ -43,7 +43,13 @@ func main() {
 // ----------------------------------------------------------------------------
 
 func (quiz Quiz) GetRandomQuestion() Question {
-	return Question{}
+	questionIds := quiz.GetQuestionIds()
+
+	index := getRandomNumber(len(questionIds))
+
+	questionId := questionIds[index]
+
+	return quiz.GetQuestionById(questionId)
 }
 
 func (quiz Quiz) GetQuestionIds() []int {
