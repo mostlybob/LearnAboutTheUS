@@ -122,7 +122,25 @@ var _ = Describe("Quiz", func() {
 			})
 
 			It("should be able to get a random question", func() {
-				// not sure how better to test a thing that's getting a random from a list
+				/*
+					I want to have a way to to initialize a counter variable for each question
+					in the quiz and then run, say, 10 000 iterations of GetRandomQuestion &
+					check the counts of each of the variables to see that they are within
+					a certain amount of each other. If it's "random" then the higher the number
+					of iterations, the closer to equal the counts in all the variables should be.
+					I feel a statistics problem here, or maybe calculus, that there should be a formula
+					to define some figure for tolerance for variation between the counts.
+
+					e.g. in a true random sampling of the questions, at infinite iterations, the
+					counts of occurrences of each of the questions would be equal. As you come back
+					from infinity (go toward 0?) the amount of occurrences of any question will differ
+					from any other and go up as the number of iterations decrease. The tolerance for
+					that difference would have to rise too, perhaps as an invers proportion of the
+					number of iterations?
+
+					No doubt I'm overthinking this, but it's a fun little exercise of some very
+					rusty math skills.
+				*/
 				questionIds := testQuiz.GetQuestionIds()
 				for i := 0; i < 100; i++ {
 					question := testQuiz.GetRandomQuestion()
