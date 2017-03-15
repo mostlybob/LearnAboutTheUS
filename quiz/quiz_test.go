@@ -133,7 +133,7 @@ var _ = Describe("Quiz", func() {
 			It("should be able to display all the questions", func() {
 				// questions := testQuiz.ShowAllQuestions()
 				// questionIds := testQuiz.GetQuestionIds()
-				fmt.Println("not sure what I want ShowAllQuestions to do yet")
+				fmt.Println("\n*** not sure what I want ShowAllQuestions to do yet")
 			})
 		})
 	})
