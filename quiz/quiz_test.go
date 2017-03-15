@@ -123,10 +123,9 @@ var _ = Describe("Quiz", func() {
 
 			It("should be able to get a random question", func() {
 				// not sure how better to test a thing that's getting a random from a list
+				questionIds := testQuiz.GetQuestionIds()
 				for i := 0; i < 100; i++ {
-					questionIds := testQuiz.GetQuestionIds()
 					question := testQuiz.GetRandomQuestion()
-
 					Expect(questionIds).To(ContainElement(question.Id))
 				}
 			})
