@@ -1,12 +1,9 @@
-package main
+package quiz
 
 import (
 	"encoding/json"
 	"fmt"
-	"io"
-	"io/ioutil"
 	"math/rand"
-	"strconv"
 	"strings"
 	"time"
 )
@@ -68,40 +65,30 @@ func CreateQuizFromJSON(jsonData string) Quiz {
 	return quiz
 }
 
-func ShowAllQuestions() string {
-	jsonData := GetQuizJson()
+// func ShowAllQuestions() string {
+// 	jsonData := GetQuizJson()
 
-	quizDecoder := json.NewDecoder(strings.NewReader(jsonData))
+// 	quizDecoder := json.NewDecoder(strings.NewReader(jsonData))
 
-	showQuestions := ""
-	for {
-		var quiz Quiz
+// 	showQuestions := ""
+// 	for {
+// 		var quiz Quiz
 
-		if err := quizDecoder.Decode(&quiz); err == io.EOF {
-			break
-		} else if err != nil {
-			fmt.Println("Something weird happened trying to open the data file.")
-			panic(fmt.Sprintf("%s", err))
-		}
+// 		if err := quizDecoder.Decode(&quiz); err == io.EOF {
+// 			break
+// 		} else if err != nil {
+// 			fmt.Println("Something weird happened trying to open the data file.")
+// 			panic(fmt.Sprintf("%s", err))
+// 		}
 
-		fmt.Printf("Questions:\n")
-		for _, question := range quiz.Questions {
-			showQuestions += strconv.Itoa(question.Id) + " - " + question.Text + "\n"
-		}
-	}
+// 		fmt.Printf("Questions:\n")
+// 		for _, question := range quiz.Questions {
+// 			showQuestions += strconv.Itoa(question.Id) + " - " + question.Text + "\n"
+// 		}
+// 	}
 
-	return showQuestions
-}
-
-func GetQuizJson() string {
-	// read the whole file at once - it's not that big
-	data, err := ioutil.ReadFile("data.json")
-	if err != nil {
-		panic(err)
-	}
-
-	return string(data)
-}
+// 	return showQuestions
+// }
 
 func getRandomNumber(upper int) int {
 	r := rand.New(rand.NewSource(time.Now().UnixNano()))

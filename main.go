@@ -1,7 +1,9 @@
 package main
 
+import "github.com/mostlybob/LearnAboutTheUS/quiz"
 import (
 	"fmt"
+	"io/ioutil"
 )
 
 func main() {
@@ -14,11 +16,11 @@ func main() {
 
 	// question = GetQuestion(questionId)
 
-	quiz := CreateQuizFromJSON(GetQuizJson())
+	foo := quiz.CreateQuizFromJSON(GetQuizJson("data.json"))
 	// question := quiz.GetQuestionById(1)
 	// fmt.Println(question.Text)
 
-	question := quiz.GetRandomQuestion()
+	question := foo.GetRandomQuestion()
 	fmt.Println(question.Text)
 	fmt.Println("(press enter to show answers)")
 
@@ -28,4 +30,14 @@ func main() {
 	for _, answer := range question.Answers {
 		fmt.Println(answer)
 	}
+}
+
+func GetQuizJson(pathToJson string) string {
+	// read the whole file at once - it's not that big
+	data, err := ioutil.ReadFile(pathToJson)
+	if err != nil {
+		panic(err)
+	}
+
+	return string(data)
 }

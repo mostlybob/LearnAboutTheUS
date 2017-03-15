@@ -1,7 +1,7 @@
-package main_test
+package quiz_test
 
 import (
-	. "github.com/mostlybob/LearnAboutTheUS"
+	. "github.com/mostlybob/LearnAboutTheUS/quiz"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
@@ -12,11 +12,11 @@ import (
 var _ = Describe("Quiz", func() {
 	fmt.Println("Here's my obligatory intro, since Go doesn't allow unused imports :-)")
 	var (
-		quiz Quiz
+		testQuiz Quiz
 	)
 
 	BeforeEach(func() {
-		quiz = Quiz{
+		testQuiz = Quiz{
 			Questions: []Question{
 				Question{
 					Id:             1,
@@ -31,7 +31,7 @@ var _ = Describe("Quiz", func() {
 	Describe("First test for Quiz", func() {
 		Context("A Quiz has Questions", func() {
 			It("should have at least one question", func() {
-				Expect(len(quiz.Questions)).ToNot(Equal(0))
+				Expect(len(testQuiz.Questions)).ToNot(Equal(0))
 			})
 		})
 	})
@@ -41,7 +41,7 @@ var _ = Describe("Quiz", func() {
 			var question Question
 
 			BeforeEach(func() {
-				question = quiz.Questions[0]
+				question = testQuiz.Questions[0]
 			})
 
 			It("has an id", func() {
@@ -64,20 +64,20 @@ var _ = Describe("Quiz", func() {
 
 	Describe("Working with JSON", func() {
 		It("can create a Quiz from some JSON", func() {
-			quiz = CreateQuizFromJSON(GetTestJSON())
-			Expect(len(quiz.Questions)).ToNot(Equal(0))
+			testQuiz = CreateQuizFromJSON(GetTestJSON())
+			Expect(len(testQuiz.Questions)).ToNot(Equal(0))
 		})
 
 		Context("Testing the quiz created from JSON", func() {
 			var question Question
 
 			BeforeEach(func() {
-				quiz = CreateQuizFromJSON(GetTestJSON())
-				question = quiz.Questions[0]
+				testQuiz = CreateQuizFromJSON(GetTestJSON())
+				question = testQuiz.Questions[0]
 			})
 
 			It("should see the expected values", func() {
-				Expect(quiz.About).To(Equal("This is the test quiz JSON"))
+				Expect(testQuiz.About).To(Equal("This is the test quiz JSON"))
 				Expect(question.Id).To(Equal(1))
 				Expect(question.Text).To(Equal("What is JSON?"))
 				Expect(question.AdditionalInfo).To(Equal("JSON is a language-independent data format. It derives from JavaScript, but as of 2017 many programming languages include code to generate and parse JSON-format data. The official Internet media type for JSON is application/json. JSON filenames use the extension .json."))
@@ -91,18 +91,18 @@ var _ = Describe("Quiz", func() {
 
 	Describe("Functions of the Quiz object", func() {
 		It("can create a test Quiz object", func() {
-			quiz = GetTestQuizObject()
-			Expect(len(quiz.Questions)).ToNot(Equal(0))
-			Expect(len(quiz.Questions)).To(Equal(5))
+			testQuiz = GetTestQuizObject()
+			Expect(len(testQuiz.Questions)).ToNot(Equal(0))
+			Expect(len(testQuiz.Questions)).To(Equal(5))
 		})
 
 		Context("Testing the ability to get a question", func() {
 			BeforeEach(func() {
-				quiz = GetTestQuizObject()
+				testQuiz = GetTestQuizObject()
 			})
 
 			It("should get a question by Id", func() {
-				question := quiz.GetQuestionById(1)
+				question := testQuiz.GetQuestionById(1)
 
 				Expect(question.Id).To(Equal(1))
 			})
@@ -110,7 +110,7 @@ var _ = Describe("Quiz", func() {
 			It("should get a list of question ids", func() {
 
 				refIds := []int{1, 2, 3, 4, 5}
-				questionIds := quiz.GetQuestionIds()
+				questionIds := testQuiz.GetQuestionIds()
 
 				for i := 0; i < len(questionIds); i++ {
 					Expect(refIds).To(ContainElement(questionIds[i]))
@@ -124,16 +124,16 @@ var _ = Describe("Quiz", func() {
 			It("should be able to get a random question", func() {
 				// not sure how better to test a thing that's getting a random from a list
 				for i := 0; i < 100; i++ {
-					questionIds := quiz.GetQuestionIds()
-					question := quiz.GetRandomQuestion()
+					questionIds := testQuiz.GetQuestionIds()
+					question := testQuiz.GetRandomQuestion()
 
 					Expect(questionIds).To(ContainElement(question.Id))
 				}
 			})
 
 			It("should be able to display all the questions", func() {
-				// questions := quiz.ShowAllQuestions()
-				// questionIds := quiz.GetQuestionIds()
+				// questions := testQuiz.ShowAllQuestions()
+				// questionIds := testQuiz.GetQuestionIds()
 				fmt.Println("not sure what I want ShowAllQuestions to do yet")
 			})
 		})
