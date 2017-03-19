@@ -148,6 +148,12 @@ var _ = Describe("Quiz", func() {
 					one of the counter variables at 0.
 				*/
 				questionIds := testQuiz.GetQuestionIds()
+
+				fmt.Println("\nprinting question ids")
+				for _, qid := range questionIds {
+					fmt.Println(qid)
+				}
+
 				numberOfQuestions := len(questionIds)
 				iterations := numberOfQuestions * 10
 				for i := 0; i < iterations; i++ {
@@ -179,12 +185,17 @@ var _ = Describe("Quiz", func() {
 					// fmt.Printf("%d (%d)\n", question.Id, counters[question.Id])		//works, but have to remember the newline
 				}
 
-				fmt.Println("printing counters... " + string(len(counters)))
+				fmt.Println("\nprinting counters... " + string(len(counters)))
 				for questionId, countOfId := range counters {
 					// 	// fmt.Println(questionId)
 					// 	fmt.Sprintf("QuestionId: %s Count: %s", questionId, countOfId)
 					// 	// Expect(countOfId > 1).To(BeTrue(), "The count for "+string(questionId)+" was 0")
-					fmt.Printf("%d - %d\n", questionId, countOfId)
+					fmt.Printf("%d - %d\n", questionId+1, countOfId)
+				}
+
+				fmt.Println("\nprinting counters 2... " + string(len(counters)))
+				for questionId, _ := range counters {
+					fmt.Printf("%d - %d\n", questionId+1, counters[questionId])
 				}
 
 				// for i := 0; i < len(counters); i++ {
