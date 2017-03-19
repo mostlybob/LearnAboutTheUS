@@ -144,11 +144,12 @@ var _ = Describe("Quiz", func() {
 					Not surprisingly, @darrencauthon had the simple answer that was teasing just
 					outside my thinking. Make the number of iterations 10x the number of options
 					and make sure all options get hit at least once (or twice or 3 times maybe),
-					the idea being that something broken in the random function would leave at
+					the idea being that something broken in the random function would leave at least
 					one of the counter variables at 0.
 				*/
 				questionIds := testQuiz.GetQuestionIds()
-				for i := 0; i < 100; i++ {
+				iterations := len(questionIds) * 10
+				for i := 0; i < iterations; i++ {
 					question := testQuiz.GetRandomQuestion()
 					Expect(questionIds).To(ContainElement(question.Id))
 				}
