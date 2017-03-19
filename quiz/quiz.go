@@ -93,7 +93,7 @@ func CreateQuizFromJSON(jsonData string) Quiz {
 func getRandomNumber(upper int) int {
 	r := rand.New(rand.NewSource(time.Now().UnixNano()))
 
-	randomNumber := r.Intn(upper - 1)
+	randomNumber := r.Intn(upper)
 
 	return randomNumber
 }
