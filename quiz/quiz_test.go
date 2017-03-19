@@ -172,9 +172,24 @@ var _ = Describe("Quiz", func() {
 					// - thinking something like a map (whatever the golang equivalent of a c#
 					// dictionary is) would do it
 
-					counters[question.Id]++
+					// fmt.Println(question.Id) //(string(question.Id)+ " " + string(counters[question.Id]))
+					counters[question.Id-1]++
+					// fmt.Sprintf("(%d)\n", counters[question.Id])  //doesn't work
+					// fmt.Println(counters[question.Id])	//works
+					// fmt.Printf("%d (%d)\n", question.Id, counters[question.Id])		//works, but have to remember the newline
 				}
 
+				fmt.Println("printing counters... " + string(len(counters)))
+				for questionId, countOfId := range counters {
+					// 	// fmt.Println(questionId)
+					// 	fmt.Sprintf("QuestionId: %s Count: %s", questionId, countOfId)
+					// 	// Expect(countOfId > 1).To(BeTrue(), "The count for "+string(questionId)+" was 0")
+					fmt.Printf("%d - %d\n", questionId, countOfId)
+				}
+
+				// for i := 0; i < len(counters); i++ {
+				// 	fmt.Sprintln("%i	%i", i, counters[i])
+				// }
 			})
 
 			It("should be able to display all the questions", func() {
