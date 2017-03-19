@@ -148,11 +148,14 @@ var _ = Describe("Quiz", func() {
 					one of the counter variables at 0.
 				*/
 				questionIds := testQuiz.GetQuestionIds()
-				iterations := len(questionIds) * 10
+				numberOfQuestions := len(questionIds)
+				iterations := numberOfQuestions * 10
 				for i := 0; i < iterations; i++ {
 					question := testQuiz.GetRandomQuestion()
 					Expect(questionIds).To(ContainElement(question.Id))
 				}
+
+				// counters := []int
 			})
 
 			It("should be able to display all the questions", func() {
