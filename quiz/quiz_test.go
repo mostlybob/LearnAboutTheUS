@@ -182,8 +182,8 @@ var _ = Describe("Quiz", func() {
 				var testQuestionsDisplay []string
 
 				for _, questionId := range questionIds {
-					questionText := testQuiz.GetQuestionById(questionId)
-					questionsLine := string(questionId) + " - " + questionText.Text
+					questionText := testQuiz.GetQuestionById(questionId).Text
+					questionsLine := string(questionId) + " - " + questionText
 					testQuestionsDisplay = append(testQuestionsDisplay, questionsLine)
 				}
 

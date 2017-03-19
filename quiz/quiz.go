@@ -65,6 +65,10 @@ func CreateQuizFromJSON(jsonData string) Quiz {
 	return quiz
 }
 
+func (quiz Quiz) ShowAllQuestions() []string {
+	return []string{}
+}
+
 // func ShowAllQuestions() string {
 // 	jsonData := GetQuizJson()
 
