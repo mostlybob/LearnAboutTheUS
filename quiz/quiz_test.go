@@ -155,7 +155,26 @@ var _ = Describe("Quiz", func() {
 					Expect(questionIds).To(ContainElement(question.Id))
 				}
 
-				// counters := []int
+				var counters []int
+				// for i := 0; i < numberOfQuestions; i++ {
+				// 	foo:=
+				// }
+
+				for i := 0; i < numberOfQuestions; i++ {
+
+					counters = append(counters, 0)
+				}
+
+				for i := 0; i < iterations; i++ {
+					question := testQuiz.GetRandomQuestion()
+					// - will need a different way to enumerate the counters
+					// - this way assumes the questions ids are sequential, starting at 1
+					// - thinking something like a map (whatever the golang equivalent of a c#
+					// dictionary is) would do it
+
+					counters[question.Id]++
+				}
+
 			})
 
 			It("should be able to display all the questions", func() {
