@@ -178,9 +178,21 @@ var _ = Describe("Quiz", func() {
 			})
 
 			It("should be able to display all the questions", func() {
-				// questions := testQuiz.ShowAllQuestions()
-				// questionIds := testQuiz.GetQuestionIds()
-				fmt.Println("\n*** not sure what I want ShowAllQuestions to do yet")
+				questionIds := testQuiz.GetQuestionIds()
+				var testQuestionsDisplay []string
+
+				for _, questionId := range questionIds {
+					questionText := testQuiz.GetQuestionById(questionId)
+					questionsLine := string(questionId) + " - " + questionText.Text
+					testQuestionsDisplay = append(testQuestionsDisplay, questionsLine)
+				}
+
+				questions := testQuiz.ShowAllQuestions()
+
+				for _, question := range questions {
+					Expect(testQuestionsDisplay).To(ContainElement(question))
+				}
+
 			})
 		})
 	})
