@@ -149,11 +149,6 @@ var _ = Describe("Quiz", func() {
 				*/
 				questionIds := testQuiz.GetQuestionIds()
 
-				fmt.Println("\nprinting question ids")
-				for _, qid := range questionIds {
-					fmt.Println(qid)
-				}
-
 				numberOfQuestions := len(questionIds)
 				iterations := numberOfQuestions * 10
 				for i := 0; i < iterations; i++ {
@@ -162,12 +157,8 @@ var _ = Describe("Quiz", func() {
 				}
 
 				var counters []int
-				// for i := 0; i < numberOfQuestions; i++ {
-				// 	foo:=
-				// }
 
 				for i := 0; i < numberOfQuestions; i++ {
-
 					counters = append(counters, 0)
 				}
 
@@ -178,29 +169,12 @@ var _ = Describe("Quiz", func() {
 					// - thinking something like a map (whatever the golang equivalent of a c#
 					// dictionary is) would do it
 
-					// fmt.Println(question.Id) //(string(question.Id)+ " " + string(counters[question.Id]))
 					counters[question.Id-1]++
-					// fmt.Sprintf("(%d)\n", counters[question.Id])  //doesn't work
-					// fmt.Println(counters[question.Id])	//works
-					// fmt.Printf("%d (%d)\n", question.Id, counters[question.Id])		//works, but have to remember the newline
 				}
 
-				fmt.Println("\nprinting counters... " + string(len(counters)))
-				for questionId, countOfId := range counters {
-					// 	// fmt.Println(questionId)
-					// 	fmt.Sprintf("QuestionId: %s Count: %s", questionId, countOfId)
-					// 	// Expect(countOfId > 1).To(BeTrue(), "The count for "+string(questionId)+" was 0")
-					fmt.Printf("%d - %d\n", questionId+1, countOfId)
+				for questionId, counterValue := range counters {
+					Expect(counterValue > 0).To(BeTrue(), "question id "+string(questionId)+" was never selected")
 				}
-
-				fmt.Println("\nprinting counters 2... " + string(len(counters)))
-				for questionId, _ := range counters {
-					fmt.Printf("%d - %d\n", questionId+1, counters[questionId])
-				}
-
-				// for i := 0; i < len(counters); i++ {
-				// 	fmt.Sprintln("%i	%i", i, counters[i])
-				// }
 			})
 
 			It("should be able to display all the questions", func() {
