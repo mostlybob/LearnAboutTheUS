@@ -172,6 +172,8 @@ var _ = Describe("Quiz", func() {
 					counters[question.Id-1]++
 				}
 
+				fmt.Println(counters)
+
 				for questionId, counterValue := range counters {
 					Expect(counterValue > 0).To(BeTrue(), "question id "+string(questionId)+" was never selected")
 				}
