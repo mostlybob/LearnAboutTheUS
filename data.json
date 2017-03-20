@@ -46,11 +46,15 @@
     },
     {
       "Id": 6,
-      "Text": "What do we call the first ten amendments to the Constitution?",
+      "Text": "What is one right or freedom from the First Amendment?",
       "Answers": [
-        "the Bill of Rights"
+        "speech", 
+        "religion", 
+        "assembly", 
+        "press", 
+        "petition the government"
       ],
-      "AdditionalInfo": "The Bill of Rights is the first 10 amendments to the Constitution. When the Framers wrote the Constitution, they did not focus on individual rights. They focused on creating the system and structure of government. Many Americans believed that the Constitution should guarantee the rights of the people, and they wanted a list of all the things a government could not do. They were afraid that a strong government would take away the rights people won in the Revolutionary War. James Madison, one of the Framers of the Constitution, wrote a list of individual rights and limits on the government. These rights appear in the first 10 amendments, called the Bill of Rights. Some of these rights include freedom of expression, the right to bear arms, freedom from search without warrant, freedom not to be tried twice for the same crime, the right to not testify against yourself, the right to a trial by a jury of your peers, the right to an attorney, and protection against excessive fines and unusual punishments. The Bill of Rights was ratified in 1791."
+      "AdditionalInfo": "The First Amendment of the Bill of Rights protects a person’s right to freedom of expression. Freedom of expression allows open discussion and debate on public issues. Open discussion and debate are important to democracy. The First Amendment also protects freedom of religion and free speech. This amendment says that Congress may not pass laws that establish an official religion and may not limit religious expression. Congress may not pass laws that limit freedom of the press or the right of people to meet peacefully. The First Amendment also gives people the right to petition the government to change laws or acts that are not fair. Congress may not take away these rights. The First Amendment of the Constitution guarantees and protects these rights."
     },
     {
       "Id": 7,
