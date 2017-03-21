@@ -43,12 +43,7 @@
         "the Bill of Rights"
       ],
       "AdditionalInfo": "The Bill of Rights is the first 10 amendments to the Constitution. When the Framers wrote the Constitution, they did not focus on individual rights. They focused on creating the system and structure of government. Many Americans believed that the Constitution should guarantee the rights of the people, and they wanted a list of all the things a government could not do. They were afraid that a strong government would take away the rights people won in the Revolutionary War. James Madison, one of the Framers of the Constitution, wrote a list of individual rights and limits on the government. These rights appear in the first 10 amendments, called the Bill of Rights. Some of these rights include freedom of expression, the right to bear arms, freedom from search without warrant, freedom not to be tried twice for the same crime, the right to not testify against yourself, the right to a trial by a jury of your peers, the right to an attorney, and protection against excessive fines and unusual punishments. The Bill of Rights was ratified in 1791."
-    }
-
-  ]
-}
-
-/*    ,
+    },
     {
       "Id": 6,
       "Text": "What is one right or freedom from the First Amendment?",
@@ -63,12 +58,16 @@
     },
     {
       "Id": 7,
-      "Text" "?",
+      "Text": "How many amendments does the Constitution have?",
       "Answers": [
-        "the Bill of Rights"
+        "twenty-seven (27)"
       ],
-      "AdditionalInfo": ""
-    },
+      "AdditionalInfo": "The first 10 amendments to the Constitution are called the Bill of Rights. They were added in 1791. Since then, 17 more amendments have been added. The Constitution currently has 27 amendments. The 27th Amendment was added in 1992. It explains how senators and representatives are paid. Interestingly, Congress first discussed this amendment back in 1789 as one of the original amendments considered for the Bill of Rights."
+    }
+  ]
+}
+
+/*    ,
     {
       "Id": 8,
       "Text": "",
