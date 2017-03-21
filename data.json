@@ -111,91 +111,99 @@
         "No one is above the law."
       ],
       "AdditionalInfo": "John Adams was one of the Founding Fathers and the second president of the United States. He wrote that our country is, “a government of laws, and not of men.” No person or group is above the law. The rule of law means that everyone (citizens and leaders) must obey the laws. In the United States, the U.S. Constitution is the foundation for the rule of law. The United States is a “constitutional democracy” (a democracy with a constitution). In constitutional democracies, people are willing to obey the laws because the laws are made by the people through their elected representatives. If all people are governed by the same laws, the individual rights and liberties of each person are better protected. The rule of law helps to make sure that government protects all people equally and does not violate the rights of certain people."
+    },
+    {
+      "Id": 13,
+      "Text": "Name one branch or part of the government.*",
+      "Answers": [
+        "Congress",
+        "legislative",
+        "President",
+        "executive",
+        "the courts",
+        "judicial"
+      ],
+      "AdditionalInfo": "The Constitution establishes three branches of government: legislative, executive, and judicial. Article I of the Constitution establishes the legislative branch. Article I explains that Congress makes laws. Congress (the Senate and the House of Representatives) is the legislative branch of the U.S. government. Article II of the Constitution establishes the executive branch. The executive branch enforces the laws that Congress passes. The executive branch makes sure all the people follow the laws of the United States. The president is the head of the executive branch. The vice president and members of the president’s cabinet are also part of the executive branch. Article III of the Constitution establishes the judicial branch. The judicial branch places the highest judicial power in the Supreme Court. One responsibility of the judicial branch is to decide if government laws and actions follow the Constitution. This is a very important responsibility."
+    },
+    {
+      "Id": 14,
+      "Text": "What stops one branch of government from becoming too powerful?",
+      "Answers": [
+        "checks and balances",
+        "separation of powers "
+      ],
+      "AdditionalInfo": "The Constitution separates the government’s power into three branches to prevent one person or group from having too much power. The separation of government into three branches creates a system of checks and balances. This means that each branch can block, or threaten to block, the actions of the other branches. Here are some examples: the Senate (part of the legislative branch) can block a treaty signed by the president (the executive branch). In this example, the legislative branch is “checking” the executive. The U.S. Supreme Court (the judicial branch) can reject a law passed by Congress (the legislative branch). In this example, the judicial branch is “checking” the legislative branch. This separation of powers limits the power of the government and prevents the government from violating the rights of the people."
+    },
+    {
+      "Id": 15,
+      "Text": "Who is in charge of the executive branch?",
+      "Answers": [
+        "the President"
+      ],
+      "AdditionalInfo": "The job of the executive branch is to carry out, or execute, federal laws and enforce laws passed by Congress. The head of the executive branch is the president. The president is both the head of state and the head of government. The president’s powers include the ability to sign treaties with other countries and to select ambassadors to represent the United States around the world. The president also sets national policies and proposes laws to Congress. The president names the top leaders of the federal departments. When there is a vacancy on the Supreme  Court, the president names a new member. However, the Senate has the power to reject the president’s choices. This limit on the power of the president is an example of checks and balances."
+    },
+    {
+      "Id": 16,
+      "Text": "Who makes federal laws?",
+      "Answers": [
+        "Congress",
+        "Senate and House (of Representatives)",
+        "(U.S. or national) legislature "
+      ],
+      "AdditionalInfo": "Congress makes federal laws. A federal law usually applies to all states and all people in the United States. Either side of Congress—the Senate or the House of Representatives—can propose a bill to address an issue. When the Senate proposes a bill, it sends the bill to a Senate committee. The Senate committee studies the issue and the bill. When the House of Representatives proposes a bill, it sends the bill to a House of Representatives committee. The committee studies the bill and sometimes makes changes to it. Then the bill goes to the full House or Senate for consideration. When each chamber passes its own version of the bill, it often goes to a “conference committee.” The conference committee has members from both the House and the Senate. This committee discusses the bill, tries to resolve the differences, and writes a report with the final version of the bill. Then the committee sends the final version of the bill back to both houses for approval. If both houses approve the bill, it is considered “enrolled.” An enrolled bill goes to the president to be signed into law. If the president signs the bill, it becomes a federal law."
+    },
+    {
+      "Id": 17,
+      "Text": "What are the two parts of the U.S. Congress?*",
+      "Answers": [
+        "the Senate and House (of Representatives)"
+      ],
+      "AdditionalInfo": "Congress is divided into two parts—the Senate and the House of Representatives. Because it has two “chambers,” the U.S. Congress is known as a “bicameral” legislature. The system of checks and balances works in Congress. Specific powers are assigned to each of these chambers. For example, only the Senate has the power to reject a treaty signed by the president or a person the president chooses to serve on the Supreme Court. Only the House of Representatives has the power to introduce a bill that requires Americans to pay taxes."
+    },
+    {
+      "Id": 18,
+      "Text": "How many U.S. Senators are there?",
+      "Answers": [
+        "one hundred (100)"
+      ],
+      "AdditionalInfo": "There are 100 senators in Congress, two from each state. All states have equal power in the Senate because each state has the same number of senators. States with a very small population have the same number of senators as states with very large populations. The Framers of the Constitution made sure that the Senate would be small. This would keep it more orderly than the larger House of Representatives. As James Madison wrote in Federalist Paper #63, the Senate should be a “temperate and respectable body of citizens” that operates in a “cool and deliberate” way."
+    },
+    {
+      "Id": 19,
+      "Text": "We elect a U.S. Senator for how many years?",
+      "Answers": [
+        "six (6)"
+      ],
+      "AdditionalInfo": "The Framers of the Constitution wanted senators to be independent from public opinion. They thought a fairly long, six-year term would give them this protection. They also wanted longer Senate terms to balance the shorter two-year terms of the members of the House, who would more closely follow public opinion. The Constitution puts no limit on the number of terms a senator may serve. Elections for U.S. senators take place on even-numbered years. Every two years, one-third of the senators are up for election."
+    },
+    {
+      "Id": 20,
+      "Text": "Who is one of your state’s U.S. Senators now?*",
+      "Answers": [
+        "Answers will vary. [District of Columbia residents and residents of U.S. territories should answer that D.C. (or the territory where the applicant lives) has no U.S. Senators.]"
+      ],
+      "AdditionalInfo": "For a complete list of U.S. senators and the states they represent, go to www.senate.gov."
+    },
+    {
+      "Id": 21,
+      "Text": "The House of Representatives has how many voting members?",
+      "Answers": [
+        "four hundred thirty-five (435) "
+      ],
+      "AdditionalInfo": "The House of Representatives is the larger chamber of Congress. Since 1912, the House of Representatives has had 435 voting members. However, the distribution of members among the states has changed over the years. Each state must have at least one representative in the House. Beyond that, the number of representatives from each state depends on the population of the state. The Constitution says that the government will conduct a census of the population every 10 years to count the number of people in each state. The results of the census are used to recalculate the number of representatives each state should have. For example, if one state gains many residents that state could get one or more new representatives. If another state loses residents, that state could lose one or more. But the total number of voting U.S. representatives does not change."
+    },
+    {
+      "Id": 22,
+      "Text": "We elect a U.S. Representative for how many years?",
+      "Answers": [
+        "two (2)"
+      ],
+      "AdditionalInfo": "People who live in a representative’s district are called “constituents.” Representatives tend to reflect the views of their constituents. If representatives do not do this, they may be voted out of office. The Framers of the Constitution believed that short two-year terms and frequent elections would keep representatives close to their constituents, public opinion, and more aware of local and community concerns. The Constitution puts no limit on the number of terms a representative may serve. All representatives are up for election every two years."
     }
   ]
 }
 
-/* ,
-    {
-      "Id": 13,
-      "Text": "",
-      "Answers": [
-        "the Bill of Rights"
-      ],
-      "AdditionalInfo": ""
-    },
-    {
-      "Id": 14,
-      "Text": "",
-      "Answers": [
-        "the Bill of Rights"
-      ],
-      "AdditionalInfo": ""
-    },
-    {
-      "Id": 15,
-      "Text": "",
-      "Answers": [
-        "the Bill of Rights"
-      ],
-      "AdditionalInfo": ""
-    },
-    {
-      "Id": 16,
-      "Text": "",
-      "Answers": [
-        "the Bill of Rights"
-      ],
-      "AdditionalInfo": ""
-    },
-    {
-      "Id": 17,
-      "Text": "",
-      "Answers": [
-        "the Bill of Rights"
-      ],
-      "AdditionalInfo": ""
-    },
-    {
-      "Id": 18,
-      "Text": "",
-      "Answers": [
-        "the Bill of Rights"
-      ],
-      "AdditionalInfo": ""
-    },
-    {
-      "Id": 19,
-      "Text": "",
-      "Answers": [
-        "the Bill of Rights"
-      ],
-      "AdditionalInfo": ""
-    },
-    {
-      "Id": 20,
-      "Text": "",
-      "Answers": [
-        "the Bill of Rights"
-      ],
-      "AdditionalInfo": ""
-    },
-    {
-      "Id": 21,
-      "Text": "",
-      "Answers": [
-        "the Bill of Rights"
-      ],
-      "AdditionalInfo": ""
-    },
-    {
-      "Id": 22,
-      "Text": "",
-      "Answers": [
-        "the Bill of Rights"
-      ],
-      "AdditionalInfo": ""
-    },
+/*    ,
     {
       "Id": 23,
       "Text": "",
