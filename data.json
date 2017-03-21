@@ -199,59 +199,63 @@
         "two (2)"
       ],
       "AdditionalInfo": "People who live in a representative’s district are called “constituents.” Representatives tend to reflect the views of their constituents. If representatives do not do this, they may be voted out of office. The Framers of the Constitution believed that short two-year terms and frequent elections would keep representatives close to their constituents, public opinion, and more aware of local and community concerns. The Constitution puts no limit on the number of terms a representative may serve. All representatives are up for election every two years."
+    },
+    {
+      "Id": 23,
+      "Text": "Name your U.S. Representative.",
+      "Answers": [
+        "Answers will vary. [Residents of territories with nonvoting Delegates or Resident Commissioners may provide the name of that Delegate or Commissioner. Also acceptable is any statement that the territory has no (voting) Representatives in Congress.]"
+      ],
+      "AdditionalInfo": "For a complete list of U.S. representatives and the districts they represent, go to www.house.gov."
+    },
+    {
+      "Id": 24,
+      "Text": "Who does a U.S. Senator represent?",
+      "Answers": [
+        "all people of the state"
+      ],
+      "AdditionalInfo": "Senators are elected to serve the people of their state for six years. Each of the two senators represents the entire state. Before the 17th Amendment to the Constitution was ratified in 1913, the state legislatures elected the U.S. senators to represent their state. Now, all the voters in a state elect their two U.S. senators directly."
+    },
+    {
+      "Id": 25,
+      "Text": "Why do some states have more Representatives than other states?",
+      "Answers": [
+        "(because of) the state’s population",
+        "(because) they have more people",
+        "(because) some states have more people"
+      ],
+      "AdditionalInfo": "The Founding Fathers wanted people in all states to be represented fairly. In the House of Representatives, a state’s population determines the number of representatives it has. In this way, states with many people have a stronger voice in the House. In the Senate, every state has the same number of senators. This means that states with few people still have a strong voice in the national government."
+    },
+    {
+      "Id": 26,
+      "Text": "We elect a President for how many years?",
+      "Answers": [
+        "four (4) "
+      ],
+      "AdditionalInfo": "Early American leaders thought that the head of the British government, the king, had too much power. Because of this, they limited the powers of the head of the new U.S. government. They decided that the people would elect the president every four years.  The president is the only official elected by the entire country through the Electoral College. The Electoral College is a process that was designed by the writers of the Constitution to select presidents. It came from a compromise between the president being elected directly by the people and the president being chosen by Congress. Citizens vote for electors, who then choose the president. Before 1951, there was no limit on the number of terms a president could serve. With the 22nd Amendment to the Constitution, the president can only be elected to two terms (four years each) for a total of eight years."
+    },
+    {
+      "Id": 27,
+      "Text": "In what month do we vote for President?*",
+      "Answers": [
+        "November"
+      ],
+      "AdditionalInfo": "The Constitution did not set a national election day. In the past, elections for federal office took place on different days in different states. In 1845, Congress passed legislation to designate a single day for all Americans to vote. It made Election Day the Tuesday after the first Monday in November. Congress chose November because the United States was mostly rural. By November, farmers had completed their harvests and were available to vote. Another reason for this date was the weather. People were able to travel because it was not yet winter. They chose Tuesday for Election Day so that voters had a full day after Sunday to travel to the polls."
+    },
+    {
+      "Id": 28,
+      "Text": " What is the name of the President of the United States now?*",
+      "Answers": [
+        "Donald J. Trump",
+        "Donald ",
+        "Trump"
+      ],
+      "AdditionalInfo": "Donald J. Trump is the 45th president of the United States. As president he is the head of the executive branch. As commander in chief, he is also in charge of the military. Trump was born in New York on June 14, 1946. He graduated from the Wharton School of Finance at the University of Pennsylvania. He is an American businessman and author. President Trump’s wife, called “the First Lady,” is Melania Trump."
     }
   ]
 }
 
 /*    ,
-    {
-      "Id": 23,
-      "Text": "",
-      "Answers": [
-        "the Bill of Rights"
-      ],
-      "AdditionalInfo": ""
-    },
-    {
-      "Id": 24,
-      "Text": "",
-      "Answers": [
-        "the Bill of Rights"
-      ],
-      "AdditionalInfo": ""
-    },
-    {
-      "Id": 25,
-      "Text": "",
-      "Answers": [
-        "the Bill of Rights"
-      ],
-      "AdditionalInfo": ""
-    },
-    {
-      "Id": 26,
-      "Text": "",
-      "Answers": [
-        "the Bill of Rights"
-      ],
-      "AdditionalInfo": ""
-    },
-    {
-      "Id": 27,
-      "Text": "",
-      "Answers": [
-        "the Bill of Rights"
-      ],
-      "AdditionalInfo": ""
-    },
-    {
-      "Id": 28,
-      "Text": "",
-      "Answers": [
-        "the Bill of Rights"
-      ],
-      "AdditionalInfo": ""
-    },
     {
       "Id": 29,
       "Text": "",
