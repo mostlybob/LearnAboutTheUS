@@ -73,27 +73,29 @@
         "said that the United States is free (from Great Britain)"
       ],
       "AdditionalInfo": "The Declaration of Independence contains important ideas about the American system of government. The Declaration of Independence states that all people are created equal and have “certain unalienable rights.” These are rights that no government can change or take away. The author of the Declaration, Thomas Jefferson, wrote that the American colonies should be independent because Great Britain did not respect the basic rights of people in the colonies. Jefferson believed that a government exists only if the people think it should. He believed in the idea that the people create their own government and consent, or agree, to follow laws their government makes. This idea is called “consent of the governed.” If the government creates laws that are fair and protect people, then people will agree to follow those laws. In the Declaration of Independence, Jefferson wrote a list of complaints the colonists had against the King of England. Jefferson ended the Declaration with the statement that the colonies are, and should be, free and independent states. The Second Continental Congress voted to accept the Declaration on July 4, 1776."
+    },
+    {
+      "Id": 9,
+      "Text": "What are two rights in the Declaration of Independence?",
+      "Answers": [
+        "life",
+        "liberty",
+        "pursuit of happiness "
+      ],
+      "AdditionalInfo": "The Declaration of Independence lists three rights that the Founding Fathers considered to be natural and “unalienable.” They are the right to life, liberty, and the pursuit of happiness. These ideas about freedom and individual rights were the basis for declaring America’s independence. Thomas Jefferson and the other Founding Fathers believed that people are born with natural rights that no government can take away. Government exists to protect these rights. Because the people voluntarily give up power to a government, they can take that power back. The British government was not protecting the rights of the colonists, so the colonies took back their power and separated from Great Britain."
+    },
+    {
+      "Id": 10,
+      "Text": "What is freedom of religion?",
+      "Answers": [
+        "You can practice any religion, or not practice a religion. "
+      ],
+      "AdditionalInfo": "Colonists from Spain, France, Holland, England, and other countries came to America for many different reasons. One of the reasons was religious freedom. The rulers of many of these countries told their citizens that they must go to a certain church and worship in a certain way. Some people had different religious beliefs than their rulers and wanted to have their own churches. In 1620, the Pilgrims were the first group that came to America seeking religious freedom. Religious freedom was also important to the Framers. For this reason, freedom of religion was included in the Constitution as part of the Bill of Rights. The First Amendment to the Constitution guarantees freedom of religion. The First Amendment states, “Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof.” The First Amendment also prohibits Congress from setting up an official U.S. religion, and protects citizens’ rights to hold any religious belief, or none at all."
     }
   ]
 }
 
-/*,
-    {
-      "Id": 9,
-      "Text": "",
-      "Answers": [
-        "the Bill of Rights"
-      ],
-      "AdditionalInfo": ""
-    },
-    {
-      "Id": 10,
-      "Text": "",
-      "Answers": [
-        "the Bill of Rights"
-      ],
-      "AdditionalInfo": ""
-    },
+/* ,
     {
       "Id": 11,
       "Text": "",
