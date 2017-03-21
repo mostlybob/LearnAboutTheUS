@@ -91,19 +91,20 @@
         "You can practice any religion, or not practice a religion. "
       ],
       "AdditionalInfo": "Colonists from Spain, France, Holland, England, and other countries came to America for many different reasons. One of the reasons was religious freedom. The rulers of many of these countries told their citizens that they must go to a certain church and worship in a certain way. Some people had different religious beliefs than their rulers and wanted to have their own churches. In 1620, the Pilgrims were the first group that came to America seeking religious freedom. Religious freedom was also important to the Framers. For this reason, freedom of religion was included in the Constitution as part of the Bill of Rights. The First Amendment to the Constitution guarantees freedom of religion. The First Amendment states, “Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof.” The First Amendment also prohibits Congress from setting up an official U.S. religion, and protects citizens’ rights to hold any religious belief, or none at all."
+    },
+    {
+      "Id": 11,
+      "Text": " What is the economic system in the United States?*",
+      "Answers": [
+        "capitalist economy",
+        "market economy"
+      ],
+      "AdditionalInfo": "The economic system of the United States is capitalism. In the American economy, most businesses are privately owned. Competition and profit motivate businesses. Businesses and consumers interact in the marketplace, where prices can be negotiated. This is called a “market economy.” In a market economy, businesses decide what to produce, how much to produce, and what to charge. Consumers decide what, when, and where they will buy goods or services. In a market economy, competition, supply, and demand influence the decisions of businesses and consumers."
     }
   ]
 }
 
 /* ,
-    {
-      "Id": 11,
-      "Text": "",
-      "Answers": [
-        "the Bill of Rights"
-      ],
-      "AdditionalInfo": ""
-    },
     {
       "Id": 12,
       "Text": "",
