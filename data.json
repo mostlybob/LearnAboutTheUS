@@ -58,24 +58,26 @@
     },
     {
       "Id": 7,
-      "Text": "How many amendments does the Constitution have?",
+      "Text":  "How many amendments does the Constitution have?",
       "Answers": [
         "twenty-seven (27)"
       ],
       "AdditionalInfo": "The first 10 amendments to the Constitution are called the Bill of Rights. They were added in 1791. Since then, 17 more amendments have been added. The Constitution currently has 27 amendments. The 27th Amendment was added in 1992. It explains how senators and representatives are paid. Interestingly, Congress first discussed this amendment back in 1789 as one of the original amendments considered for the Bill of Rights."
+    },
+    {
+      "Id": 8,
+      "Text": "What did the Declaration of Independence do?",
+      "Answers": [
+        "announced our independence (from Great Britain)",
+        "declared our independence (from Great Britain)",
+        "said that the United States is free (from Great Britain)"
+      ],
+      "AdditionalInfo": "The Declaration of Independence contains important ideas about the American system of government. The Declaration of Independence states that all people are created equal and have “certain unalienable rights.” These are rights that no government can change or take away. The author of the Declaration, Thomas Jefferson, wrote that the American colonies should be independent because Great Britain did not respect the basic rights of people in the colonies. Jefferson believed that a government exists only if the people think it should. He believed in the idea that the people create their own government and consent, or agree, to follow laws their government makes. This idea is called “consent of the governed.” If the government creates laws that are fair and protect people, then people will agree to follow those laws. In the Declaration of Independence, Jefferson wrote a list of complaints the colonists had against the King of England. Jefferson ended the Declaration with the statement that the colonies are, and should be, free and independent states. The Second Continental Congress voted to accept the Declaration on July 4, 1776."
     }
   ]
 }
 
-/*    ,
-    {
-      "Id": 8,
-      "Text": "",
-      "Answers": [
-        "the Bill of Rights"
-      ],
-      "AdditionalInfo": ""
-    },
+/*,
     {
       "Id": 9,
       "Text": "",
