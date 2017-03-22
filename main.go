@@ -16,13 +16,13 @@ func main() {
 
 	// question = GetQuestion(questionId)
 
-	foo := quiz.CreateQuizFromJSON(GetQuizJson("data.json"))
+	learnUs := quiz.CreateQuizFromJSON(GetQuizJson("data.json"))
 	// question := quiz.GetQuestionById(1)
 	// fmt.Println(question.Text)
 
-	question := foo.GetRandomQuestion()
-	fmt.Println(question.Text)
-	fmt.Println("(press enter to show answers)")
+	question := learnUs.GetRandomQuestion()
+	fmt.Println(string(question.Id) + " - " + question.Text)
+	fmt.Println("(press Enter to show answers)")
 
 	var input string
 	fmt.Scanln(&input)
