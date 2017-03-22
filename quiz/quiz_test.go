@@ -172,7 +172,7 @@ var _ = Describe("Quiz", func() {
 					counters[question.Id-1]++
 				}
 
-				fmt.Println(counters)
+				fmt.Printf("\n%s: %v\n", "generated array of random questions:", counters)
 
 				for questionId, counterValue := range counters {
 					Expect(counterValue > 0).To(BeTrue(), "question id "+string(questionId)+" was never selected")
@@ -194,7 +194,8 @@ var _ = Describe("Quiz", func() {
 				// for _, question := range questions {
 				// 	Expect(testQuestionsDisplay).To(ContainElement(question))
 				// }
-				fmt.Println("I'm still not sure what I want ShowAllQuestions to do yet, so it's time to move on.")
+
+				fmt.Printf("\n%s\n", "I'm still not sure what I want ShowAllQuestions to do yet, so it's time to move on.")
 			})
 		})
 	})
