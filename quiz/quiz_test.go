@@ -195,7 +195,7 @@ var _ = Describe("Quiz", func() {
 				// 	Expect(testQuestionsDisplay).To(ContainElement(question))
 				// }
 
-				fmt.Printf("\n%s\n", "(not sure how ShowAllQuestions should behave yet")
+				fmt.Printf("\n%s\n", "(not sure how ShowAllQuestions should behave yet)")
 			})
 		})
 	})
