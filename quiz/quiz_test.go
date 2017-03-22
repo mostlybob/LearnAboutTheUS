@@ -7,6 +7,7 @@ import (
 	. "github.com/onsi/gomega"
 
 	"fmt"
+	"time"
 )
 
 var _ = Describe("Quiz", func() {
@@ -223,6 +224,7 @@ func GetTestJSON() string {
 
 func GetTestQuizObject() Quiz {
 	return Quiz{
+		Src: rand.NewSource(time.Now().UnixNano()),
 		Questions: []Question{
 			Question{
 				Id:             1,
