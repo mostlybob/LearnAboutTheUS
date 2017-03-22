@@ -186,7 +186,7 @@ var _ = Describe("Quiz", func() {
 					questionsLine := string(questionId) + " - " + questionText
 					testQuestionsDisplay = append(testQuestionsDisplay, questionsLine)
 				}
-
+				fmt.Println(testQuestionsDisplay)
 				questions := testQuiz.ShowAllQuestions()
 
 				for _, question := range questions {
