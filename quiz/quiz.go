@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"math/rand"
 	"strings"
-	"time"
 )
 
 type Quiz struct {
 	About     string
 	Questions []Question
+	Src       QuizSource
 }
 
 type Question struct {
@@ -20,10 +20,31 @@ type Question struct {
 	AdditionalInfo string
 }
 
+/*
+2017-03-22 1255h
+Made a bit of a mess here. Yes, I know this isn't the Go way
+of doing interfaces - I guess my C# is showing. One thing 
+I did learn is that seeding the random number generator
+for getting the flash card question belongs in the quiz itself,
+since seeds only have to be generated once. I spent some time
+looking for something like a constructor and it ended up being
+simple, I think. Wherever the Quiz object is constructed, the
+Source property, whatever it's called gets set there. Then
+when GetRandomQuestion gets called, the Source is already
+built and all it has to do is use it. Increasingly, I'm not sure
+about where getRandomNumber is living. I can't see where else
+to put it, but it's feeling like it doesn't belong where it is.
+*/
+
+type QuizSource struct {
+	Int63() int64
+    Seed(seed int64)
+}
+
 func (quiz Quiz) GetRandomQuestion() Question {
 	questionIds := quiz.GetQuestionIds()
 
-	index := getRandomNumber(len(questionIds))
+	index := getRandomNumber(len(questionIds), quiz.Src)
 
 	questionId := questionIds[index]
 
@@ -94,8 +115,8 @@ func (quiz Quiz) ShowAllQuestions() []string {
 // 	return showQuestions
 // }
 
-func getRandomNumber(upper int) int {
-	r := rand.New(rand.NewSource(time.Now().UnixNano()))
+func getRandomNumber(upper int, source Source) int {
+	r := rand.New(source)
 
 	randomNumber := r.Intn(upper)
 
