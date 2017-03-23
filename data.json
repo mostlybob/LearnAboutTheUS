@@ -343,52 +343,59 @@
         "decides if a law goes against the Constitution "
       ],
       "AdditionalInfo": "The judicial branch is one of the three branches of government. The Constitution established the judicial branch of government with the creation of the Supreme Court. Congress created the other federal courts. All these courts together make up the judicial branch. The courts review and explain the laws, and they resolve disagreements about the meaning of the law. The U.S. Supreme Court makes sure that laws are consistent with the Constitution. If a law is not consistent with the Constitution, the Court can declare it unconstitutional. In this case, the Court rejects the law. The Supreme Court makes the final decision about all cases that have to do with federal laws and treaties. It also rules on other cases, such as disagreements between states."
+    },
+    {
+      "Id": 38,
+      "Text": "What is the highest court in the United States?",
+      "Answers": [
+        "the Supreme Court"
+      ],
+      "AdditionalInfo": "The U.S. Supreme Court has complete authority over all federal courts. Its rulings have a significant effect. A Supreme Court ruling can affect the outcome of many cases in the lower courts. The Supreme Court’s interpretations of federal laws and of the Constitution are final. The Supreme Court is limited in its power over the states. It cannot make decisions about state law or state constitutions. The Court can decide that a state law or action conflicts with federal law or with the U.S. Constitution. If this happens, the state law becomes invalid. The Supreme Court case ruling Marbury v. Madison established this power, known as “judicial review.” The Supreme Court also rules on cases about significant social and public policy issues that affect all Americans. The Supreme Court ruled on the court case Brown v. the Board of Education of Topeka, which ended racial segregation in schools."
+    },
+    {
+      "Id": 39,
+      "Text": "How many justices are on the Supreme Court?",
+      "Answers": [
+        "nine (9)"
+      ],
+      "AdditionalInfo": "The Constitution does not establish the number of justices on the Supreme Court. In the past, there have been as many as 10 and as few as six justices. Now, there are nine justices on the Supreme Court: eight associate justices and one chief justice. The Constitution gives the president the power to nominate justices to the Supreme Court. The nominee must then be confirmed by the Senate. Justices serve on the court for life or until they retire. For more information on the Supreme Court, go to www.supremecourt.gov"
+    },
+    {
+      "Id": 40,
+      "Text": "Who is the Chief Justice of the United States now?",
+      "Answers": [
+        "John Roberts (John G. Roberts, Jr.)"
+      ],
+      "AdditionalInfo": "John G. Roberts, Jr. is the 17th chief justice of the United States. After the death of former chief justice William Rehnquist in September 2005, President George W. Bush nominated Roberts for this position. Judge Roberts became chief justice when he was 50. He is the youngest chief justice since 1801, when John Marshall became chief justice at the age of 45. Before he became chief justice, Judge Roberts served on the U.S. Court of Appeals for the District of Columbia Circuit. Although the chief justice of the United States is the highest official in the judicial branch, his vote on the Supreme Court carries the same weight as the other justices."
+    },
+    {
+      "Id": 41,
+      "Text": "Under our Constitution, some powers belong to the federal government. What is one power of the federal government?",
+      "Answers": [
+        "to print money",
+        "to declare war",
+        "to create an army",
+        "to make treaties"
+      ],
+      "AdditionalInfo": "The powers of government are divided between the federal government and the state governments. The federal government is known as a limited government. Its powers are restricted to those described in the U.S. Constitution. The Constitution gives the federal government the power to print money, declare war, create an army, and make treaties with other nations. Most other powers that are not given to the federal government in the Constitution belong to the states."
+    },
+    {
+      "Id": 42,
+      "Text": "Under our Constitution, some powers belong to the states. What is one power of the states? ",
+      "Answers": [
+        "provide schooling and education",
+        "provide protection (police)",
+        "provide safety (fire departments)",
+        "give a driver’s license",
+        "approve zoning and land use"
+      ],
+      "AdditionalInfo": "In the United States, the federal and state governments both hold power. Before the Constitution, the 13 colonies governed themselves individually much like state governments. It was not until the Articles of Confederation and then the Constitution that a national or federal government was established. Today, although each state has its own constitution, these state constitutions cannot conflict with the U.S. Constitution. The U.S. Constitution is the supreme law of the land. The state governments hold powers not given to the federal government in the U.S. Constitution. Some powers of the state government are the power to create traffic regulations and marriage requirements, and to issue driver’s licenses. The Constitution also provides a list of powers that the states do not have. For example, states cannot coin (create) money. The state and federal governments also share some powers, such as the ability to tax people."
     }
   ]
 }
 
 /*    
 ,
-    {
-      "Id": 38,
-      "Text": "",
-      "Answers": [
-        ""
-      ],
-      "AdditionalInfo": ""
-    },
-    {
-      "Id": 39,
-      "Text": "",
-      "Answers": [
-        ""
-      ],
-      "AdditionalInfo": ""
-    },
-    {
-      "Id": 40,
-      "Text": "",
-      "Answers": [
-        ""
-      ],
-      "AdditionalInfo": ""
-    },
-    {
-      "Id": 41,
-      "Text": "",
-      "Answers": [
-        ""
-      ],
-      "AdditionalInfo": ""
-    },
-    {
-      "Id": 42,
-      "Text": "",
-      "Answers": [
-        ""
-      ],
-      "AdditionalInfo": ""
-    },
     {
       "Id": 43,
       "Text": "",
