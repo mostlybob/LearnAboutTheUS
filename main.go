@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	learnUs := quiz.CreateQuizFromJSON(GetQuizJson("data.json"))
+	learnUs := quiz.CreateQuizFromJSON(GetQuizJson("LearnAboutTheUS.json"))
 
 	ShowAQuestion(learnUs)
 }
