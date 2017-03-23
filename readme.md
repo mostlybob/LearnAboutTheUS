@@ -19,9 +19,13 @@ I'm playing with the Go Playground for some of this:
 
 [Here's an example][3]
 
+## Ginkgo & Gomega
+I want to get some testing in here, so I'm also playing with these two libraries. Instructions for them can be found [here][4].
 
 [1]: https://www.uscis.gov/sites/default/files/USCIS/Office%20of%20Citizenship/Citizenship%20Resource%20Center%20Site/Publications/PDFs/M-638_red.pdf
 
 [2]: https://www.uscis.gov/citizenship/learners/study-test/study-materials-civics-test
 
 [3]: https://play.golang.org/p/twW3LLHeQt
+
+[4]: https://onsi.github.io/ginkgo/

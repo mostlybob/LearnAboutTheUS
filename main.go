@@ -1,127 +1,33 @@
 package main
 
+import "github.com/mostlybob/LearnAboutTheUS/quiz"
 import (
-	"encoding/json"
 	"fmt"
-	"io"
 	"io/ioutil"
-	"math/rand"
-	"strconv"
-	"strings"
-	"time"
 )
 
-type Quiz struct {
-	About string
-	Data  Data
-}
-
-type Data struct {
-	Questions []Question
-}
-
-type Question struct {
-	Id             int
-	Text           string
-	Answers        []string
-	AdditionalInfo string
-}
-
 func main() {
-	// questions := ShowAllQuestions()
-	// fmt.Println(questions)
+	learnUs := quiz.CreateQuizFromJSON(GetQuizJson("LearnAboutTheUS.json"))
 
-	question := GetRandomQuestion()
-	questionId := question.Id
-	fmt.Println(question.Text)
-
-	question = GetQuestion(questionId)
-
+	ShowAQuestion(learnUs)
 }
 
-// ----------------------------------------------------------------------------
+func ShowAQuestion(quiz quiz.Quiz) {
+	question := quiz.GetRandomQuestion()
+	fmt.Printf("%d - %v\n", question.Id, question.Text)
+	fmt.Println("(press Enter to show answers)")
 
-func GetQuestion(id int) Question {
-	jsonData := GetQuizJson()
+	var input string
+	fmt.Scanln(&input)
 
-	quizDecoder := json.NewDecoder(strings.NewReader(jsonData))
-
-	var quiz Quiz
-
-	err := quizDecoder.Decode(&quiz)
-
-	if err != nil {
-		fmt.Println("Something weird happened trying to open the data file.")
-		panic(fmt.Sprintf("%s", err))
+	for _, answer := range question.Answers {
+		fmt.Println(answer)
 	}
-
-	for _, question := range quiz.Data.Questions {
-		if question.Id == id {
-			return question
-		}
-	}
-
-	return nil
 }
 
-func GetRandomQuestion() Question {
-	jsonData := GetQuizJson()
-
-	quizDecoder := json.NewDecoder(strings.NewReader(jsonData))
-
-	var quiz Quiz
-
-	err := quizDecoder.Decode(&quiz)
-
-	if err != nil {
-		fmt.Println("Something weird happened trying to open the data file.")
-		panic(fmt.Sprintf("%s", err))
-	}
-
-	numberOfQuestions := len(quiz.Data.Questions)
-	randomQuestionIndex := getRandomNumber(numberOfQuestions)
-
-	randomQuestion := quiz.Data.Questions[randomQuestionIndex]
-
-	return randomQuestion
-}
-
-func getRandomNumber(upper int) int {
-	r := rand.New(rand.NewSource(time.Now().UnixNano()))
-
-	randomNumber := r.Intn(upper - 1)
-
-	return randomNumber
-}
-
-func ShowAllQuestions() string {
-	jsonData := GetQuizJson()
-
-	quizDecoder := json.NewDecoder(strings.NewReader(jsonData))
-
-	showQuestions := ""
-	for {
-		var quiz Quiz
-
-		if err := quizDecoder.Decode(&quiz); err == io.EOF {
-			break
-		} else if err != nil {
-			fmt.Println("Something weird happened trying to open the data file.")
-			panic(fmt.Sprintf("%s", err))
-		}
-
-		fmt.Printf("Questions:\n")
-		for _, question := range quiz.Data.Questions {
-			showQuestions += strconv.Itoa(question.Id) + " - " + question.Text + "\n"
-		}
-	}
-
-	return showQuestions
-}
-
-func GetQuizJson() string {
+func GetQuizJson(pathToJson string) string {
 	// read the whole file at once - it's not that big
-	data, err := ioutil.ReadFile("data.json")
+	data, err := ioutil.ReadFile(pathToJson)
 	if err != nil {
 		panic(err)
 	}

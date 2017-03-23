@@ -23,6 +23,9 @@ _testmain.go
 *.test
 *.prof
 
+#git generated files
+*.orig
+
 # project-specific stuff
 LearnAboutTheUS
 main

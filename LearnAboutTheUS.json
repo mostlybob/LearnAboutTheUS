@@ -1,0 +1,864 @@
+{
+  "About": "This is the main data file for the quiz. Questions and answers are taken from the document M-638 (rev. 01/17) on the USCIS website.",
+  "Questions": [
+    {
+      "Id": 1,
+      "Text": "What is the supreme law of the land?",
+      "Answers": [
+        "the Constitution"
+      ],
+      "AdditionalInfo": "The Founding Fathers of the United States wrote the Constitution in 1787. The Constitution is the \"supreme law of the land.\" The U.S. Constitution has lasted longer than any other country’s constitution. It establishes the basic principles of the United States government. The Constitution establishes a system of government called \"representative democracy.\" In a representative democracy, citizens choose representatives to make the laws. U.S. citizens also choose a president to lead the executive branch of government. The Constitution lists fundamental rights for all citizens and other people living in the United States. Laws made in the United States must follow the Constitution."
+    },
+    {
+      "Id": 2,
+      "Text": "What does the Constitution do?",
+      "Answers": [
+        "sets up the government",
+        "defines the government",
+        "protects basic rights of Americans"
+      ],
+      "AdditionalInfo": "The Constitution of the United States divides government power between the national government and state governments. The name for this division of power is \"federalism.\" Federalism is an important idea in the Constitution. We call the Founding Fathers who wrote the Constitution the \"Framers\" of the Constitution. The Framers wanted to limit the powers of the government, so they separated the powers into three branches: executive, legislative, and judicial. The Constitution explains the power of each branch. The Constitution also includes changes and additions, called \"amendments.\" The first 10 amendments are called the \"Bill of Rights.\" The Bill of Rights established the individual rights and liberties of all Americans."
+    },
+    {
+      "Id": 3,
+      "Text": "The idea of self-government is in the first three words of the Constitution. What are these words?",
+      "Answers": [
+        "We the People"
+      ],
+      "AdditionalInfo": "The Constitution says:\n\n\"We the People of the United States, in Order to form a more perfect Union, establish Justice, insure domestic Tranquility, provide for the common defence, promote the general Welfare, and secure the Blessings of Liberty to ourselves and our Posterity, do ordain and establish this Constitution for the United States of America.\"\n\nWith the words \"We the People,\" the Constitution states that the people set up the government. The government works for the people and protects the rights of people. In the United States, the power to govern comes from the people, who are the highest power. This is called \"popular sovereignty.\" The people elect representatives to make laws."
+    },
+    {
+      "Id": 4,
+      "Text": "What is an amendment?",
+      "Answers": [
+        "a change (to the Constitution)",
+        "an addition (to the Constitution)"
+      ],
+      "AdditionalInfo": "An amendment is a change or addition to the Constitution. The Framers of the Constitution knew that laws can change as a country grows. They did not want to make it too easy to modify the Constitution, the supreme law of the land. The Framers also did not want the Constitution to lose its meaning. For this reason, the Framers decided that Congress could pass amendments in only two ways: by a two-thirds vote in the U.S. Senate and the House of Representatives or by a special convention. A special convention has to be requested by two-thirds of the states. After an amendment has passed in Congress or by a special convention, the amendment must then be ratified (accepted) by the legislatures of three-fourths of the states. The amendment can also be ratified by a special convention in three-fourths of the states. Not all proposed amendments are ratified. Six times in U.S. history amendments have passed in Congress but were not approved by enough states to be ratified."
+    },
+    {
+      "Id": 5,
+      "Text": "What do we call the first ten amendments to the Constitution?",
+      "Answers": [
+        "the Bill of Rights"
+      ],
+      "AdditionalInfo": "The Bill of Rights is the first 10 amendments to the Constitution. When the Framers wrote the Constitution, they did not focus on individual rights. They focused on creating the system and structure of government. Many Americans believed that the Constitution should guarantee the rights of the people, and they wanted a list of all the things a government could not do. They were afraid that a strong government would take away the rights people won in the Revolutionary War. James Madison, one of the Framers of the Constitution, wrote a list of individual rights and limits on the government. These rights appear in the first 10 amendments, called the Bill of Rights. Some of these rights include freedom of expression, the right to bear arms, freedom from search without warrant, freedom not to be tried twice for the same crime, the right to not testify against yourself, the right to a trial by a jury of your peers, the right to an attorney, and protection against excessive fines and unusual punishments. The Bill of Rights was ratified in 1791."
+    },
+    {
+      "Id": 6,
+      "Text": "What is one right or freedom from the First Amendment?",
+      "Answers": [
+        "speech", 
+        "religion", 
+        "assembly", 
+        "press", 
+        "petition the government"
+      ],
+      "AdditionalInfo": "The First Amendment of the Bill of Rights protects a person’s right to freedom of expression. Freedom of expression allows open discussion and debate on public issues. Open discussion and debate are important to democracy. The First Amendment also protects freedom of religion and free speech. This amendment says that Congress may not pass laws that establish an official religion and may not limit religious expression. Congress may not pass laws that limit freedom of the press or the right of people to meet peacefully. The First Amendment also gives people the right to petition the government to change laws or acts that are not fair. Congress may not take away these rights. The First Amendment of the Constitution guarantees and protects these rights."
+    },
+    {
+      "Id": 7,
+      "Text":  "How many amendments does the Constitution have?",
+      "Answers": [
+        "twenty-seven (27)"
+      ],
+      "AdditionalInfo": "The first 10 amendments to the Constitution are called the Bill of Rights. They were added in 1791. Since then, 17 more amendments have been added. The Constitution currently has 27 amendments. The 27th Amendment was added in 1992. It explains how senators and representatives are paid. Interestingly, Congress first discussed this amendment back in 1789 as one of the original amendments considered for the Bill of Rights."
+    },
+    {
+      "Id": 8,
+      "Text": "What did the Declaration of Independence do?",
+      "Answers": [
+        "announced our independence (from Great Britain)",
+        "declared our independence (from Great Britain)",
+        "said that the United States is free (from Great Britain)"
+      ],
+      "AdditionalInfo": "The Declaration of Independence contains important ideas about the American system of government. The Declaration of Independence states that all people are created equal and have \"certain unalienable rights.\" These are rights that no government can change or take away. The author of the Declaration, Thomas Jefferson, wrote that the American colonies should be independent because Great Britain did not respect the basic rights of people in the colonies. Jefferson believed that a government exists only if the people think it should. He believed in the idea that the people create their own government and consent, or agree, to follow laws their government makes. This idea is called \"consent of the governed.\" If the government creates laws that are fair and protect people, then people will agree to follow those laws. In the Declaration of Independence, Jefferson wrote a list of complaints the colonists had against the King of England. Jefferson ended the Declaration with the statement that the colonies are, and should be, free and independent states. The Second Continental Congress voted to accept the Declaration on July 4, 1776."
+    },
+    {
+      "Id": 9,
+      "Text": "What are two rights in the Declaration of Independence?",
+      "Answers": [
+        "life",
+        "liberty",
+        "pursuit of happiness "
+      ],
+      "AdditionalInfo": "The Declaration of Independence lists three rights that the Founding Fathers considered to be natural and \"unalienable.\" They are the right to life, liberty, and the pursuit of happiness. These ideas about freedom and individual rights were the basis for declaring America’s independence. Thomas Jefferson and the other Founding Fathers believed that people are born with natural rights that no government can take away. Government exists to protect these rights. Because the people voluntarily give up power to a government, they can take that power back. The British government was not protecting the rights of the colonists, so the colonies took back their power and separated from Great Britain."
+    },
+    {
+      "Id": 10,
+      "Text": "What is freedom of religion?",
+      "Answers": [
+        "You can practice any religion, or not practice a religion. "
+      ],
+      "AdditionalInfo": "Colonists from Spain, France, Holland, England, and other countries came to America for many different reasons. One of the reasons was religious freedom. The rulers of many of these countries told their citizens that they must go to a certain church and worship in a certain way. Some people had different religious beliefs than their rulers and wanted to have their own churches. In 1620, the Pilgrims were the first group that came to America seeking religious freedom. Religious freedom was also important to the Framers. For this reason, freedom of religion was included in the Constitution as part of the Bill of Rights. The First Amendment to the Constitution guarantees freedom of religion. The First Amendment states, \"Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof.\" The First Amendment also prohibits Congress from setting up an official U.S. religion, and protects citizens’ rights to hold any religious belief, or none at all."
+    },
+    {
+      "Id": 11,
+      "Text": " What is the economic system in the United States?*",
+      "Answers": [
+        "capitalist economy",
+        "market economy"
+      ],
+      "AdditionalInfo": "The economic system of the United States is capitalism. In the American economy, most businesses are privately owned. Competition and profit motivate businesses. Businesses and consumers interact in the marketplace, where prices can be negotiated. This is called a \"market economy.\" In a market economy, businesses decide what to produce, how much to produce, and what to charge. Consumers decide what, when, and where they will buy goods or services. In a market economy, competition, supply, and demand influence the decisions of businesses and consumers."
+    },
+    {
+      "Id": 12,
+      "Text": "What is the \"rule of law\"?",
+      "Answers": [
+        "Everyone must follow the law.",
+        "Leaders must obey the law.",
+        "Government must obey the law.",
+        "No one is above the law."
+      ],
+      "AdditionalInfo": "John Adams was one of the Founding Fathers and the second president of the United States. He wrote that our country is, \"a government of laws, and not of men.\" No person or group is above the law. The rule of law means that everyone (citizens and leaders) must obey the laws. In the United States, the U.S. Constitution is the foundation for the rule of law. The United States is a \"constitutional democracy\" (a democracy with a constitution). In constitutional democracies, people are willing to obey the laws because the laws are made by the people through their elected representatives. If all people are governed by the same laws, the individual rights and liberties of each person are better protected. The rule of law helps to make sure that government protects all people equally and does not violate the rights of certain people."
+    },
+    {
+      "Id": 13,
+      "Text": "Name one branch or part of the government.*",
+      "Answers": [
+        "Congress",
+        "legislative",
+        "President",
+        "executive",
+        "the courts",
+        "judicial"
+      ],
+      "AdditionalInfo": "The Constitution establishes three branches of government: legislative, executive, and judicial. Article I of the Constitution establishes the legislative branch. Article I explains that Congress makes laws. Congress (the Senate and the House of Representatives) is the legislative branch of the U.S. government. Article II of the Constitution establishes the executive branch. The executive branch enforces the laws that Congress passes. The executive branch makes sure all the people follow the laws of the United States. The president is the head of the executive branch. The vice president and members of the president’s cabinet are also part of the executive branch. Article III of the Constitution establishes the judicial branch. The judicial branch places the highest judicial power in the Supreme Court. One responsibility of the judicial branch is to decide if government laws and actions follow the Constitution. This is a very important responsibility."
+    },
+    {
+      "Id": 14,
+      "Text": "What stops one branch of government from becoming too powerful?",
+      "Answers": [
+        "checks and balances",
+        "separation of powers "
+      ],
+      "AdditionalInfo": "The Constitution separates the government’s power into three branches to prevent one person or group from having too much power. The separation of government into three branches creates a system of checks and balances. This means that each branch can block, or threaten to block, the actions of the other branches. Here are some examples: the Senate (part of the legislative branch) can block a treaty signed by the president (the executive branch). In this example, the legislative branch is \"checking\" the executive. The U.S. Supreme Court (the judicial branch) can reject a law passed by Congress (the legislative branch). In this example, the judicial branch is \"checking\" the legislative branch. This separation of powers limits the power of the government and prevents the government from violating the rights of the people."
+    },
+    {
+      "Id": 15,
+      "Text": "Who is in charge of the executive branch?",
+      "Answers": [
+        "the President"
+      ],
+      "AdditionalInfo": "The job of the executive branch is to carry out, or execute, federal laws and enforce laws passed by Congress. The head of the executive branch is the president. The president is both the head of state and the head of government. The president’s powers include the ability to sign treaties with other countries and to select ambassadors to represent the United States around the world. The president also sets national policies and proposes laws to Congress. The president names the top leaders of the federal departments. When there is a vacancy on the Supreme  Court, the president names a new member. However, the Senate has the power to reject the president’s choices. This limit on the power of the president is an example of checks and balances."
+    },
+    {
+      "Id": 16,
+      "Text": "Who makes federal laws?",
+      "Answers": [
+        "Congress",
+        "Senate and House (of Representatives)",
+        "(U.S. or national) legislature "
+      ],
+      "AdditionalInfo": "Congress makes federal laws. A federal law usually applies to all states and all people in the United States. Either side of Congress—the Senate or the House of Representatives—can propose a bill to address an issue. When the Senate proposes a bill, it sends the bill to a Senate committee. The Senate committee studies the issue and the bill. When the House of Representatives proposes a bill, it sends the bill to a House of Representatives committee. The committee studies the bill and sometimes makes changes to it. Then the bill goes to the full House or Senate for consideration. When each chamber passes its own version of the bill, it often goes to a \"conference committee.\" The conference committee has members from both the House and the Senate. This committee discusses the bill, tries to resolve the differences, and writes a report with the final version of the bill. Then the committee sends the final version of the bill back to both houses for approval. If both houses approve the bill, it is considered \"enrolled.\" An enrolled bill goes to the president to be signed into law. If the president signs the bill, it becomes a federal law."
+    },
+    {
+      "Id": 17,
+      "Text": "What are the two parts of the U.S. Congress?*",
+      "Answers": [
+        "the Senate and House (of Representatives)"
+      ],
+      "AdditionalInfo": "Congress is divided into two parts—the Senate and the House of Representatives. Because it has two \"chambers,\" the U.S. Congress is known as a \"bicameral\" legislature. The system of checks and balances works in Congress. Specific powers are assigned to each of these chambers. For example, only the Senate has the power to reject a treaty signed by the president or a person the president chooses to serve on the Supreme Court. Only the House of Representatives has the power to introduce a bill that requires Americans to pay taxes."
+    },
+    {
+      "Id": 18,
+      "Text": "How many U.S. Senators are there?",
+      "Answers": [
+        "one hundred (100)"
+      ],
+      "AdditionalInfo": "There are 100 senators in Congress, two from each state. All states have equal power in the Senate because each state has the same number of senators. States with a very small population have the same number of senators as states with very large populations. The Framers of the Constitution made sure that the Senate would be small. This would keep it more orderly than the larger House of Representatives. As James Madison wrote in Federalist Paper #63, the Senate should be a \"temperate and respectable body of citizens\" that operates in a \"cool and deliberate\" way."
+    },
+    {
+      "Id": 19,
+      "Text": "We elect a U.S. Senator for how many years?",
+      "Answers": [
+        "six (6)"
+      ],
+      "AdditionalInfo": "The Framers of the Constitution wanted senators to be independent from public opinion. They thought a fairly long, six-year term would give them this protection. They also wanted longer Senate terms to balance the shorter two-year terms of the members of the House, who would more closely follow public opinion. The Constitution puts no limit on the number of terms a senator may serve. Elections for U.S. senators take place on even-numbered years. Every two years, one-third of the senators are up for election."
+    },
+    {
+      "Id": 20,
+      "Text": "Who is one of your state’s U.S. Senators now?*",
+      "Answers": [
+        "Answers will vary. [District of Columbia residents and residents of U.S. territories should answer that D.C. (or the territory where the applicant lives) has no U.S. Senators.]"
+      ],
+      "AdditionalInfo": "For a complete list of U.S. senators and the states they represent, go to www.senate.gov."
+    },
+    {
+      "Id": 21,
+      "Text": "The House of Representatives has how many voting members?",
+      "Answers": [
+        "four hundred thirty-five (435) "
+      ],
+      "AdditionalInfo": "The House of Representatives is the larger chamber of Congress. Since 1912, the House of Representatives has had 435 voting members. However, the distribution of members among the states has changed over the years. Each state must have at least one representative in the House. Beyond that, the number of representatives from each state depends on the population of the state. The Constitution says that the government will conduct a census of the population every 10 years to count the number of people in each state. The results of the census are used to recalculate the number of representatives each state should have. For example, if one state gains many residents that state could get one or more new representatives. If another state loses residents, that state could lose one or more. But the total number of voting U.S. representatives does not change."
+    },
+    {
+      "Id": 22,
+      "Text": "We elect a U.S. Representative for how many years?",
+      "Answers": [
+        "two (2)"
+      ],
+      "AdditionalInfo": "People who live in a representative’s district are called \"constituents.\" Representatives tend to reflect the views of their constituents. If representatives do not do this, they may be voted out of office. The Framers of the Constitution believed that short two-year terms and frequent elections would keep representatives close to their constituents, public opinion, and more aware of local and community concerns. The Constitution puts no limit on the number of terms a representative may serve. All representatives are up for election every two years."
+    },
+    {
+      "Id": 23,
+      "Text": "Name your U.S. Representative.",
+      "Answers": [
+        "Answers will vary. [Residents of territories with nonvoting Delegates or Resident Commissioners may provide the name of that Delegate or Commissioner. Also acceptable is any statement that the territory has no (voting) Representatives in Congress.]"
+      ],
+      "AdditionalInfo": "For a complete list of U.S. representatives and the districts they represent, go to www.house.gov."
+    },
+    {
+      "Id": 24,
+      "Text": "Who does a U.S. Senator represent?",
+      "Answers": [
+        "all people of the state"
+      ],
+      "AdditionalInfo": "Senators are elected to serve the people of their state for six years. Each of the two senators represents the entire state. Before the 17th Amendment to the Constitution was ratified in 1913, the state legislatures elected the U.S. senators to represent their state. Now, all the voters in a state elect their two U.S. senators directly."
+    },
+    {
+      "Id": 25,
+      "Text": "Why do some states have more Representatives than other states?",
+      "Answers": [
+        "(because of) the state’s population",
+        "(because) they have more people",
+        "(because) some states have more people"
+      ],
+      "AdditionalInfo": "The Founding Fathers wanted people in all states to be represented fairly. In the House of Representatives, a state’s population determines the number of representatives it has. In this way, states with many people have a stronger voice in the House. In the Senate, every state has the same number of senators. This means that states with few people still have a strong voice in the national government."
+    },
+    {
+      "Id": 26,
+      "Text": "We elect a President for how many years?",
+      "Answers": [
+        "four (4) "
+      ],
+      "AdditionalInfo": "Early American leaders thought that the head of the British government, the king, had too much power. Because of this, they limited the powers of the head of the new U.S. government. They decided that the people would elect the president every four years.  The president is the only official elected by the entire country through the Electoral College. The Electoral College is a process that was designed by the writers of the Constitution to select presidents. It came from a compromise between the president being elected directly by the people and the president being chosen by Congress. Citizens vote for electors, who then choose the president. Before 1951, there was no limit on the number of terms a president could serve. With the 22nd Amendment to the Constitution, the president can only be elected to two terms (four years each) for a total of eight years."
+    },
+    {
+      "Id": 27,
+      "Text": "In what month do we vote for President?*",
+      "Answers": [
+        "November"
+      ],
+      "AdditionalInfo": "The Constitution did not set a national election day. In the past, elections for federal office took place on different days in different states. In 1845, Congress passed legislation to designate a single day for all Americans to vote. It made Election Day the Tuesday after the first Monday in November. Congress chose November because the United States was mostly rural. By November, farmers had completed their harvests and were available to vote. Another reason for this date was the weather. People were able to travel because it was not yet winter. They chose Tuesday for Election Day so that voters had a full day after Sunday to travel to the polls."
+    },
+    {
+      "Id": 28,
+      "Text": " What is the name of the President of the United States now?*",
+      "Answers": [
+        "Donald J. Trump",
+        "Donald ",
+        "Trump"
+      ],
+      "AdditionalInfo": "Donald J. Trump is the 45th president of the United States. As president he is the head of the executive branch. As commander in chief, he is also in charge of the military. Trump was born in New York on June 14, 1946. He graduated from the Wharton School of Finance at the University of Pennsylvania. He is an American businessman and author. President Trump’s wife, called \"the First Lady,\" is Melania Trump."
+    },
+    {
+      "Id": 29,
+      "Text": "What is the name of the Vice President of the United States now?",
+      "Answers": [
+        "Michael R. Pence",
+        "Mike Pence",
+        "Pence"
+      ],
+      "AdditionalInfo": "Michael (Mike) R. Pence is the 48th vice president of the United States. Pence was born June 7, 1959, in Indiana. He graduated from Hanover College. He also studied law and graduated from the Robert H. McKinney School of Law at Indiana University. Pence was first elected to the U.S. House of Representatives in 2000. In 2012, Pence was elected governor of Indiana. As vice president, Pence is president of the U.S. Senate and a top advisor to the president. Vice President Pence is married to Karen Pence."
+    },
+    {
+      "Id": 30,
+      "Text": "If the President can no longer serve, who becomes President?",
+      "Answers": [
+        "the Vice President"
+      ],
+      "AdditionalInfo": "If the president dies, resigns, or cannot work while still in office, the vice president becomes president. For this reason, the qualifications for vice president and president are the same. A vice president became president nine times in U.S. history when the president died or left office. William Henry Harrison died in office in 1841. Zachary Taylor died in office in 1850. Abraham Lincoln was killed in office in 1865. James Garfield was killed in office in 1881. William McKinley was killed in office in 1901. Warren Harding died in office in 1923. Franklin Roosevelt died in office in 1945. John F. Kennedy was killed in office in 1963. Richard Nixon resigned from office in 1974. No one other than the vice president has ever succeeded to the presidency."
+    },
+    {
+      "Id": 31,
+      "Text": "If both the President and the Vice President can no longer serve, who becomes President?",
+      "Answers": [
+        "the Speaker of the House"
+      ],
+      "AdditionalInfo": "If both the president and vice president cannot serve, the next person in line is the speaker of the House of Representatives. This has not always been the procedure. Soon after the country was founded, a law was passed that made the Senate president pro tempore the next in line after the president and vice president. The president pro tempore presides over the Senate when the vice president is not there. Later in U.S. history, the secretary of state was third in line. With the Presidential Succession Act of 1947, Congress returned to the original idea of having a congressional leader next in line. In 1967, the 25th Amendment was ratified. It established procedures for presidential and vice presidential succession."
+    },
+    {
+      "Id": 32,
+      "Text": "Who is the Commander in Chief of the military?",
+      "Answers": [
+        "the President"
+      ],
+      "AdditionalInfo": "The Founding Fathers strongly believed in republican ideals. A republic is a government where a country’s political power comes from the citizens, not the rulers, and is put into use by representatives elected by the citizens. That is why they made the president the commander in chief. They wanted a civilian selected by the people. They did not want a professional military leader. The president commands the armed forces, but Congress has the power to pay for the armed forces and declare war. In 1973, many members of Congress believed that the president was misusing or abusing his powers as commander in chief. They thought that the president was ignoring the legislative branch and not allowing the system of checks and balances to work. In response, Congress passed the War Powers Act. The War Powers Act gave Congress a stronger voice in decisions about the use of U.S. troops. President Richard Nixon vetoed this bill, but Congress overrode his veto. Because we have a system of checks and balances, one branch of government is able to check the other branches."
+    },
+    {
+      "Id": 33,
+      "Text": "Who signs bills to become laws?",
+      "Answers": [
+        "the President"
+      ],
+      "AdditionalInfo": "Every law begins as a proposal made by a member of Congress, either a senator (member of the Senate) or representative (member of the House of Representatives). When the Senate or House begins to debate the proposal, it is called a \"bill.\" After debate in both houses of Congress, if a majority of both the Senate and House vote to pass the bill, it goes to the president. If the president wants the bill to become law, he signs it. If the president does not want the bill to become law, he vetoes it. The president cannot introduce a bill. If he has an idea for a bill, he must ask a member of Congress to introduce it."
+    },
+    {
+      "Id": 34,
+      "Text": "Who vetoes bills?",
+      "Answers": [
+        "the President"
+      ],
+      "AdditionalInfo": "The president has veto power. This means that the president can reject a bill passed by Congress. If the president vetoes a bill, he prevents it from becoming a law. The president can send the bill back to Congress unsigned. Often he will list reasons why he rejects it. The president has 10 days to evaluate the bill. If the president does not sign the bill after 10 days and Congress is in session, the bill automatically becomes a law. If the president does nothing with the bill and Congress adjourns within the 10-day period, the bill does not become law—this is called a \"pocket veto.\" If two-thirds of the House and two-thirds of the Senate vote to pass the bill again, the bill becomes a law, even though the president did not sign it. This process is called \"overriding the president's veto.\" It is not easy to do."
+    },
+    {
+      "Id": 35,
+      "Text": "What does the President's Cabinet do?",
+      "Answers": [
+        "advises the President"
+      ],
+      "AdditionalInfo": "The Constitution says that the leaders of the executive departments should advise the president. These department leaders, most of them called \"secretaries,\" make up the cabinet. The president nominates the cabinet members to be his advisors. For a nominee to be confirmed, a majority of the Senate must approve the nominee. Throughout history, presidents have been able to change who makes up the cabinet or add departments to the cabinet. For example, when the Department of Homeland Security was created, President George W. Bush added the leader of this department to his cabinet."
+    },
+    {
+      "Id": 36,
+      "Text": "What are two Cabinet-level positions?",
+      "Answers": [
+        "Secretary of Agriculture",
+        "Secretary of Commerce",
+        "Secretary of Defense",
+        "Secretary of Education",
+        "Secretary of Energy",
+        "Secretary of Health and Human Services",
+        "Secretary of Homeland Security",
+        "Secretary of Housing and Urban Development",
+        "Secretary of the Interior",
+        "Secretary of Labor",
+        "Secretary of State",
+        "Secretary of Transportation",
+        "Secretary of the Treasury",
+        "Secretary of Veterans Affairs",
+        "Attorney General",
+        "Vice President"
+      ],
+      "AdditionalInfo": "The people on the president's cabinet are the vice president and the heads of the 15 executive departments. The president may appoint other government officials to the cabinet. When George Washington was president, there were only four cabinet members: the secretary of state, secretary of the treasury, secretary of war, and attorney general. The government established the other executive departments later."
+    },
+    {
+      "Id": 37,
+      "Text": "What does the judicial branch do?",
+      "Answers": [
+        "reviews laws",
+        "explains laws",
+        "resolves disputes (disagreements)",
+        "decides if a law goes against the Constitution "
+      ],
+      "AdditionalInfo": "The judicial branch is one of the three branches of government. The Constitution established the judicial branch of government with the creation of the Supreme Court. Congress created the other federal courts. All these courts together make up the judicial branch. The courts review and explain the laws, and they resolve disagreements about the meaning of the law. The U.S. Supreme Court makes sure that laws are consistent with the Constitution. If a law is not consistent with the Constitution, the Court can declare it unconstitutional. In this case, the Court rejects the law. The Supreme Court makes the final decision about all cases that have to do with federal laws and treaties. It also rules on other cases, such as disagreements between states."
+    },
+    {
+      "Id": 38,
+      "Text": "What is the highest court in the United States?",
+      "Answers": [
+        "the Supreme Court"
+      ],
+      "AdditionalInfo": "The U.S. Supreme Court has complete authority over all federal courts. Its rulings have a significant effect. A Supreme Court ruling can affect the outcome of many cases in the lower courts. The Supreme Court’s interpretations of federal laws and of the Constitution are final. The Supreme Court is limited in its power over the states. It cannot make decisions about state law or state constitutions. The Court can decide that a state law or action conflicts with federal law or with the U.S. Constitution. If this happens, the state law becomes invalid. The Supreme Court case ruling Marbury v. Madison established this power, known as “judicial review.” The Supreme Court also rules on cases about significant social and public policy issues that affect all Americans. The Supreme Court ruled on the court case Brown v. the Board of Education of Topeka, which ended racial segregation in schools."
+    },
+    {
+      "Id": 39,
+      "Text": "How many justices are on the Supreme Court?",
+      "Answers": [
+        "nine (9)"
+      ],
+      "AdditionalInfo": "The Constitution does not establish the number of justices on the Supreme Court. In the past, there have been as many as 10 and as few as six justices. Now, there are nine justices on the Supreme Court: eight associate justices and one chief justice. The Constitution gives the president the power to nominate justices to the Supreme Court. The nominee must then be confirmed by the Senate. Justices serve on the court for life or until they retire. For more information on the Supreme Court, go to www.supremecourt.gov"
+    },
+    {
+      "Id": 40,
+      "Text": "Who is the Chief Justice of the United States now?",
+      "Answers": [
+        "John Roberts (John G. Roberts, Jr.)"
+      ],
+      "AdditionalInfo": "John G. Roberts, Jr. is the 17th chief justice of the United States. After the death of former chief justice William Rehnquist in September 2005, President George W. Bush nominated Roberts for this position. Judge Roberts became chief justice when he was 50. He is the youngest chief justice since 1801, when John Marshall became chief justice at the age of 45. Before he became chief justice, Judge Roberts served on the U.S. Court of Appeals for the District of Columbia Circuit. Although the chief justice of the United States is the highest official in the judicial branch, his vote on the Supreme Court carries the same weight as the other justices."
+    },
+    {
+      "Id": 41,
+      "Text": "Under our Constitution, some powers belong to the federal government. What is one power of the federal government?",
+      "Answers": [
+        "to print money",
+        "to declare war",
+        "to create an army",
+        "to make treaties"
+      ],
+      "AdditionalInfo": "The powers of government are divided between the federal government and the state governments. The federal government is known as a limited government. Its powers are restricted to those described in the U.S. Constitution. The Constitution gives the federal government the power to print money, declare war, create an army, and make treaties with other nations. Most other powers that are not given to the federal government in the Constitution belong to the states."
+    },
+    {
+      "Id": 42,
+      "Text": "Under our Constitution, some powers belong to the states. What is one power of the states? ",
+      "Answers": [
+        "provide schooling and education",
+        "provide protection (police)",
+        "provide safety (fire departments)",
+        "give a driver’s license",
+        "approve zoning and land use"
+      ],
+      "AdditionalInfo": "In the United States, the federal and state governments both hold power. Before the Constitution, the 13 colonies governed themselves individually much like state governments. It was not until the Articles of Confederation and then the Constitution that a national or federal government was established. Today, although each state has its own constitution, these state constitutions cannot conflict with the U.S. Constitution. The U.S. Constitution is the supreme law of the land. The state governments hold powers not given to the federal government in the U.S. Constitution. Some powers of the state government are the power to create traffic regulations and marriage requirements, and to issue driver’s licenses. The Constitution also provides a list of powers that the states do not have. For example, states cannot coin (create) money. The state and federal governments also share some powers, such as the ability to tax people."
+    },
+    {
+      "Id": 43,
+      "Text": "Who is the Governor of your state now?",
+      "Answers": [
+        "Answers will vary. [District of Columbia residents should answer that D.C. does not have a Governor.] "
+      ],
+      "AdditionalInfo": "To learn the name of the governor of your state or territory, go to www.nga.org/governors. Similar to the federal government, most states have three branches of government. The branches are executive, legislative, and judicial. The governor is the chief executive of the state. The governor’s job in a state government is similar to the president’s job in the federal government. However, the state laws that a governor carries out are different from the federal laws that the president carries out. The Constitution says that certain issues are covered by federal, not state, laws. All other issues are covered by state laws. The governor’s duties and powers vary from state to state. The number of years that a governor is elected to serve—called a \"term\"—is four years. The exceptions are New Hampshire and Vermont, where governors serve for two years."
+    },
+    {
+      "Id": 44,
+      "Text": "What is the capital of your state?*",
+      "Answers": [
+        "Answers will vary. [District of Columbia residents should answer that D.C. is not a state and does not have a capital. Residents of U.S. territories should name the capital of the territory.] "
+      ],
+      "AdditionalInfo": "To learn the capital of your state or territory, go to http://www.census.gov/schools/facts. Each state or territory has its own capital. The state capital is where the state government conducts its business. It is similar to the nation’s capital, Washington, D.C., where the federal government conducts its business. Some state capitals have moved from one city to another over the years, but the state capitals have not changed since 1910. Usually, the governor lives in the state’s capital city."
+    },
+    {
+      "Id": 45,
+      "Text": "What are the two major political parties in the United States?*",
+      "Answers": [
+        "Democratic and Republican"
+      ],
+      "AdditionalInfo": "The Constitution did not establish political parties. President George Washington specifically warned against them. But early in U.S. history, two political groups developed. They were the Democratic-Republicans and the Federalists. Today, the two major political parties are the Democratic Party and the Republican Party. President Andrew Jackson created the Democratic Party from the Democratic-Republicans. The Republican Party took over from the Whigs as a major party in the 1860s. The first Republican president was Abraham Lincoln. Throughout U.S. history, there have been other parties. These parties have included the Know-Nothing (also called American Party), Bull-Moose (also called Progressive), Reform, and Green parties. They have played various roles in American politics. Political party membership in the United States is voluntary. Parties are made up of people who organize to promote their candidates for election and to promote their views about public policies."
+    },
+    {
+      "Id": 46,
+      "Text": "What is the political party of the President now?",
+      "Answers": [
+        "Republican (Party)"
+      ],
+      "AdditionalInfo": "The two major political parties in the United States today are the Democratic and Republican parties. The current president, Donald Trump, is a member of the Republican Party. Other notable Republican presidents include Abraham Lincoln, Theodore Roosevelt, Warren Harding, Herbert Hoover, Dwight Eisenhower, Ronald Reagan, George H. W. Bush, and George W. Bush. Notable Democratic presidents include Woodrow Wilson, Franklin D. Roosevelt, Harry Truman, John F. Kennedy, Lyndon B. Johnson, Jimmy Carter, William \"Bill\" Clinton, and Barack Obama. Since the middle of the 19th century, the symbol of the Republican Party has been the elephant. The Republican Party is also known as the \"Grand Old Party\" or the \"GOP.\" The symbol of the Democratic Party is the donkey."
+    },
+    {
+      "Id": 47,
+      "Text": "What is the name of the Speaker of the House of Representatives now?",
+      "Answers": [
+        "Paul D. Ryan",
+        "(Paul) Ryan"
+      ],
+      "AdditionalInfo": "The current speaker of the House of Representatives is Paul D. Ryan. He has represented Wisconsin's First Congressional District in the House of Representatives since 1999. As speaker, he presides over the House of Representatives and leads the majority political party in the House, the Republican Party. The speaker is second in line to the succession of the presidency after the vice president."
+    }
+  ]
+}
+
+/*    
+,
+    {
+      "Id": 48,
+      "Text": "",
+      "Answers": [
+        ""
+      ],
+      "AdditionalInfo": ""
+    },
+    {
+      "Id": 49,
+      "Text": "",
+      "Answers": [
+        ""
+      ],
+      "AdditionalInfo": ""
+    },
+    {
+      "Id": 50,
+      "Text": "",
+      "Answers": [
+        ""
+      ],
+      "AdditionalInfo": ""
+    },
+    {
+      "Id": 51,
+      "Text": "",
+      "Answers": [
+        ""
+      ],
+      "AdditionalInfo": ""
+    },
+    {
+      "Id": 52,
+      "Text": "",
+      "Answers": [
+        ""
+      ],
+      "AdditionalInfo": ""
+    },
+    {
+      "Id": 53,
+      "Text": "",
+      "Answers": [
+        ""
+      ],
+      "AdditionalInfo": ""
+    },
+    {
+      "Id": 54,
+      "Text": "",
+      "Answers": [
+        ""
+      ],
+      "AdditionalInfo": ""
+    },
+    {
+      "Id": 55,
+      "Text": "",
+      "Answers": [
+        ""
+      ],
+      "AdditionalInfo": ""
+    },
+    {
+      "Id": 56,
+      "Text": "",
+      "Answers": [
+        ""
+      ],
+      "AdditionalInfo": ""
+    },
+    {
+      "Id": 57,
+      "Text": "",
+      "Answers": [
+        ""
+      ],
+      "AdditionalInfo": ""
+    },
+    {
+      "Id": 58,
+      "Text": "",
+      "Answers": [
+        ""
+      ],
+      "AdditionalInfo": ""
+    },
+    {
+      "Id": 59,
+      "Text": "",
+      "Answers": [
+        ""
+      ],
+      "AdditionalInfo": ""
+    },
+    {
+      "Id": 60,
+      "Text": "",
+      "Answers": [
+        ""
+      ],
+      "AdditionalInfo": ""
+    },
+    {
+      "Id": 61,
+      "Text": "",
+      "Answers": [
+        ""
+      ],
+      "AdditionalInfo": ""
+    },
+    {
+      "Id": 62,
+      "Text": "",
+      "Answers": [
+        ""
+      ],
+      "AdditionalInfo": ""
+    },
+    {
+      "Id": 63,
+      "Text": "",
+      "Answers": [
+        ""
+      ],
+      "AdditionalInfo": ""
+    },
+    {
+      "Id": 64,
+      "Text": "",
+      "Answers": [
+        ""
+      ],
+      "AdditionalInfo": ""
+    },
+    {
+      "Id": 65,
+      "Text": "",
+      "Answers": [
+        ""
+      ],
+      "AdditionalInfo": ""
+    },
+    {
+      "Id": 66,
+      "Text": "",
+      "Answers": [
+        ""
+      ],
+      "AdditionalInfo": ""
+    },
+    {
+      "Id": 67,
+      "Text": "",
+      "Answers": [
+        ""
+      ],
+      "AdditionalInfo": ""
+    },
+    {
+      "Id": 68,
+      "Text": "",
+      "Answers": [
+        ""
+      ],
+      "AdditionalInfo": ""
+    },
+    {
+      "Id": 69,
+      "Text": "",
+      "Answers": [
+        ""
+      ],
+      "AdditionalInfo": ""
+    },
+    {
+      "Id": 70,
+      "Text": "",
+      "Answers": [
+        ""
+      ],
+      "AdditionalInfo": ""
+    },
+    {
+      "Id": 71,
+      "Text": "",
+      "Answers": [
+        ""
+      ],
+      "AdditionalInfo": ""
+    },
+    {
+      "Id": 72,
+      "Text": "",
+      "Answers": [
+        ""
+      ],
+      "AdditionalInfo": ""
+    },
+    {
+      "Id": 73,
+      "Text": "",
+      "Answers": [
+        ""
+      ],
+      "AdditionalInfo": ""
+    },
+    {
+      "Id": 74,
+      "Text": "",
+      "Answers": [
+        ""
+      ],
+      "AdditionalInfo": ""
+    },
+    {
+      "Id": 75,
+      "Text": "",
+      "Answers": [
+        ""
+      ],
+      "AdditionalInfo": ""
+    },
+    {
+      "Id": 76,
+      "Text": "",
+      "Answers": [
+        ""
+      ],
+      "AdditionalInfo": ""
+    },
+    {
+      "Id": 77,
+      "Text": "",
+      "Answers": [
+        ""
+      ],
+      "AdditionalInfo": ""
+    },
+    {
+      "Id": 78,
+      "Text": "",
+      "Answers": [
+        ""
+      ],
+      "AdditionalInfo": ""
+    },
+    {
+      "Id": 79,
+      "Text": "",
+      "Answers": [
+        ""
+      ],
+      "AdditionalInfo": ""
+    },
+    {
+      "Id": 80,
+      "Text": "",
+      "Answers": [
+        ""
+      ],
+      "AdditionalInfo": ""
+    },
+    {
+      "Id": 81,
+      "Text": "",
+      "Answers": [
+        ""
+      ],
+      "AdditionalInfo": ""
+    },
+    {
+      "Id": 82,
+      "Text": "",
+      "Answers": [
+        ""
+      ],
+      "AdditionalInfo": ""
+    },
+    {
+      "Id": 83,
+      "Text": "",
+      "Answers": [
+        ""
+      ],
+      "AdditionalInfo": ""
+    },
+    {
+      "Id": 84,
+      "Text": "",
+      "Answers": [
+        ""
+      ],
+      "AdditionalInfo": ""
+    },
+    {
+      "Id": 85,
+      "Text": "",
+      "Answers": [
+        ""
+      ],
+      "AdditionalInfo": ""
+    },
+    {
+      "Id": 86,
+      "Text": "",
+      "Answers": [
+        ""
+      ],
+      "AdditionalInfo": ""
+    },
+    {
+      "Id": 87,
+      "Text": "",
+      "Answers": [
+        ""
+      ],
+      "AdditionalInfo": ""
+    },
+    {
+      "Id": 88,
+      "Text": "",
+      "Answers": [
+        ""
+      ],
+      "AdditionalInfo": ""
+    },
+    {
+      "Id": 89,
+      "Text": "",
+      "Answers": [
+        ""
+      ],
+      "AdditionalInfo": ""
+    },
+    {
+      "Id": 90,
+      "Text": "",
+      "Answers": [
+        ""
+      ],
+      "AdditionalInfo": ""
+    },
+    {
+      "Id": 91,
+      "Text": "",
+      "Answers": [
+        ""
+      ],
+      "AdditionalInfo": ""
+    },
+    {
+      "Id": 92,
+      "Text": "",
+      "Answers": [
+        ""
+      ],
+      "AdditionalInfo": ""
+    },
+    {
+      "Id": 93,
+      "Text": "",
+      "Answers": [
+        ""
+      ],
+      "AdditionalInfo": ""
+    },
+    {
+      "Id": 94,
+      "Text": "",
+      "Answers": [
+        ""
+      ],
+      "AdditionalInfo": ""
+    },
+    {
+      "Id": 95,
+      "Text": "",
+      "Answers": [
+        ""
+      ],
+      "AdditionalInfo": ""
+    },
+    {
+      "Id": 96,
+      "Text": "",
+      "Answers": [
+        ""
+      ],
+      "AdditionalInfo": ""
+    },
+    {
+      "Id": 97,
+      "Text": "",
+      "Answers": [
+        ""
+      ],
+      "AdditionalInfo": ""
+    },
+    {
+      "Id": 98,
+      "Text": "",
+      "Answers": [
+        ""
+      ],
+      "AdditionalInfo": ""
+    },
+    {
+      "Id": 99,
+      "Text": "",
+      "Answers": [
+        ""
+      ],
+      "AdditionalInfo": ""
+    },
+    {
+      "Id": 100,
+      "Text": "",
+      "Answers": [
+        ""
+      ],
+      "AdditionalInfo": ""
+    }
+*/
