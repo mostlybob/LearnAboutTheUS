@@ -224,7 +224,7 @@ func GetTestJSON() string {
 
 func GetTestQuizObject() Quiz {
 	return Quiz{
-		Src: rand.NewSource(time.Now().UnixNano()),
+		Seed: time.Now().UnixNano(),
 		Questions: []Question{
 			Question{
 				Id:             1,

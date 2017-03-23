@@ -10,7 +10,7 @@ import (
 type Quiz struct {
 	About     string
 	Questions []Question
-	Src       QuizSource
+	Seed      int64
 }
 
 type Question struct {
@@ -23,7 +23,7 @@ type Question struct {
 /*
 2017-03-22 1255h
 Made a bit of a mess here. Yes, I know this isn't the Go way
-of doing interfaces - I guess my C# is showing. One thing 
+of doing interfaces - I guess my C# is showing. One thing
 I did learn is that seeding the random number generator
 for getting the flash card question belongs in the quiz itself,
 since seeds only have to be generated once. I spent some time
@@ -36,15 +36,10 @@ about where getRandomNumber is living. I can't see where else
 to put it, but it's feeling like it doesn't belong where it is.
 */
 
-type QuizSource struct {
-	Int63() int64
-    Seed(seed int64)
-}
-
 func (quiz Quiz) GetRandomQuestion() Question {
 	questionIds := quiz.GetQuestionIds()
 
-	index := getRandomNumber(len(questionIds), quiz.Src)
+	index := getRandomNumber(len(questionIds), quiz.Seed)
 
 	questionId := questionIds[index]
 
@@ -115,8 +110,8 @@ func (quiz Quiz) ShowAllQuestions() []string {
 // 	return showQuestions
 // }
 
-func getRandomNumber(upper int, source Source) int {
-	r := rand.New(source)
+func getRandomNumber(upper int, seed int64) int {
+	r := rand.New(rand.NewSource(seed))
 
 	randomNumber := r.Intn(upper)
 
