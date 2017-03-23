@@ -71,9 +71,5 @@ func (quiz Quiz) ShowAllQuestions() []string {
 }
 
 func getRandomNumber(upper int, seed int64) int {
-	r := rand.New(rand.NewSource(seed))
-
-	randomNumber := r.Intn(upper)
-
-	return randomNumber
+	return rand.New(rand.NewSource(seed)).Intn(upper)
 }
