@@ -301,36 +301,54 @@
         "the President"
       ],
       "AdditionalInfo": "The president has veto power. This means that the president can reject a bill passed by Congress. If the president vetoes a bill, he prevents it from becoming a law. The president can send the bill back to Congress unsigned. Often he will list reasons why he rejects it. The president has 10 days to evaluate the bill. If the president does not sign the bill after 10 days and Congress is in session, the bill automatically becomes a law. If the president does nothing with the bill and Congress adjourns within the 10-day period, the bill does not become law—this is called a \"pocket veto.\" If two-thirds of the House and two-thirds of the Senate vote to pass the bill again, the bill becomes a law, even though the president did not sign it. This process is called \"overriding the president's veto.\" It is not easy to do."
+    },
+    {
+      "Id": 35,
+      "Text": "What does the President's Cabinet do?",
+      "Answers": [
+        "advises the President"
+      ],
+      "AdditionalInfo": "The Constitution says that the leaders of the executive departments should advise the president. These department leaders, most of them called \"secretaries,\" make up the cabinet. The president nominates the cabinet members to be his advisors. For a nominee to be confirmed, a majority of the Senate must approve the nominee. Throughout history, presidents have been able to change who makes up the cabinet or add departments to the cabinet. For example, when the Department of Homeland Security was created, President George W. Bush added the leader of this department to his cabinet."
+    },
+    {
+      "Id": 36,
+      "Text": "What are two Cabinet-level positions?",
+      "Answers": [
+        "Secretary of Agriculture",
+        "Secretary of Commerce",
+        "Secretary of Defense",
+        "Secretary of Education",
+        "Secretary of Energy",
+        "Secretary of Health and Human Services",
+        "Secretary of Homeland Security",
+        "Secretary of Housing and Urban Development",
+        "Secretary of the Interior",
+        "Secretary of Labor",
+        "Secretary of State",
+        "Secretary of Transportation",
+        "Secretary of the Treasury",
+        "Secretary of Veterans Affairs",
+        "Attorney General",
+        "Vice President"
+      ],
+      "AdditionalInfo": "The people on the president's cabinet are the vice president and the heads of the 15 executive departments. The president may appoint other government officials to the cabinet. When George Washington was president, there were only four cabinet members: the secretary of state, secretary of the treasury, secretary of war, and attorney general. The government established the other executive departments later."
+    },
+    {
+      "Id": 37,
+      "Text": "What does the judicial branch do?",
+      "Answers": [
+        "reviews laws",
+        "explains laws",
+        "resolves disputes (disagreements)",
+        "decides if a law goes against the Constitution "
+      ],
+      "AdditionalInfo": "The judicial branch is one of the three branches of government. The Constitution established the judicial branch of government with the creation of the Supreme Court. Congress created the other federal courts. All these courts together make up the judicial branch. The courts review and explain the laws, and they resolve disagreements about the meaning of the law. The U.S. Supreme Court makes sure that laws are consistent with the Constitution. If a law is not consistent with the Constitution, the Court can declare it unconstitutional. In this case, the Court rejects the law. The Supreme Court makes the final decision about all cases that have to do with federal laws and treaties. It also rules on other cases, such as disagreements between states."
     }
   ]
 }
 
 /*    
 ,
-    {
-      "Id": 35,
-      "Text": "",
-      "Answers": [
-        ""
-      ],
-      "AdditionalInfo": ""
-    },
-    {
-      "Id": 36,
-      "Text": "",
-      "Answers": [
-        ""
-      ],
-      "AdditionalInfo": ""
-    },
-    {
-      "Id": 37,
-      "Text": "",
-      "Answers": [
-        ""
-      ],
-      "AdditionalInfo": ""
-    },
     {
       "Id": 38,
       "Text": "",
