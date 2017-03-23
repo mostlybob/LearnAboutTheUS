@@ -70,31 +70,6 @@ func (quiz Quiz) ShowAllQuestions() []string {
 	return []string{}
 }
 
-// func ShowAllQuestions() string {
-// 	jsonData := GetQuizJson()
-
-// 	quizDecoder := json.NewDecoder(strings.NewReader(jsonData))
-
-// 	showQuestions := ""
-// 	for {
-// 		var quiz Quiz
-
-// 		if err := quizDecoder.Decode(&quiz); err == io.EOF {
-// 			break
-// 		} else if err != nil {
-// 			fmt.Println("Something weird happened trying to open the data file.")
-// 			panic(fmt.Sprintf("%s", err))
-// 		}
-
-// 		fmt.Printf("Questions:\n")
-// 		for _, question := range quiz.Questions {
-// 			showQuestions += strconv.Itoa(question.Id) + " - " + question.Text + "\n"
-// 		}
-// 	}
-
-// 	return showQuestions
-// }
-
 func getRandomNumber(upper int, seed int64) int {
 	r := rand.New(rand.NewSource(seed))
 
