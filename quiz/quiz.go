@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"math/rand"
 	"strings"
+	"time"
 )
 
 type Quiz struct {
 	About     string
 	Questions []Question
-	Seed      int64
 }
 
 type Question struct {
@@ -37,9 +37,10 @@ to put it, but it's feeling like it doesn't belong where it is.
 */
 
 func (quiz Quiz) GetRandomQuestion() Question {
+	seed := time.Now().UnixNano()
 	questionIds := quiz.GetQuestionIds()
 
-	index := getRandomNumber(len(questionIds), quiz.Seed)
+	index := getRandomNumber(len(questionIds), seed)
 
 	questionId := questionIds[index]
 
