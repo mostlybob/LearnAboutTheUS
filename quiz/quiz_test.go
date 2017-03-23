@@ -7,6 +7,7 @@ import (
 	. "github.com/onsi/gomega"
 
 	"fmt"
+	"time"
 )
 
 var _ = Describe("Quiz", func() {
@@ -170,9 +171,11 @@ var _ = Describe("Quiz", func() {
 					// dictionary is) would do it
 
 					counters[question.Id-1]++
-				}
 
-				fmt.Printf("\n%s: %v\n", "generated array of random questions:", counters)
+					// Force a tiny pause in here for some ticks.
+					// In Windows, test fails without it, perhaps clock is not as precise?
+					time.Sleep(2 * time.Millisecond)
+				}
 
 				for questionId, counterValue := range counters {
 					Expect(counterValue > 0).To(BeTrue(), "question id "+string(questionId)+" was never selected")
