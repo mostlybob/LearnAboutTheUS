@@ -20,8 +20,13 @@ func main() {
 	// question := quiz.GetQuestionById(1)
 	// fmt.Println(question.Text)
 
-	question := learnUs.GetRandomQuestion()
-	fmt.Println(string(question.Id) + " - " + question.Text)
+	ShowAQuestion(learnUs)
+
+}
+
+func ShowAQuestion(quiz quiz.Quiz) {
+	question := quiz.GetRandomQuestion()
+	fmt.Printf("%d - %v\n", question.Id, question.Text)
 	fmt.Println("(press Enter to show answers)")
 
 	var input string
