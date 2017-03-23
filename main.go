@@ -7,21 +7,9 @@ import (
 )
 
 func main() {
-	// questions := ShowAllQuestions()
-	// fmt.Println(questions)
-
-	// question := GetRandomQuestion()
-	// questionId := question.Id
-	// fmt.Println(question.Text)
-
-	// question = GetQuestion(questionId)
-
 	learnUs := quiz.CreateQuizFromJSON(GetQuizJson("data.json"))
-	// question := quiz.GetQuestionById(1)
-	// fmt.Println(question.Text)
 
 	ShowAQuestion(learnUs)
-
 }
 
 func ShowAQuestion(quiz quiz.Quiz) {
