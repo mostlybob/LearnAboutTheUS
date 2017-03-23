@@ -66,10 +66,6 @@ func CreateQuizFromJSON(jsonData string) Quiz {
 	return quiz
 }
 
-func (quiz Quiz) ShowAllQuestions() []string {
-	return []string{}
-}
-
 func getRandomNumber(upper int, seed int64) int {
 	return rand.New(rand.NewSource(seed)).Intn(upper)
 }

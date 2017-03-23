@@ -168,37 +168,18 @@ var _ = Describe("Quiz", func() {
 					// - will need a different way to enumerate the counters
 					// - this way assumes the questions ids are sequential, starting at 1
 					// - thinking something like a map (whatever the golang equivalent of a c#
-					// dictionary is) would do it
+					//   dictionary is) would do it
 
 					counters[question.Id-1]++
 
 					// Force a tiny pause in here for some ticks.
-					// In Windows, test fails without it, perhaps clock is not as precise?
+					// In Windows, test fails without it - perhaps clock is not as precise?
 					time.Sleep(2 * time.Millisecond)
 				}
 
 				for questionId, counterValue := range counters {
 					Expect(counterValue > 0).To(BeTrue(), "question id "+string(questionId)+" was never selected")
 				}
-			})
-
-			It("should be able to display all the questions", func() {
-				// questionIds := testQuiz.GetQuestionIds()
-				// var testQuestionsDisplay []string
-
-				// for _, questionId := range questionIds {
-				// 	questionText := testQuiz.GetQuestionById(questionId)
-				// 	questionsLine := string(questionId) + " - " + questionText.Text
-				// 	testQuestionsDisplay = append(testQuestionsDisplay, questionsLine)
-				// }
-
-				// questions := testQuiz.ShowAllQuestions()
-
-				// for _, question := range questions {
-				// 	Expect(testQuestionsDisplay).To(ContainElement(question))
-				// }
-
-				fmt.Printf("\n%s\n", "(not sure how ShowAllQuestions should behave yet)")
 			})
 		})
 	})
