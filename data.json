@@ -251,36 +251,38 @@
         "Trump"
       ],
       "AdditionalInfo": "Donald J. Trump is the 45th president of the United States. As president he is the head of the executive branch. As commander in chief, he is also in charge of the military. Trump was born in New York on June 14, 1946. He graduated from the Wharton School of Finance at the University of Pennsylvania. He is an American businessman and author. President Trump’s wife, called \"the First Lady,\" is Melania Trump."
+    },
+    {
+      "Id": 29,
+      "Text": "What is the name of the Vice President of the United States now?",
+      "Answers": [
+        "Michael R. Pence",
+        "Mike Pence",
+        "Pence"
+      ],
+      "AdditionalInfo": "Michael (Mike) R. Pence is the 48th vice president of the United States. Pence was born June 7, 1959, in Indiana. He graduated from Hanover College. He also studied law and graduated from the Robert H. McKinney School of Law at Indiana University. Pence was first elected to the U.S. House of Representatives in 2000. In 2012, Pence was elected governor of Indiana. As vice president, Pence is president of the U.S. Senate and a top advisor to the president. Vice President Pence is married to Karen Pence."
+    },
+    {
+      "Id": 30,
+      "Text": "If the President can no longer serve, who becomes President?",
+      "Answers": [
+        "the Vice President"
+      ],
+      "AdditionalInfo": "If the president dies, resigns, or cannot work while still in office, the vice president becomes president. For this reason, the qualifications for vice president and president are the same. A vice president became president nine times in U.S. history when the president died or left office. William Henry Harrison died in office in 1841. Zachary Taylor died in office in 1850. Abraham Lincoln was killed in office in 1865. James Garfield was killed in office in 1881. William McKinley was killed in office in 1901. Warren Harding died in office in 1923. Franklin Roosevelt died in office in 1945. John F. Kennedy was killed in office in 1963. Richard Nixon resigned from office in 1974. No one other than the vice president has ever succeeded to the presidency."
+    },
+    {
+      "Id": 31,
+      "Text": "If both the President and the Vice President can no longer serve, who becomes President?",
+      "Answers": [
+        "the Speaker of the House"
+      ],
+      "AdditionalInfo": "If both the president and vice president cannot serve, the next person in line is the speaker of the House of Representatives. This has not always been the procedure. Soon after the country was founded, a law was passed that made the Senate president pro tempore the next in line after the president and vice president. The president pro tempore presides over the Senate when the vice president is not there. Later in U.S. history, the secretary of state was third in line. With the Presidential Succession Act of 1947, Congress returned to the original idea of having a congressional leader next in line. In 1967, the 25th Amendment was ratified. It established procedures for presidential and vice presidential succession."
     }
   ]
 }
 
 /*    
 ,
-    {
-      "Id": 29,
-      "Text": "",
-      "Answers": [
-        ""
-      ],
-      "AdditionalInfo": ""
-    },
-    {
-      "Id": 30,
-      "Text": "",
-      "Answers": [
-        ""
-      ],
-      "AdditionalInfo": ""
-    },
-    {
-      "Id": 31,
-      "Text": "",
-      "Answers": [
-        ""
-      ],
-      "AdditionalInfo": ""
-    },
     {
       "Id": 32,
       "Text": "",
