@@ -277,36 +277,36 @@
         "the Speaker of the House"
       ],
       "AdditionalInfo": "If both the president and vice president cannot serve, the next person in line is the speaker of the House of Representatives. This has not always been the procedure. Soon after the country was founded, a law was passed that made the Senate president pro tempore the next in line after the president and vice president. The president pro tempore presides over the Senate when the vice president is not there. Later in U.S. history, the secretary of state was third in line. With the Presidential Succession Act of 1947, Congress returned to the original idea of having a congressional leader next in line. In 1967, the 25th Amendment was ratified. It established procedures for presidential and vice presidential succession."
+    },
+    {
+      "Id": 32,
+      "Text": "Who is the Commander in Chief of the military?",
+      "Answers": [
+        "the President"
+      ],
+      "AdditionalInfo": "The Founding Fathers strongly believed in republican ideals. A republic is a government where a country’s political power comes from the citizens, not the rulers, and is put into use by representatives elected by the citizens. That is why they made the president the commander in chief. They wanted a civilian selected by the people. They did not want a professional military leader. The president commands the armed forces, but Congress has the power to pay for the armed forces and declare war. In 1973, many members of Congress believed that the president was misusing or abusing his powers as commander in chief. They thought that the president was ignoring the legislative branch and not allowing the system of checks and balances to work. In response, Congress passed the War Powers Act. The War Powers Act gave Congress a stronger voice in decisions about the use of U.S. troops. President Richard Nixon vetoed this bill, but Congress overrode his veto. Because we have a system of checks and balances, one branch of government is able to check the other branches."
+    },
+    {
+      "Id": 33,
+      "Text": "Who signs bills to become laws?",
+      "Answers": [
+        "the President"
+      ],
+      "AdditionalInfo": "Every law begins as a proposal made by a member of Congress, either a senator (member of the Senate) or representative (member of the House of Representatives). When the Senate or House begins to debate the proposal, it is called a \"bill.\" After debate in both houses of Congress, if a majority of both the Senate and House vote to pass the bill, it goes to the president. If the president wants the bill to become law, he signs it. If the president does not want the bill to become law, he vetoes it. The president cannot introduce a bill. If he has an idea for a bill, he must ask a member of Congress to introduce it."
+    },
+    {
+      "Id": 34,
+      "Text": "Who vetoes bills?",
+      "Answers": [
+        "the President"
+      ],
+      "AdditionalInfo": "The president has veto power. This means that the president can reject a bill passed by Congress. If the president vetoes a bill, he prevents it from becoming a law. The president can send the bill back to Congress unsigned. Often he will list reasons why he rejects it. The president has 10 days to evaluate the bill. If the president does not sign the bill after 10 days and Congress is in session, the bill automatically becomes a law. If the president does nothing with the bill and Congress adjourns within the 10-day period, the bill does not become law—this is called a \"pocket veto.\" If two-thirds of the House and two-thirds of the Senate vote to pass the bill again, the bill becomes a law, even though the president did not sign it. This process is called \"overriding the president's veto.\" It is not easy to do."
     }
   ]
 }
 
 /*    
 ,
-    {
-      "Id": 32,
-      "Text": "",
-      "Answers": [
-        ""
-      ],
-      "AdditionalInfo": ""
-    },
-    {
-      "Id": 33,
-      "Text": "",
-      "Answers": [
-        ""
-      ],
-      "AdditionalInfo": ""
-    },
-    {
-      "Id": 34,
-      "Text": "",
-      "Answers": [
-        ""
-      ],
-      "AdditionalInfo": ""
-    },
     {
       "Id": 35,
       "Text": "",
