@@ -390,52 +390,53 @@
         "approve zoning and land use"
       ],
       "AdditionalInfo": "In the United States, the federal and state governments both hold power. Before the Constitution, the 13 colonies governed themselves individually much like state governments. It was not until the Articles of Confederation and then the Constitution that a national or federal government was established. Today, although each state has its own constitution, these state constitutions cannot conflict with the U.S. Constitution. The U.S. Constitution is the supreme law of the land. The state governments hold powers not given to the federal government in the U.S. Constitution. Some powers of the state government are the power to create traffic regulations and marriage requirements, and to issue driver’s licenses. The Constitution also provides a list of powers that the states do not have. For example, states cannot coin (create) money. The state and federal governments also share some powers, such as the ability to tax people."
+    },
+    {
+      "Id": 43,
+      "Text": "Who is the Governor of your state now?",
+      "Answers": [
+        "Answers will vary. [District of Columbia residents should answer that D.C. does not have a Governor.] "
+      ],
+      "AdditionalInfo": "To learn the name of the governor of your state or territory, go to www.nga.org/governors. Similar to the federal government, most states have three branches of government. The branches are executive, legislative, and judicial. The governor is the chief executive of the state. The governor’s job in a state government is similar to the president’s job in the federal government. However, the state laws that a governor carries out are different from the federal laws that the president carries out. The Constitution says that certain issues are covered by federal, not state, laws. All other issues are covered by state laws. The governor’s duties and powers vary from state to state. The number of years that a governor is elected to serve—called a \"term\"—is four years. The exceptions are New Hampshire and Vermont, where governors serve for two years."
+    },
+    {
+      "Id": 44,
+      "Text": "What is the capital of your state?*",
+      "Answers": [
+        "Answers will vary. [District of Columbia residents should answer that D.C. is not a state and does not have a capital. Residents of U.S. territories should name the capital of the territory.] "
+      ],
+      "AdditionalInfo": "To learn the capital of your state or territory, go to http://www.census.gov/schools/facts. Each state or territory has its own capital. The state capital is where the state government conducts its business. It is similar to the nation’s capital, Washington, D.C., where the federal government conducts its business. Some state capitals have moved from one city to another over the years, but the state capitals have not changed since 1910. Usually, the governor lives in the state’s capital city."
+    },
+    {
+      "Id": 45,
+      "Text": "What are the two major political parties in the United States?*",
+      "Answers": [
+        "Democratic and Republican"
+      ],
+      "AdditionalInfo": "The Constitution did not establish political parties. President George Washington specifically warned against them. But early in U.S. history, two political groups developed. They were the Democratic-Republicans and the Federalists. Today, the two major political parties are the Democratic Party and the Republican Party. President Andrew Jackson created the Democratic Party from the Democratic-Republicans. The Republican Party took over from the Whigs as a major party in the 1860s. The first Republican president was Abraham Lincoln. Throughout U.S. history, there have been other parties. These parties have included the Know-Nothing (also called American Party), Bull-Moose (also called Progressive), Reform, and Green parties. They have played various roles in American politics. Political party membership in the United States is voluntary. Parties are made up of people who organize to promote their candidates for election and to promote their views about public policies."
+    },
+    {
+      "Id": 46,
+      "Text": "What is the political party of the President now?",
+      "Answers": [
+        "Republican (Party)"
+      ],
+      "AdditionalInfo": "The two major political parties in the United States today are the Democratic and Republican parties. The current president, Donald Trump, is a member of the Republican Party. Other notable Republican presidents include Abraham Lincoln, Theodore Roosevelt, Warren Harding, Herbert Hoover, Dwight Eisenhower, Ronald Reagan, George H. W. Bush, and George W. Bush. Notable Democratic presidents include Woodrow Wilson, Franklin D. Roosevelt, Harry Truman, John F. Kennedy, Lyndon B. Johnson, Jimmy Carter, William \"Bill\" Clinton, and Barack Obama. Since the middle of the 19th century, the symbol of the Republican Party has been the elephant. The Republican Party is also known as the \"Grand Old Party\" or the \"GOP.\" The symbol of the Democratic Party is the donkey."
+    },
+    {
+      "Id": 47,
+      "Text": "What is the name of the Speaker of the House of Representatives now?",
+      "Answers": [
+        "Paul D. Ryan",
+        "(Paul) Ryan"
+      ],
+      "AdditionalInfo": "The current speaker of the House of Representatives is Paul D. Ryan. He has represented Wisconsin's First Congressional District in the House of Representatives since 1999. As speaker, he presides over the House of Representatives and leads the majority political party in the House, the Republican Party. The speaker is second in line to the succession of the presidency after the vice president."
     }
   ]
 }
 
 /*    
 ,
-    {
-      "Id": 43,
-      "Text": "",
-      "Answers": [
-        ""
-      ],
-      "AdditionalInfo": ""
-    },
-    {
-      "Id": 44,
-      "Text": "",
-      "Answers": [
-        ""
-      ],
-      "AdditionalInfo": ""
-    },
-    {
-      "Id": 45,
-      "Text": "",
-      "Answers": [
-        ""
-      ],
-      "AdditionalInfo": ""
-    },
-    {
-      "Id": 46,
-      "Text": "",
-      "Answers": [
-        ""
-      ],
-      "AdditionalInfo": ""
-    },
-    {
-      "Id": 47,
-      "Text": "",
-      "Answers": [
-        ""
-      ],
-      "AdditionalInfo": ""
-    },
     {
       "Id": 48,
       "Text": "",
