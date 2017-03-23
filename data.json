@@ -7,8 +7,13 @@
       "Answers": [
         "the Constitution"
       ],
-      "AdditionalInfo": "The Founding Fathers of the United States wrote the Constitution in 1787. The Constitution is the /"supreme law of the land./" The U.S. Constitution has lasted longer than any other country’s constitution. It establishes the basic principles of the United States government. The Constitution establishes a system of government called /"representative democracy./" In a representative democracy, citizens choose representatives to make the laws. U.S. citizens also choose a president to lead the executive branch of government. The Constitution lists fundamental rights for all citizens and other people living in the United States. Laws made in the United States must follow the Constitution."
-    },
+      "AdditionalInfo": "The Founding Fathers of the United States wrote the Constitution in 1787. The Constitution is the \"supreme law of the land.\" The U.S. Constitution has lasted longer than any other country’s constitution. It establishes the basic principles of the United States government. The Constitution establishes a system of government called \"representative democracy.\" In a representative democracy, citizens choose representatives to make the laws. U.S. citizens also choose a president to lead the executive branch of government. The Constitution lists fundamental rights for all citizens and other people living in the United States. Laws made in the United States must follow the Constitution."
+    }
+  ]
+}
+
+/*    
+,
     {
       "Id": 2,
       "Text": "What does the Constitution do?",
@@ -251,11 +256,7 @@
         "Trump"
       ],
       "AdditionalInfo": "Donald J. Trump is the 45th president of the United States. As president he is the head of the executive branch. As commander in chief, he is also in charge of the military. Trump was born in New York on June 14, 1946. He graduated from the Wharton School of Finance at the University of Pennsylvania. He is an American businessman and author. President Trump’s wife, called /"the First Lady,/" is Melania Trump."
-    }
-  ]
-}
-
-/*    ,
+    },
     {
       "Id": 29,
       "Text": "",
