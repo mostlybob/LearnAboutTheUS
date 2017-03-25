@@ -431,36 +431,41 @@
         "(Paul) Ryan"
       ],
       "AdditionalInfo": "The current speaker of the House of Representatives is Paul D. Ryan. He has represented Wisconsin's First Congressional District in the House of Representatives since 1999. As speaker, he presides over the House of Representatives and leads the majority political party in the House, the Republican Party. The speaker is second in line to the succession of the presidency after the vice president."
+    },
+    {
+      "Id": 48,
+      "Text": "There are four amendments to the Constitution about who can vote. Describe one of them.",
+      "Answers": [
+        "Citizens eighteen (18) and older (can vote).",
+        "You don’t have to pay (a poll tax) to vote.",
+        "Any citizen can vote. (Women and men can vote.)",
+        "A male citizen of any race (can vote). "
+      ],
+      "AdditionalInfo": "Voting is one of the most important civic responsibilities of citizens in the United States. In a democratic society, the people choose the leaders who will represent them. There are four amendments to the Constitution about voting. The 15th Amendment permits American men of all races to vote. It was written after the Civil War and the end of slavery. The 19th Amendment gave women the right to vote. It resulted from the women’s suffrage movement (the women’s rights movement). After the 15th Amendment was passed, some leaders of the southern states were upset that African Americans could vote. These leaders designed fees called poll taxes to stop them from voting. The 24th Amendment made these poll taxes illegal. The 26th Amendment lowered the voting age from 21 to 18."
+    },
+    {
+      "Id": 49,
+      "Text": "What is one responsibility that is only for United States citizens?*",
+      "Answers": [
+        "serve on a jury",
+        "vote in a federal election"
+      ],
+      "AdditionalInfo": "Two responsibilities of U.S. citizens are to serve on a jury and vote in federal elections. The Constitution gives citizens the right to a trial by a jury. The jury is made up of U.S. citizens. Participation of citizens on a jury helps ensure a fair trial. Another important responsibility of citizens is voting. The law does not require citizens to vote, but voting is a very important part of any democracy. By voting, citizens are participating in the democratic process. Citizens vote for leaders to represent them and their ideas, and the leaders support the citizens’ interests."
+    },
+    {
+      "Id": 50,
+      "Text": "Name one right only for United States citizens.",
+      "Answers": [
+        "vote in a federal election",
+        "run for federal office"
+      ],
+      "AdditionalInfo": "U.S. citizens have the right to vote in federal elections. Permanent residents can vote in local or state elections that do not require voters to be U.S. citizens. Only U.S. citizens can vote in federal elections. U.S. citizens can also run for federal office. Qualifications to run for the Senate or House of Representatives include being a U.S. citizen for a certain number of years. A candidate for Senate must be a U.S. citizen for at least 9 years. A candidate for the House must be a U.S. citizen for at least 7 years. To run for president of the United States, a candidate must be a native-born (not naturalized) citizen. In addition to the benefits of citizenship, U.S. citizens have certain responsibilities—to respect the law, stay informed on issues, participate in the democratic process, and pay their taxes."
     }
   ]
 }
 
 /*    
 ,
-    {
-      "Id": 48,
-      "Text": "",
-      "Answers": [
-        ""
-      ],
-      "AdditionalInfo": ""
-    },
-    {
-      "Id": 49,
-      "Text": "",
-      "Answers": [
-        ""
-      ],
-      "AdditionalInfo": ""
-    },
-    {
-      "Id": 50,
-      "Text": "",
-      "Answers": [
-        ""
-      ],
-      "AdditionalInfo": ""
-    },
     {
       "Id": 51,
       "Text": "",
