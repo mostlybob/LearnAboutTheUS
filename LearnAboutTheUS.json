@@ -460,44 +460,55 @@
         "run for federal office"
       ],
       "AdditionalInfo": "U.S. citizens have the right to vote in federal elections. Permanent residents can vote in local or state elections that do not require voters to be U.S. citizens. Only U.S. citizens can vote in federal elections. U.S. citizens can also run for federal office. Qualifications to run for the Senate or House of Representatives include being a U.S. citizen for a certain number of years. A candidate for Senate must be a U.S. citizen for at least 9 years. A candidate for the House must be a U.S. citizen for at least 7 years. To run for president of the United States, a candidate must be a native-born (not naturalized) citizen. In addition to the benefits of citizenship, U.S. citizens have certain responsibilities—to respect the law, stay informed on issues, participate in the democratic process, and pay their taxes."
+    },
+    {
+      "Id": 51,
+      "Text": "What  are two rights of everyone living in the United States?",
+      "Answers": [
+        "freedom of expression",
+        "freedom of speech",
+        "freedom of assembly",
+        "freedom to petition the government",
+        "freedom of religion",
+        "the right to bear arms"
+      ],
+      "AdditionalInfo": "Thomas Jefferson said, \"[The] best principles [of our republic] secure to all its citizens a perfect equality of rights.\" Millions of immigrants have come to America to have these rights. The Constitution and the Bill of Rights give many of these rights to all people living in the United States. These rights include the freedom of expression, of religion, of speech, and the right to bear arms. All people living in the United States also have many of the same duties as citizens, such as paying taxes and obeying the laws."
+    },
+    {
+      "Id": 52,
+      "Text": "What do we show loyalty to when we say the Pledge of Allegiance?",
+      "Answers": [
+        "the United States",
+        "the flag"
+      ],
+      "AdditionalInfo": "The flag is an important symbol of the United States. The Pledge of Allegiance to the flag states, “I pledge allegiance to the Flag of the United States of America, and to the Republic for which it stands, one Nation under God, indivisible, with liberty and justice for all.” When we say the Pledge of Allegiance, we usually stand facing the flag with the right hand over the heart. Francis Bellamy wrote the pledge. It was first published in The Youth's Companion magazine in 1892 for children to say on the anniversary of Columbus’s discovery of America. Congress officially recognized the pledge on June 22, 1942. Two changes have been made since it was written in 1892. \"I pledge allegiance to my flag” was changed to “I pledge allegiance to the Flag of the United States of America.\" Congress added the phrase \"under God\" on June 14, 1954."
+    },
+    {
+      "Id": 53,
+      "Text": "What  is one promise you make when you become a United States citizen?",
+      "Answers": [
+        "give up loyalty to other countries ",
+        "defend the Constitution and laws of the United States",
+        "obey the laws of the United States",
+        "serve in the U.S. military (if needed)",
+        "serve (do important work for) the nation (if needed)",
+        "be loyal to the United States"
+      ],
+      "AdditionalInfo": "When the United States became an independent country, the Constitution gave Congress the power to establish a uniform rule of naturalization. Congress made rules about how immigrants could become citizens. Many of these requirements are still valid today, such as the requirements to live in the United States for a specific period of time, to be of good moral character, and to understand and support the principles of the Constitution. After an immigrant fulfills all of the requirements to become a U.S. citizen, the final step is to take an Oath of Allegiance at a naturalization ceremony. The Oath of Allegiance states, \"I hereby declare, on oath, that I absolutely and entirely renounce and abjure all allegiance and fidelity to any foreign prince, potentate, state, or sovereignty of whom or which I have heretofore been a subject or citizen; that I will support and defend the Constitution and laws of the United States of America against all enemies, foreign and domestic; that I will bear true faith and allegiance to the same; that I will bear arms on behalf of the United States when required by the law; that I will perform noncombatant service in the Armed Forces of the United States when required by the law; that I will perform work of national importance under civilian direction when required by the law; and that I take this obligation freely without any mental reservation or purpose of evasion; so help me God.\""
+    },
+    {
+      "Id": 54,
+      "Text": "How old do citizens have to be to vote for President?*",
+      "Answers": [
+        "eighteen (18) and older"
+      ],
+      "AdditionalInfo": "For most of U.S. history, Americans had to be at least 21 years old to vote. At the time of the Vietnam War, during the 1960s and 1970s, many people thought that people who were old enough to fight in a war should also be old enough to vote. In 1971, the 26th Amendment changed the minimum voting age from 21 to 18 for all federal, state, and local elections. The National Voter Registration Act of 1993 made it easier for people to register to vote. Now they can register to vote by mail, at public assistance offices, or when they apply for or renew their driver’s license."
     }
   ]
 }
 
 /*    
 ,
-    {
-      "Id": 51,
-      "Text": "",
-      "Answers": [
-        ""
-      ],
-      "AdditionalInfo": ""
-    },
-    {
-      "Id": 52,
-      "Text": "",
-      "Answers": [
-        ""
-      ],
-      "AdditionalInfo": ""
-    },
-    {
-      "Id": 53,
-      "Text": "",
-      "Answers": [
-        ""
-      ],
-      "AdditionalInfo": ""
-    },
-    {
-      "Id": 54,
-      "Text": "",
-      "Answers": [
-        ""
-      ],
-      "AdditionalInfo": ""
-    },
     {
       "Id": 55,
       "Text": "",
