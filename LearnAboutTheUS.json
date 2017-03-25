@@ -559,60 +559,76 @@
         "Native Americans"
       ],
       "AdditionalInfo": "Great American Indian tribes such as the Navajo, Sioux, Cherokee, and Iroquois lived in America at the time the Pilgrims arrived. The Pilgrims settled in an area where a tribe called the Wampanoag lived. The Wampanoag taught the Pilgrims important skills, such as how to farm with different methods and how to grow crops such as corn, beans, and squash. Relations with some American Indian tribes became tense and confrontational as more Europeans moved to America and migrated west. Eventually, after much violence, the settlers defeated those American Indian tribes and took much of their land."
+    },
+    {
+      "Id": 60,
+      "Text": "What group of people was taken to America and sold as slaves?",
+      "Answers": [
+        "Africans",
+        "people from Africa"
+      ],
+      "AdditionalInfo": "Slavery existed in many countries long before America was founded. By 1700, many Africans were being brought to the American colonies as slaves. Men, women, and children were brought against their will. They were often separated from their families when they were sold as slaves. Slaves worked without payment and without basic rights. Most worked in agriculture, but slaves did many other kinds of work in the colonies, too. Slavery created a challenge for a nation founded on individual freedoms and democratic beliefs. It was one of the major causes of the American Civil War."
+    },
+    {
+      "Id": 61,
+      "Text": "Why did the colonists fight the British?",
+      "Answers": [
+        "because of high taxes (taxation without representation",
+        "because the British army stayed in their houses (boarding, quartering)",
+        "because they didn’t have self-government"
+      ],
+      "AdditionalInfo": "The American colonists' anger had been growing for years before the Revolutionary War began in 1775. The decision to separate from the British was not an easy choice for many colonists. However, Great Britain's \"repeated injuries\" against the Americans, as noted in the Declaration of Independence, convinced many to join the rebellion. The British taxed the colonists without their consent, and the colonists had nobody to represent their needs and ideas to the British government. They were also angry because ordinary colonists were forced to let British soldiers sleep and eat in their homes. The colonists believed the British did not respect their basic rights. The British governed the colonists without their consent, denying them self-government."
+    },
+    {
+      "Id": 62,
+      "Text": "Who wrote the Declaration of Independence?",
+      "Answers": [
+        "(Thomas) Jefferson"
+      ],
+      "AdditionalInfo": "Thomas Jefferson wrote the Declaration of Independence in 1776. He was a very important political leader and thinker. Some of the most important ideas about the American government are found in the Declaration of Independence, such as the idea that all people are created equal. Another important idea is that people are born with certain rights including life, liberty, and the pursuit of happiness. Jefferson was the third president of the United States, serving from 1801 to 1809. Before becoming president, Jefferson was governor of Virginia and the first U.S. secretary of state. He strongly supported individual rights, especially freedom of religion. Jefferson wanted to protect these rights. For this reason, he did not want a strong national government."
+    },
+    {
+      "Id": 63,
+      "Text": "When was the Declaration of Independence adopted?",
+      "Answers": [
+        "July 4, 1776"
+      ],
+      "AdditionalInfo": "In 1774, representatives from 12 of the 13 colonies met in Philadelphia, Pennsylvania, for the First Continental Congress. Of the 13 colonies, only Georgia was absent. These representatives were angry about British laws that treated them unfairly. They began to organize an army. The Second Continental Congress met in 1775 after fighting began between the colonists and the British Army. This Congress asked Thomas Jefferson and others to write the Declaration of Independence. When Thomas Jefferson finished his draft of the Declaration of Independence, he took it to John Adams, Benjamin Franklin, and the others on the committee to review it. After changes were made by the committee, the Declaration was read to the members of the entire Congress. The purpose of the Declaration was to announce the separation of the colonies from England. The Declaration of Independence stated that if a government does not protect the rights of the people, the people can create a new government. For this reason, the colonists separated from their British rulers. On July 4, 1776, the Second Continental Congress adopted the Declaration of Independence."
+    },
+    {
+      "Id": 64,
+      "Text": "There were 13 original states. Name three.",
+      "Answers": [
+        "New Hampshire",
+        "Delaware",
+        "Massachusetts",
+        "Maryland",
+        "Rhode Island",
+        "Virginia",
+        "Connecticut",
+        "North Carolina",
+        "New York",
+        "South Carolina",
+        "New Jersey",
+        "Georgia",
+        "Pennsylvania"
+      ],
+      "AdditionalInfo": "The 13 original states were all former British colonies. Representatives from these colonies came together and declared independence from Great Britain in 1776. After the Revolutionary War, the colonies became free and independent states. When the 13 colonies became states, each state set up its own government. They wrote state constitutions. Eventually, the people in these states created a new form of national government that would unite all the states into a single nation under the U.S. Constitution. The first three colonies to become states were Delaware, Pennsylvania, and New Jersey. This happened in 1787. Eight colonies became states in 1788. These were Georgia, Connecticut, Massachusetts, Maryland, South Carolina, New Hampshire, Virginia, and New York. North Carolina became a state in 1789. Rhode Island became a state in 1790. Although the colonies were recognized as states after the Declaration of Independence, the date of statehood is based on when they ratified (accepted) the U.S. Constitution. Today, the United States has 50 states."
+    },
+    {
+      "Id": 65,
+      "Text": "What happened at the Constitutional Convention?",
+      "Answers": [
+        "The Constitution was written.",
+        "The Founding Fathers wrote the Constitution."
+      ],
+      "AdditionalInfo": "The Constitutional Convention was held in Philadelphia, Pennsylvania, from May to September 1787. Fifty-five delegates from 12 of the original 13 states (except for Rhode Island) met to write amendments to the Articles of Confederation. The delegates met because many American leaders did not like the Articles. The national government under the Articles of Confederation was not strong enough. Instead of changing the Articles of Confederation, the delegates decided to create a new governing document with a stronger national government—the Constitution. Each state sent delegates, who worked for four months in secret to allow for free and open discussion as they wrote the new document. The delegates who attended the Constitutional Convention are called \"the Framers.\" On September 17, 1787, 39 of the delegates signed the new Constitution."
     }
   ]
 }
 
 /*    
 ,
-    {
-      "Id": 60,
-      "Text": "",
-      "Answers": [
-        ""
-      ],
-      "AdditionalInfo": ""
-    },
-    {
-      "Id": 61,
-      "Text": "",
-      "Answers": [
-        ""
-      ],
-      "AdditionalInfo": ""
-    },
-    {
-      "Id": 62,
-      "Text": "",
-      "Answers": [
-        ""
-      ],
-      "AdditionalInfo": ""
-    },
-    {
-      "Id": 63,
-      "Text": "",
-      "Answers": [
-        ""
-      ],
-      "AdditionalInfo": ""
-    },
-    {
-      "Id": 64,
-      "Text": "",
-      "Answers": [
-        ""
-      ],
-      "AdditionalInfo": ""
-    },
-    {
-      "Id": 65,
-      "Text": "",
-      "Answers": [
-        ""
-      ],
-      "AdditionalInfo": ""
-    },
     {
       "Id": 66,
       "Text": "",
