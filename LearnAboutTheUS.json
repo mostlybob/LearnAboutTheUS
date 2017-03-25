@@ -487,7 +487,7 @@
       "Id": 53,
       "Text": "What  is one promise you make when you become a United States citizen?",
       "Answers": [
-        "give up loyalty to other countries ",
+        "give up loyalty to other countries",
         "defend the Constitution and laws of the United States",
         "obey the laws of the United States",
         "serve in the U.S. military (if needed)",
@@ -503,52 +503,68 @@
         "eighteen (18) and older"
       ],
       "AdditionalInfo": "For most of U.S. history, Americans had to be at least 21 years old to vote. At the time of the Vietnam War, during the 1960s and 1970s, many people thought that people who were old enough to fight in a war should also be old enough to vote. In 1971, the 26th Amendment changed the minimum voting age from 21 to 18 for all federal, state, and local elections. The National Voter Registration Act of 1993 made it easier for people to register to vote. Now they can register to vote by mail, at public assistance offices, or when they apply for or renew their driver’s license."
+    },
+    {
+      "Id": 55,
+      "Text": "What  are two ways that Americans can participate in their democracy?",
+      "Answers": [
+        "vote",
+        "join a political party",
+        "help with a campaign",
+        "join a civic group",
+        "join a community group",
+        "give an elected official your opinion on an issue",
+        "call Senators and Representatives",
+        "publicly support or oppose an issue or policy",
+        "run for office",
+        "write to a newspaper"
+      ],
+      "AdditionalInfo": "Citizens play an active part in their communities. When Americans engage in the political process, democracy stays alive and strong. There are many ways for people to be involved. They can volunteer to help new immigrants learn English and civics, join the Parent Teacher Association (PTA) of their child’s school, run for a position on the local school board, or volunteer to help at a polling station. People can also vote, help with a political campaign, join a civic or community organization, or call their senator or representative about an issue that is important to them."
+    },
+    {
+      "Id": 56,
+      "Text": "When is the last day you can send in federal income tax forms?*",
+      "Answers": [
+        "April 15"
+      ],
+      "AdditionalInfo": "The last day to send in your federal income tax to the Internal Revenue Service is April 15 of each year. The Constitution gave the federal government the power to collect taxes. The federal government needs money to pay the nation’s debts and to defend and provide for the needs of the country. When the country was young, it was difficult to raise money from the 13 original states. The government began collecting income tax for the first time through the Revenue Act of 1861. This was only temporary. In 1894, a flat-rate federal income tax was enacted, but the Supreme Court said this was unconstitutional. Finally, in 1913, the 16th Amendment was ratified. It gave Congress the power to collect income taxes. Today, \"taxable income\" is money that is earned from wages, self-employment, tips, and the sale of property. The government uses these taxes to keep our country safe and secure. It also tries to cure and prevent diseases through research. In addition, the government uses these taxes to educate children and adults, and build and repair our roads and highways. Taxes are used to do these things and many more."
+    },
+    {
+      "Id": 57,
+      "Text": "When must all men register for the Selective Service?",
+      "Answers": [
+        "at age eighteen (18)",
+        "between eighteen (18) and twenty-six (26)"
+      ],
+      "AdditionalInfo": "President Lincoln tried to draft men to fight during the Civil War, but many people became angry and rioted. In 1917, Congress passed the Selective Service Act. This act gave President Woodrow Wilson the power to temporarily increase the U.S. military during World War I. In 1940, President Franklin Roosevelt signed the Selective Training and Service Act, which created the first draft during peacetime. This was the beginning of the Selective Service System in the United States today. The draft was needed again for the Korean and Vietnam Wars. Today, there is no draft, but all men between 18 and 26 years old must register with the Selective Service System. When a man registers, he tells the government that he is available to serve in the U.S. Armed Forces. He can register at a United States post office or on the Internet. To register for Selective Service on the Internet, visit the Selective Service website at www.sss.gov."
+    },
+    {
+      "Id": 58,
+      "Text": "What is one reason colonists came to America?",
+      "Answers": [
+        "freedom",
+        "political liberty",
+        "religious freedom",
+        "economic opportunity",
+        "practice their religion",
+        "escape persecution"
+      ],
+      "AdditionalInfo": "In the 1600s and 1700s, colonists from England and other European countries sailed across the Atlantic Ocean to the American colonies. Some left Europe to escape religious restrictions or persecution, to practice their religion freely. Many came for political freedom, and some came for economic opportunity. These freedoms and opportunities often did not exist in the colonists’ home countries. For these settlers, the American colonies were a chance for freedom and a new life. Today, many people come to the United States for these same reasons."
+    },
+    {
+      "Id": 59,
+      "Text": "Who lived in America before the Europeans arrived?",
+      "Answers": [
+        "American Indians",
+        "Native Americans"
+      ],
+      "AdditionalInfo": "Great American Indian tribes such as the Navajo, Sioux, Cherokee, and Iroquois lived in America at the time the Pilgrims arrived. The Pilgrims settled in an area where a tribe called the Wampanoag lived. The Wampanoag taught the Pilgrims important skills, such as how to farm with different methods and how to grow crops such as corn, beans, and squash. Relations with some American Indian tribes became tense and confrontational as more Europeans moved to America and migrated west. Eventually, after much violence, the settlers defeated those American Indian tribes and took much of their land."
     }
   ]
 }
 
 /*    
 ,
-    {
-      "Id": 55,
-      "Text": "",
-      "Answers": [
-        ""
-      ],
-      "AdditionalInfo": ""
-    },
-    {
-      "Id": 56,
-      "Text": "",
-      "Answers": [
-        ""
-      ],
-      "AdditionalInfo": ""
-    },
-    {
-      "Id": 57,
-      "Text": "",
-      "Answers": [
-        ""
-      ],
-      "AdditionalInfo": ""
-    },
-    {
-      "Id": 58,
-      "Text": "",
-      "Answers": [
-        ""
-      ],
-      "AdditionalInfo": ""
-    },
-    {
-      "Id": 59,
-      "Text": "",
-      "Answers": [
-        ""
-      ],
-      "AdditionalInfo": ""
-    },
     {
       "Id": 60,
       "Text": "",
