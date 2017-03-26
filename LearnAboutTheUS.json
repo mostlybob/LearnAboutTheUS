@@ -623,52 +623,81 @@
         "The Founding Fathers wrote the Constitution."
       ],
       "AdditionalInfo": "The Constitutional Convention was held in Philadelphia, Pennsylvania, from May to September 1787. Fifty-five delegates from 12 of the original 13 states (except for Rhode Island) met to write amendments to the Articles of Confederation. The delegates met because many American leaders did not like the Articles. The national government under the Articles of Confederation was not strong enough. Instead of changing the Articles of Confederation, the delegates decided to create a new governing document with a stronger national government—the Constitution. Each state sent delegates, who worked for four months in secret to allow for free and open discussion as they wrote the new document. The delegates who attended the Constitutional Convention are called \"the Framers.\" On September 17, 1787, 39 of the delegates signed the new Constitution."
+    },
+    {
+      "Id": 66,
+      "Text": "When was the Constitution written?",
+      "Answers": [
+        "1787"
+      ],
+      "AdditionalInfo": "The Constitution, written in 1787, created a new system of U.S. government—the same system we have today. James Madison was the main writer of the Constitution. He became the fourth president of the United States. The U.S. Constitution is short, but it defines the principles of government and the rights of citizens in the United States. The document has a preamble and seven articles. Since its adoption, the Constitution has been amended (changed) 27 times. Three-fourths of the states (9 of the original 13) were required to ratify (approve) the Constitution. Delaware was the first state to ratify the Constitution on December 7, 1787. In 1788, New Hampshire was the ninth state to ratify the Constitution. On March 4, 1789, the Constitution took effect and Congress met for the first time. George Washington was inaugurated as president the same year. By 1790, all 13 states had ratified the Constitution."
+    },
+    {
+      "Id": 67,
+      "Text": "The Federalist Papers supported the passage of the U.S. Constitution. Name one of the writers.",
+      "Answers": [
+        "(James) Madison",
+        "(Alexander) Hamilton",
+        "(John) Jay",
+        "Publius"
+      ],
+      "AdditionalInfo": "The Federalist Papers were 85 essays that were printed in New York newspapers while New York State was deciding whether or not to support the U.S. Constitution. The essays were written in 1787 and 1788 by Alexander Hamilton, John Jay, and James Madison under the pen name “Publius.” The essays explained why the state should ratify the Constitution. Other newspapers outside New York also published the essays as other states were deciding to ratify the Constitution. In 1788, the papers were published together in a book called The Federalist. Today, people still read the Federalist Papers to help them understand the Constitution."
+    },
+    {
+      "Id": 68,
+      "Text": " What  is one thing Benjamin Franklin is famous for?",
+      "Answers": [
+        "U.S. diplomat",
+        "oldest member of the Constitutional Convention",
+        "first Postmaster General of the United States",
+        "writer of “Poor Richard’s Almanac”",
+        "started the first free libraries"
+      ],
+      "AdditionalInfo": "Benjamin Franklin was one of the most influential Founding Fathers of the United States. He was the oldest delegate to the Constitutional Convention and one of the signers of the U.S. Constitution. He was a printer, author, politician, diplomat, and inventor. By his mid-20s, he was an accomplished printer, and he began writing books and papers. Franklin’s most famous publication was Poor Richard’s Almanac. He also organized America’s first library. Its members loaned books to one another. He was very active in colonial politics. He also visited England and France many times as a U.S. diplomat. In 1775, the Second Continental Congress appointed Franklin the first postmaster general."
+    },
+    {
+      "Id": 69,
+      "Text": "Who is the “Father of Our Country”?",
+      "Answers": [
+        "(George) Washington"
+      ],
+      "AdditionalInfo": "George Washington is called the Father of Our 
+Country. He was the first American president. Before 
+that, he was a brave general who led the Continental 
+Army to victory over Great Britain during the 
+American Revolutionary War. After his victory over 
+the British Army, Washington retired to his farm in 
+Virginia named Mount Vernon. He left retirement to 
+help create the new country’s system of government. 
+He presided over the Constitutional Convention in 
+Philadelphia in 1787. "
+    },
+    {
+      "Id": 70,
+      "Text": "Who was the first President?*",
+      "Answers": [
+        "(George) Washington"
+      ],
+      "AdditionalInfo": "George Washington was the first president of the 
+United States. He began his first term in 1789. 
+He served for a second term beginning in 1793. 
+Washington played an important role in forming 
+the new nation and encouraged Americans to unite. 
+He also helped define the American presidency. He 
+voluntarily resigned from the presidency after two 
+terms. He set an example for future leaders in his own country and the world by voluntarily giving up 
+power. The tradition of a president serving no more 
+than two terms continued in the United States until 
+Franklin D. Roosevelt, who was elected to office four 
+times (1933–1945). The 22nd Amendment to the 
+Constitution, passed in 1947, now limits presidents to 
+two terms."
     }
   ]
 }
 
 /*    
 ,
-    {
-      "Id": 66,
-      "Text": "",
-      "Answers": [
-        ""
-      ],
-      "AdditionalInfo": ""
-    },
-    {
-      "Id": 67,
-      "Text": "",
-      "Answers": [
-        ""
-      ],
-      "AdditionalInfo": ""
-    },
-    {
-      "Id": 68,
-      "Text": "",
-      "Answers": [
-        ""
-      ],
-      "AdditionalInfo": ""
-    },
-    {
-      "Id": 69,
-      "Text": "",
-      "Answers": [
-        ""
-      ],
-      "AdditionalInfo": ""
-    },
-    {
-      "Id": 70,
-      "Text": "",
-      "Answers": [
-        ""
-      ],
-      "AdditionalInfo": ""
-    },
     {
       "Id": 71,
       "Text": "",
