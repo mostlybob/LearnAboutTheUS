@@ -808,202 +808,86 @@
         "worked for equality for all Americans"
       ],
       "AdditionalInfo": "Martin Luther King, Jr. was a Baptist minister and civil rights leader. He worked hard to make America a more fair, tolerant, and equal nation. He was the main leader of the civil rights movement of the 1950s and 1960s. Because of this movement, civil rights laws were passed to protect voting rights and end racial segregation. King believed in the ideals of the Declaration of Independence—that every citizen deserves America’s promise of equality and justice. In 1963, King delivered his famous “I Have a Dream” speech, which imagines an America in which people of all races exist together equally. He was only 35 years old when he received the Nobel Peace Prize in 1964 for his civil rights work. King was killed on April 4, 1968."
+    },
+    {
+      "Id": 86,
+      "Text": "What major event happened on September 11, 2001, in the United States?",
+      "Answers": [
+        "Terrorists attacked the United States."
+      ],
+      "AdditionalInfo": "On September 11, 2001, four airplanes flying out of U.S. airports were taken over by terrorists from the Al-Qaeda network of Islamic extremists. Two of the planes crashed into the World Trade Center’s Twin Towers in New York City, destroying both buildings. One of the planes crashed into the Pentagon in Arlington, Virginia. The fourth plane, originally aimed at Washington, D.C., crashed in a field in Pennsylvania. Almost 3,000 people died in these attacks, most of them civilians. This was the worst attack on American soil in the history of the nation."
+    },
+    {
+      "Id": 87,
+      "Text": " Name one American Indian tribe in the United States. [USCIS Officers will be supplied with a list of federally recognized American Indian tribes.]",
+      "Answers": [
+        "Cherokee",
+        "Cheyenne",
+        "Navajo",
+        "Arawak",
+        "Sioux",
+        "Shawnee",
+        "Chippewa",
+        "Mohegan",
+        "Choctaw",
+        "Huron",
+        "Pueblo",
+        "Oneida",
+        "Apache",
+        "Lakota",
+        "Iroquois",
+        "Crow",
+        "Creek",
+        "Teton",
+        "Blackfeet",
+        "Hopi",
+        "Seminole",
+        "Inuit"
+      ],
+      "AdditionalInfo": "American Indians lived in North America for thousands of years before the European settlers arrived. Today there are more than 500 federally recognized tribes in the United States. Each tribe has its own social and political system. American Indian cultures are different from one tribe to another, with different languages, beliefs, stories, music, and foods. Earlier in their history, some tribes settled in villages and farmed the land for food. Other tribes moved frequently as they hunted and gathered food and resources. The federal government signed treaties with American Indian tribes to move the tribes to reservations. These reservations are recognized as domestic, dependent nations."
+    },
+    {
+      "Id": 88,
+      "Text": " Name one of the two longest rivers in the United States.",
+      "Answers": [
+        "Missouri (River)",
+        "Mississippi (River)"
+      ],
+      "AdditionalInfo": "The Mississippi River is one of America’s longest rivers. It runs through 10 U.S. states. The Mississippi River was used by American Indians for trade, food, and water before Europeans came to America. It is nicknamed the “Father of Waters.” Today, the Mississippi River is a major shipping route and a source of drinking water for millions of people. The Missouri River is also one of the longest rivers in the United States. The Missouri River is actually longer than the Mississippi River. It starts in Montana and flows into the Mississippi River. In 1673, the French explorers Jolliet and Marquette were the first Europeans to find the Missouri River. It is nicknamed “Big Muddy” because of its high silt content."
+    },
+    {
+      "Id": 89,
+      "Text": "What ocean is on the West Coast of the United States?",
+      "Answers": [
+        "Pacific (Ocean)"
+      ],
+      "AdditionalInfo": "The Pacific Ocean is on the West Coast of the United States. It is the largest ocean on Earth and covers one-third of the Earth’s surface. The Pacific Ocean is important to the U.S. economy because of its many natural resources such as fish. Europeans first learned about the Pacific Ocean in the 16th century. Spanish explorer Vasco Núñez de Balboa reached the ocean in 1514 when he crossed the Isthmus of Panama. Later, Ferdinand Magellan sailed across the Pacific as he traveled around the Earth in search of spices. “Pacific” means “peaceful.” Magellan named the Pacific Ocean the “peaceful sea,” because there were no storms on his trip from Spain to the spice world. The U.S. states that border the Pacific Ocean are Alaska, Washington, Oregon, California, and Hawaii."
+    },
+    {
+      "Id": 90,
+      "Text": "What ocean is on the East Coast of the United States?",
+      "Answers": [
+        "Atlantic (Ocean)"
+      ],
+      "AdditionalInfo": "The Atlantic Ocean is on the East Coast of the United States. The ocean was named after the giant Atlas from Greek mythology. It is the second largest ocean in the world. The Atlantic Ocean is a major sea route for ships. It is one of the most frequently traveled oceans in the world. The Atlantic Ocean is also a source of many natural resources. The Atlantic Ocean was formed by the separation of the North American and European continents millions of years ago. The ocean covers about one-fifth of the Earth’s surface. In the middle of the ocean is the Mid-Atlantic Ridge, an immense underwater mountain range that extends the length of the Atlantic and is a source of volcanic activity. The U.S. states that border the Atlantic Ocean are Connecticut, Delaware, Florida, Georgia, Maine, Maryland, Massachusetts, New Hampshire, New Jersey, New York, North Carolina, Rhode Island, South Carolina, and Virginia."
+    },
+    {
+      "Id": 91,
+      "Text": "Name one U.S. territory.",
+      "Answers": [
+        "Puerto Rico",
+        "U.S. Virgin Islands",
+        "American Samoa",
+        "Northern Mariana Islands",
+        "Guam"
+      ],
+      "AdditionalInfo": "There are five major U.S. territories: American Samoa, Guam, the Northern Mariana Islands, Puerto Rico, and the U.S. Virgin Islands. A U.S. territory is a partially self-governing piece of land under the authority of the U.S. government. U.S. territories are not states, but they do have representation in Congress. Each territory is allowed to send a delegate to the House of Representatives. The people who live in American Samoa are considered U.S. nationals; the people in the other four territories are U.S. citizens. Citizens of the territories can vote in primary elections for president, but they cannot vote in the general elections for president."
     }
   ]
 }
 
 /*  
 ,
-    {
-      "Id": 86,
-      "Text": "What major event happened on September 11, 
-2001, in the United States?",
-      "Answers": [
-        "Terrorists attacked the United States."
-      ],
-      "AdditionalInfo": "On September 11, 2001, four airplanes flying out 
-of U.S. airports were taken over by terrorists from 
-the Al-Qaeda network of Islamic extremists. Two 
-of the planes crashed into the World Trade Center’s 
-Twin Towers in New York City, destroying both 
-buildings. One of the planes crashed into the Pentagon 
-in Arlington, Virginia. The fourth plane, originally 
-aimed at Washington, D.C., crashed in a field in 
-Pennsylvania. Almost 3,000 people died in these 
-attacks, most of them civilians. This was the worst 
-attack on American soil in the history of the nation."
-    },
-    {
-      "Id": 87,
-      "Text": " Name 
-one
- American Indian tribe in the 
-United States.
-[USCIS Officers will be supplied with a list of federally 
-recognized American Indian tribes.]",
-      "Answers": [
-        "Cherokee  
-•     
-Cheyenne
-• 
-Navajo    
-•     
-Arawak
-• 
-Sioux          
-•     
-Shawnee
-• 
-Chippewa 
-•     
-Mohegan
-• 
-Choctaw  
-•     
-Huron
-• 
-Pueblo      
-•     
-Oneida
-• 
-Apache    
-•     
-Lakota
-• 
-Iroquois  
-•     
-Crow
-• 
-Creek          
-•     
-Teton
-• 
-Blackfeet 
-•     
-Hopi
-• 
-Seminole 
-•     
-Inuit"
-      ],
-      "AdditionalInfo": "American Indians lived in North America for 
-thousands of years before the European settlers arrived. 
-Today there are more than 500 federally recognized 
-tribes in the United States. Each tribe has its own 
-social and political system. American Indian cultures 
-are different from one tribe to another, with different 
-languages, beliefs, stories, music, and foods. Earlier in 
-their history, some tribes settled in villages and farmed 
-the land for food. Other tribes moved frequently as 
-they hunted and gathered food and resources. The 
-federal government signed treaties with American 
-Indian tribes to move the tribes to reservations. These 
-reservations are recognized as domestic, dependent 
-nations."
-    },
-    {
-      "Id": 88,
-      "Text": " Name 
-one
- of the two longest rivers in the United 
-States.",
-      "Answers": [
-        "Missouri (River)
-• 
-Mississippi (River)"
-      ],
-      "AdditionalInfo": "The Mississippi River is one of America’s longest 
-rivers. It runs through 10 U.S. states. The Mississippi 
-River was used by American Indians for trade, food, 
-and water before Europeans came to America. It 
-is nicknamed the “Father of Waters.” Today, the 
-Mississippi River is a major shipping route and a 
-source of drinking water for millions of people. 
-The Missouri River is also one of the longest rivers 
-in the United States. The Missouri River is actually 
-longer than the Mississippi River. It starts in Montana 
-and flows into the Mississippi River. In 1673, the 
-French explorers Jolliet and Marquette were the first 
-Europeans to find the Missouri River. It is nicknamed 
-“Big Muddy” because of its high silt content."
-    },
-    {
-      "Id": 89,
-      "Text": "What ocean is on the West Coast of the United 
-States?",
-      "Answers": [
-        "Pacific (Ocean)"
-      ],
-      "AdditionalInfo": "The Pacific Ocean is on the West Coast of the United 
-States. It is the largest ocean on Earth and covers 
-one-third of the Earth’s surface. The Pacific Ocean is 
-important to the U.S. economy because of its many 
-natural resources such as fish. Europeans first learned 
-about the Pacific Ocean in the 16th century. Spanish explorer Vasco Núñez de Balboa reached the ocean in 
-1514 when he crossed the Isthmus of Panama. Later, 
-Ferdinand Magellan sailed across the Pacific as he 
-traveled around the Earth in search of spices. “Pacific” 
-means “peaceful.” Magellan named the Pacific Ocean 
-the “peaceful sea,” because there were no storms on 
-his trip from Spain to the spice world. The U.S. states 
-that border the Pacific Ocean are Alaska, Washington, 
-Oregon, California, and Hawaii."
-    },
-    {
-      "Id": 90,
-      "Text": "What ocean is on the East Coast of the United 
-States?",
-      "Answers": [
-        "Atlantic (Ocean)"
-      ],
-      "AdditionalInfo": "The Atlantic Ocean is on the East Coast of the United 
-States. The ocean was named after the giant Atlas 
-from Greek mythology. It is the second largest ocean 
-in the world. The Atlantic Ocean is a major sea route 
-for ships. It is one of the most frequently traveled 
-oceans in the world. The Atlantic Ocean is also a 
-source of many natural resources. The Atlantic Ocean 
-was formed by the separation of the North American 
-and European continents millions of years ago. The 
-ocean covers about one-fifth of the Earth’s surface. 
-In the middle of the ocean is the Mid-Atlantic Ridge, 
-an immense underwater mountain range that extends 
-the length of the Atlantic and is a source of volcanic 
-activity. The U.S. states that border the Atlantic Ocean 
-are Connecticut, Delaware, Florida, Georgia, Maine, 
-Maryland, Massachusetts, New Hampshire, New 
-Jersey, New York, North Carolina, Rhode Island, South 
-Carolina, and Virginia."
-    },
-    {
-      "Id": 91,
-      "Text": "Name 
-one U.S. territory.",
-      "Answers": [
-        "Puerto Rico
-• 
-U.S. Virgin Islands
-• 
-American Samoa
-• 
-Northern Mariana Islands
-• 
-Guam"
-      ],
-      "AdditionalInfo": "There are five major U.S. territories: American Samoa, 
-Guam, the Northern Mariana Islands, Puerto Rico, and 
-the U.S. Virgin Islands. A U.S. territory is a partially 
-self-governing piece of land under the authority of 
-the U.S. government. U.S. territories are not states, 
-but they do have representation in Congress. Each 
-territory is allowed to send a delegate to the House 
-of Representatives. The people who live in American 
-Samoa are considered U.S. nationals; the people in the 
-other four territories are U.S. citizens. Citizens of the 
-territories can vote in primary elections for president, 
-but they cannot vote in the general elections for 
-president."
-    },
     {
       "Id": 92,
       "Text": "Name 
