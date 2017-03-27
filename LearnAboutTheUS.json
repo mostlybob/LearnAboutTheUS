@@ -921,31 +921,7 @@
         "Washington, D.C."
       ],
       "AdditionalInfo": "When the Constitution established our nation in 1789, the capital of the United States was in New York City. Congress soon began discussing the location of a permanent capital city. In Congress, representatives of northern states argued with representatives of southern states. Each side wanted the capital to be in its own region. As part of the Compromise of 1790, the capital would be located in the South. In return, the North did not have to pay the debt it owed from the Revolutionary War. George Washington chose a location for the capital along the Potomac River between Maryland and Virginia. As part of the compromise, Philadelphia, Pennsylvania, became the temporary new location for the capital. In 1800, after 10 years, the capital was moved to its current location of Washington, D.C."
-    }
-
-  ]
-}
-
-/*  
-
-
-,
-    {
-      "Id": 94,
-      "Text": ""
-      "Answers": [
-        "Washington, D.C."
-      ],
-      "AdditionalInfo": ""
-    }
-
-
-"What is the capital of the United States?*"
-
-
-"When the Constitution established our nation in 1789, the capital of the United States was in New York City. Congress soon began discussing the location of a permanent capital city. In Congress, representatives of northern states argued with representatives of southern states. Each side wanted the capital to be in its own region. As part of the Compromise of 1790, the capital would be located in the South. In return, the North did not have to pay the debt it owed from the Revolutionary War. George Washington chose a location for the capital along the Potomac River between Maryland and Virginia. As part of the compromise, Philadelphia, Pennsylvania, became the temporary new location for the capital. In 1800, after 10 years, the capital was moved to its current location of Washington, D.C."
-
-,
+    },
     {
       "Id": 95,
       "Text": "Where is the Statue of Liberty?*",
@@ -1008,4 +984,13 @@
       ],
       "AdditionalInfo": "Many Americans celebrate national or federal holidays. These holidays often honor people or events in our American heritage. These holidays are “national” in a legal sense only for federal institutions and in the District of Columbia. Typically, federal offices are closed on these holidays. Each state can decide whether or not to celebrate the holiday. Businesses, schools, and commercial establishments may choose whether or not to close on these days. Since 1971, federal holidays are observed on Mondays except for New Year’s Day, Independence Day, Veterans Day, Thanksgiving, and Christmas."
     }
+
+  ]
+}
+
+/*  
+
+
+
+
 */
