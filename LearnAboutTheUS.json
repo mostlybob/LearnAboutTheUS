@@ -654,28 +654,14 @@
         "started the first free libraries"
       ],
       "AdditionalInfo": "Benjamin Franklin was one of the most influential Founding Fathers of the United States. He was the oldest delegate to the Constitutional Convention and one of the signers of the U.S. Constitution. He was a printer, author, politician, diplomat, and inventor. By his mid-20s, he was an accomplished printer, and he began writing books and papers. Franklin’s most famous publication was Poor Richard’s Almanac. He also organized America’s first library. Its members loaned books to one another. He was very active in colonial politics. He also visited England and France many times as a U.S. diplomat. In 1775, the Second Continental Congress appointed Franklin the first postmaster general."
-    }
-  ]
-}
-
-/*  
-,
+    },
     {
       "Id": 69,
       "Text": "Who is the “Father of Our Country”?",
       "Answers": [
         "(George) Washington"
       ],
-      "AdditionalInfo": "George Washington is called the Father of Our 
-Country. He was the first American president. Before 
-that, he was a brave general who led the Continental 
-Army to victory over Great Britain during the 
-American Revolutionary War. After his victory over 
-the British Army, Washington retired to his farm in 
-Virginia named Mount Vernon. He left retirement to 
-help create the new country’s system of government. 
-He presided over the Constitutional Convention in 
-Philadelphia in 1787. "
+      "AdditionalInfo": "George Washington is called the Father of Our Country. He was the first American president. Before that, he was a brave general who led the Continental Army to victory over Great Britain during the American Revolutionary War. After his victory over the British Army, Washington retired to his farm in Virginia named Mount Vernon. He left retirement to help create the new country’s system of government. He presided over the Constitutional Convention in Philadelphia in 1787."
     },
     {
       "Id": 70,
@@ -683,170 +669,52 @@ Philadelphia in 1787. "
       "Answers": [
         "(George) Washington"
       ],
-      "AdditionalInfo": "George Washington was the first president of the 
-United States. He began his first term in 1789. 
-He served for a second term beginning in 1793. 
-Washington played an important role in forming 
-the new nation and encouraged Americans to unite. 
-He also helped define the American presidency. He 
-voluntarily resigned from the presidency after two 
-terms. He set an example for future leaders in his own country and the world by voluntarily giving up 
-power. The tradition of a president serving no more 
-than two terms continued in the United States until 
-Franklin D. Roosevelt, who was elected to office four 
-times (1933–1945). The 22nd Amendment to the 
-Constitution, passed in 1947, now limits presidents to 
-two terms."
+      "AdditionalInfo": "George Washington was the first president of the United States. He began his first term in 1789. He served for a second term beginning in 1793. Washington played an important role in forming the new nation and encouraged Americans to unite. He also helped define the American presidency. He voluntarily resigned from the presidency after two terms. He set an example for future leaders in his own country and the world by voluntarily giving up power. The tradition of a president serving no more than two terms continued in the United States until Franklin D. Roosevelt, who was elected to office four times (1933–1945). The 22nd Amendment to the Constitution, passed in 1947, now limits presidents to two terms."
     },
     {
       "Id": 71,
-      "Text": "What territory did the United States buy from 
-France in 1803?",
+      "Text": "What territory did the United States buy from France in 1803?",
       "Answers": [
-        "the Louisiana Territory
-• 
-Louisiana"
+        "the Louisiana Territory",
+        "Louisiana"
       ],
-      "AdditionalInfo": "The Louisiana Territory was a large area west of the 
-Mississippi River. It was 828,000 square miles. In 
-1803, the United States bought the Louisiana Territory 
-from France for $15 million. The Louisiana Purchase 
-Treaty was signed in Paris on April 30, 1803. It was 
-the largest acquisition of land in American history. 
-Farmers could now ship their farm products down 
-the Mississippi River without permission from other 
-countries. This was important because the city of New 
-Orleans was a major shipping port. The Louisiana 
-Purchase doubled the size of the United States and 
-expanded it westward. Meriwether Lewis and William 
-Clark led an expedition to map the Louisiana Territory."
+      "AdditionalInfo": "The Louisiana Territory was a large area west of the Mississippi River. It was 828,000 square miles. In 1803, the United States bought the Louisiana Territory from France for $15 million. The Louisiana Purchase Treaty was signed in Paris on April 30, 1803. It was the largest acquisition of land in American history. Farmers could now ship their farm products down the Mississippi River without permission from other countries. This was important because the city of New Orleans was a major shipping port. The Louisiana Purchase doubled the size of the United States and expanded it westward. Meriwether Lewis and William Clark led an expedition to map the Louisiana Territory."
     },
     {
       "Id": 72,
-      "Text": "Name 
-one
- war fought by the United States in the 
-1800s.",
+      "Text": "Name one war fought by the United States in the 1800s.",
       "Answers": [
-        "War of 1812
-• 
-Mexican-American War
-• 
-Civil War
-• 
-Spanish-American War"
+        "War of 1812",
+        "Mexican-American War",
+        "Civil War",
+        "Spanish-American War"
       ],
-      "AdditionalInfo": "The United States fought four major wars in the 
-1800s—the War of 1812, the Mexican-American War, 
-the Civil War, and the Spanish-American War. 
-The War of 1812 lasted from 1812 through 1815. 
-President James Madison asked Congress to declare 
-war on Great Britain. The British were stopping 
-and seizing American ships. They were also arming 
-American Indians to fight against the Americans. As 
-a result of this war, the nation’s trade was disrupted and the U.S. Capitol was burned. The Americans won 
-the war. This was the first time after the Revolutionary 
-War that America had to fight a foreign country to 
-protect its independence.
-The Mexican-American War was a conflict between 
-Mexico and America. The war began in Texas in 
-1846. President James Polk ordered General Zachary 
-Taylor and his forces to occupy land claimed by both 
-the United States and Mexico. President Polk believed 
-westward expansion was important for the United 
-States to grow. When Mexico attacked, the United 
-States went to war with Mexico. When the war ended 
-in February 1848, the United States and Mexico signed 
-the Treaty of Guadalupe Hidalgo. This treaty gave 
-Texas to the United States and extended the boundaries 
-of the United States west to the Pacific Ocean. 
-In the Civil War, the people of the United States 
-fought against each other. Americans in the northern 
-states fought to support the federal government 
-(“the Union”) against Americans from the southern 
-states. The southern states were trying to separate 
-themselves to form a new nation, the Confederate 
-States of America (“the Confederacy”). The war lasted 
-from 1861 to 1865, when the Confederate army 
-surrendered to the Union army. Many lives were lost 
-in the American Civil War.
-In 1898, the United States fought Spain in the Spanish-
-American War. The United States wanted to help 
-Cuba become independent from Spain because the 
-United States had economic interests in Cuba. The 
-war began when a U.S. battleship was sunk near 
-Cuba. Many Americans believed it was the Spanish 
-who attacked the ship. For this reason, America went 
-to war with Spain. By the end of 1898, the war was 
-over with a victory for the United States. Cuba had 
-its independence, and Guam, Puerto Rico, and the 
-Philippines became territories of the United States."
+      "AdditionalInfo": "The United States fought four major wars in the 1800s—the War of 1812, the Mexican-American War, the Civil War, and the Spanish-American War. The War of 1812 lasted from 1812 through 1815. President James Madison asked Congress to declare war on Great Britain. The British were stopping and seizing American ships. They were also arming American Indians to fight against the Americans. As a result of this war, the nation’s trade was disrupted and the U.S. Capitol was burned. The Americans won the war. This was the first time after the Revolutionary War that America had to fight a foreign country to protect its independence.\n\nThe Mexican-American War was a conflict between Mexico and America. The war began in Texas in 1846. President James Polk ordered General Zachary Taylor and his forces to occupy land claimed by both the United States and Mexico. President Polk believed westward expansion was important for the United States to grow. When Mexico attacked, the United States went to war with Mexico. When the war ended in February 1848, the United States and Mexico signed the Treaty of Guadalupe Hidalgo. This treaty gave Texas to the United States and extended the boundaries of the United States west to the Pacific Ocean.\n\nIn the Civil War, the people of the United States fought against each other. Americans in the northern states fought to support the federal government (“the Union”) against Americans from the southern states. The southern states were trying to separate themselves to form a new nation, the Confederate States of America (“the Confederacy”). The war lasted from 1861 to 1865, when the Confederate army surrendered to the Union army. Many lives were lost in the American Civil War.\n\nIn 1898, the United States fought Spain in the Spanish-American War. The United States wanted to help Cuba become independent from Spain because the United States had economic interests in Cuba. The war began when a U.S. battleship was sunk near Cuba. Many Americans believed it was the Spanish who attacked the ship. For this reason, America went to war with Spain. By the end of 1898, the war was over with a victory for the United States. Cuba had its independence, and Guam, Puerto Rico, and the Philippines became territories of the United States."
     },
     {
       "Id": 73,
-      "Text": "Name the U.S. war between the North and the 
-South.",
+      "Text": "Name the U.S. war between the North and the South.",
       "Answers": [
-        "the Civil War
-• 
-the War between the States"
+        "the Civil War",
+        "the War between the States"
       ],
-      "AdditionalInfo": "The American Civil War is also known as the War 
-between the States. It was a war between the people 
-in the northern states and those in the southern states. The Civil War was fought in many places 
-across the United States, but most battles were 
-fought in the southern states. The first battle was 
-at Fort Sumter, South Carolina. The first major 
-battle between the northern (Union) army and the 
-southern (Confederate) army took place at Bull Run, 
-in Manassas, Virginia, in July 1861. The Union 
-expected the war to end quickly. After its defeat at 
-the Battle of Bull Run, the Union realized that the war 
-would be long and difficult. In 1865, the Civil War 
-ended with the capture of the Confederate capital in 
-Richmond, Virginia. Confederate General Robert E. 
-Lee surrendered to Lt. General Ulysses S. Grant of the 
-Union army at Appomattox Courthouse in central 
-Virginia. Over the four-year period, more than 3 
-million Americans fought in the Civil War and more 
-than 600,000 people died."
+      "AdditionalInfo": "The American Civil War is also known as the War between the States. It was a war between the people in the northern states and those in the southern states. The Civil War was fought in many places across the United States, but most battles were fought in the southern states. The first battle was at Fort Sumter, South Carolina. The first major battle between the northern (Union) army and the southern (Confederate) army took place at Bull Run, in Manassas, Virginia, in July 1861. The Union expected the war to end quickly. After its defeat at the Battle of Bull Run, the Union realized that the war would be long and difficult. In 1865, the Civil War ended with the capture of the Confederate capital in Richmond, Virginia. Confederate General Robert E. Lee surrendered to Lt. General Ulysses S. Grant of the Union army at Appomattox Courthouse in central Virginia. Over the four-year period, more than 3 million Americans fought in the Civil War and more than 600,000 people died."
     },
     {
       "Id": 74,
-      "Text": "Name 
-one
- problem that led to the Civil War.",
+      "Text": "Name one problem that led to the Civil War.",
       "Answers": [
-        "slavery
-• 
-economic reasons
-• 
-states’ rights"
+        "slavery",
+        "economic reasons",
+        "states’ rights"
       ],
-      "AdditionalInfo": "The Civil War began when 11 southern states voted 
-to secede (separate) from the United States to form 
-their own country, the Confederate States of America. 
-These southern states believed that the federal 
-government of the United States threatened their right 
-to make their own decisions. They wanted states’ 
-rights with each state making their own decisions 
-about their government. If the national government 
-contradicted the state, they did not want to follow the 
-national government. The North and South had very different economic systems. The South’s agriculture-
-based economy depended heavily on slave labor. 
-The southern states feared that the United States 
-government would end slavery. The southern states 
-believed that this would hurt their economic and 
-political independence. The economy of the northern 
-states was more industrial and did not depend on 
-slavery. The northern states fought to keep all the 
-United States together in “the Union.” They tried to 
-stop the southern states from separating into a new 
-Confederate nation. There were also many people 
-in the North who wanted to end slavery. These 
-differences led to the American Civil War, which lasted 
-from 1861 until 1865."
-    },
+      "AdditionalInfo": "The Civil War began when 11 southern states voted to secede (separate) from the United States to form their own country, the Confederate States of America. These southern states believed that the federal government of the United States threatened their right to make their own decisions. They wanted states’ rights with each state making their own decisions about their government. If the national government contradicted the state, they did not want to follow the national government. The North and South had very different economic systems. The South’s agriculture-based economy depended heavily on slave labor. The southern states feared that the United States government would end slavery. The southern states believed that this would hurt their economic and political independence. The economy of the northern states was more industrial and did not depend on slavery. The northern states fought to keep all the United States together in “the Union.” They tried to stop the southern states from separating into a new Confederate nation. There were also many people in the North who wanted to end slavery. These differences led to the American Civil War, which lasted from 1861 until 1865."
+    }
+  ]
+}
+
+/*  
+,
     {
       "Id": 75,
       "Text": "What  was 
