@@ -654,7 +654,12 @@
         "started the first free libraries"
       ],
       "AdditionalInfo": "Benjamin Franklin was one of the most influential Founding Fathers of the United States. He was the oldest delegate to the Constitutional Convention and one of the signers of the U.S. Constitution. He was a printer, author, politician, diplomat, and inventor. By his mid-20s, he was an accomplished printer, and he began writing books and papers. Franklin’s most famous publication was Poor Richard’s Almanac. He also organized America’s first library. Its members loaned books to one another. He was very active in colonial politics. He also visited England and France many times as a U.S. diplomat. In 1775, the Second Continental Congress appointed Franklin the first postmaster general."
-    },
+    }
+  ]
+}
+
+/*  
+,
     {
       "Id": 69,
       "Text": "Who is the “Father of Our Country”?",
@@ -1593,9 +1598,5 @@ whether or not to close on these days. Since 1971,
 federal holidays are observed on Mondays except for 
 New Year’s Day, Independence Day, Veterans Day, 
 Thanksgiving, and Christmas."
-    }
-  ]
-}
-
-/*    
+    }  
 */
