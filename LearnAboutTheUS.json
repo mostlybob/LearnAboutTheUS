@@ -709,170 +709,54 @@
         "states’ rights"
       ],
       "AdditionalInfo": "The Civil War began when 11 southern states voted to secede (separate) from the United States to form their own country, the Confederate States of America. These southern states believed that the federal government of the United States threatened their right to make their own decisions. They wanted states’ rights with each state making their own decisions about their government. If the national government contradicted the state, they did not want to follow the national government. The North and South had very different economic systems. The South’s agriculture-based economy depended heavily on slave labor. The southern states feared that the United States government would end slavery. The southern states believed that this would hurt their economic and political independence. The economy of the northern states was more industrial and did not depend on slavery. The northern states fought to keep all the United States together in “the Union.” They tried to stop the southern states from separating into a new Confederate nation. There were also many people in the North who wanted to end slavery. These differences led to the American Civil War, which lasted from 1861 until 1865."
+    },
+    {
+      "Id": 75,
+      "Text": "What was one important thing that Abraham Lincoln did?*",
+      "Answers": [
+        "freed the slaves (Emancipation Proclamation)",
+        "saved (or preserved) the Union",
+        "led the United States during the Civil War"
+      ],
+      "AdditionalInfo": "Abraham Lincoln was president of the United States from 1861 to 1865, and led the nation during the Civil War. Lincoln thought the separation of the southern (Confederate) states was unconstitutional, and he wanted to preserve the Union. In 1863, during the Civil War, he issued the Emancipation Proclamation. It declared that the slaves who lived in the rebelling Confederate states were forever free. Lincoln is also famous for his “Gettysburg Address.” He gave that speech at Gettysburg, Pennsylvania, in November 1863. Earlier that year, at the Battle of Gettysburg, the northern (Union) army had won a major battle to stop the Confederate army from invading the North. To honor the many who died in this battle, the governor of Pennsylvania established the Soldiers’ National Cemetery at Gettysburg. Lincoln spoke at the dedication ceremony and praised those who fought and died in battle. He asked those still living to rededicate themselves to saving the Union so that “government of the people, by the people, for the people shall not perish from the earth.” On April 14, 1865, soon after taking office for his second term, Abraham Lincoln was killed by a southern supporter, John Wilkes Booth, at Ford’s Theatre in Washington, D.C."
+    },
+    {
+      "Id": 76,
+      "Text": "What did the Emancipation Proclamation do?",
+      "Answers": [
+        "freed the slaves",
+        "freed slaves in the Confederacy",
+        "freed slaves in the Confederate states",
+        "freed slaves in most Southern states"
+      ],
+      "AdditionalInfo": "In 1863, in the middle of the Civil War, President Abraham Lincoln issued the Emancipation Proclamation. The Emancipation Proclamation declared that slaves living in the southern or Confederate states were free. Many slaves joined the Union army. In 1865, the Civil War ended and the southern slaves kept their right to be free. The Emancipation Proclamation led to the 13th Amendment to the Constitution, which ended slavery in all of the United States."
+    },
+    {
+      "Id": 77,
+      "Text": "What did Susan B. Anthony do?",
+      "Answers": [
+        "fought for women’s rights",
+        "fought for civil rights"
+      ],
+      "AdditionalInfo": "Susan B. Anthony was born in Massachusetts on February 15, 1820. She is known for campaigning for the right of women to vote. She spoke out publicly against slavery and for equal treatment of women in the workplace. In 1920, the 19th Amendment to the Constitution gave women the right to vote. Susan B. Anthony died 14 years before the adoption of the 19th Amendment, but it was still widely known as the Susan B. Anthony Amendment. In 1979, she became the first woman whose image appeared on a circulating U.S. coin. The coin is called the Susan B. Anthony dollar and is worth one dollar."
+    },
+    {
+      "Id": 78,
+      "Text": " Name one war fought by the United States in the 1900s.*",
+      "Answers": [
+        "World War I",
+        "World War II",
+        "Korean War",
+        "Vietnam War",
+        "(Persian) Gulf War"
+      ],
+      "AdditionalInfo": "The United States fought five wars in the 1900s: World War I, World War II, the Korean War, the Vietnam War, and the (Persian) Gulf War. World War I began in 1914. It was a long and bloody struggle. The United States entered the war in 1917 after German submarines attacked British and U.S. ships, and the Germans contacted Mexico about starting a war against the United States. The war ended in 1918 when the Allied Powers (led by Britain, France, Italy, and the United States) defeated the Central Powers (led by Germany, Austria-Hungary, and the Ottoman Empire). The Treaty of Versailles officially ended the war in 1919. World War I was called “the war to end all wars.”\n\nWorld War II began in 1939 when Germany invaded Poland. France and Great Britain then declared war on Germany. Germany had alliances with Italy and Japan, and together they formed the Axis powers. The United States entered World War II in 1941, after the Japanese attacked Pearl Harbor, Hawaii. The United States joined France, Great Britain, and the Soviet Union as the Allied powers and led the 1944 invasion of France known as D-Day. The liberation of Europe from German power was completed by May 1945. World War II did not end until Japan surrendered in September 1945.\n\nThe Korean War began in 1950 when the North Korean Army moved across the 38th parallel into South Korea. The 38th parallel was a boundary established after World War II. This boundary separated the northern area of Korea, which was under communist influence, from the southern area of Korea, which was allied with the United States. At the time, the United States was providing support to establish a democratic South Korean government. The United States provided military support to stop the advance of the North Korean Army. In the Korean conflict, democratic governments directly confronted communist governments. The fighting ended in 1953, with the establishment of the countries of North Korea and South Korea.\n\nFrom 1959 to 1975, United States Armed Forces and the South Vietnamese Army fought against the North Vietnamese in the Vietnam War. The United States supported the democratic government in the south of the country to help it resist pressure from the communist north. The war ended in 1975 with the fall of Saigon, the capital of South Vietnam. In 1976, Vietnam was under total communist control. Almost 60,000 American men and women in the military died or were missing as a result of the Vietnam War.\n\nOn August 2, 1990, the Persian Gulf War began when Iraq invaded Kuwait. This invasion put the Iraqi Army closer to Saudi Arabia and its oil reserves, which supplied much of the world with oil. The United States and many other countries wanted to drive the Iraqi Army out of Kuwait and prevent it from invading other nearby countries. In January 1991, the United States led an international coalition of forces authorized by the United Nations into battle against the Iraqi Army. Within a month, the coalition had driven the Iraqis from Kuwait. The coalition declared a cease-fire on February 28, 1991."
     }
   ]
 }
 
 /*  
 ,
-    {
-      "Id": 75,
-      "Text": "What  was 
-one
- important thing that Abraham 
-Lincoln did?*",
-      "Answers": [
-        "freed the slaves (Emancipation Proclamation)
-• 
-saved (or preserved) the Union
-• 
-led the United States during the Civil War"
-      ],
-      "AdditionalInfo": "Abraham Lincoln was president of the United States 
-from 1861 to 1865, and led the nation during the 
-Civil War. Lincoln thought the separation of the 
-southern (Confederate) states was unconstitutional, 
-and he wanted to preserve the Union. In 1863, 
-during the Civil War, he issued the Emancipation 
-Proclamation. It declared that the slaves who lived 
-in the rebelling Confederate states were forever free. 
-Lincoln is also famous for his “Gettysburg Address.” 
-He gave that speech at Gettysburg, Pennsylvania, in 
-November 1863. Earlier that year, at the Battle of 
-Gettysburg, the northern (Union) army had won 
-a major battle to stop the Confederate army from 
-invading the North. To honor the many who died in 
-this battle, the governor of Pennsylvania established 
-the Soldiers’ National Cemetery at Gettysburg. Lincoln 
-spoke at the dedication ceremony and praised those 
-who fought and died in battle. He asked those still 
-living to rededicate themselves to saving the Union 
-so that “government of the people, by the people, for 
-the people shall not perish from the earth.” On April 
-14, 1865, soon after taking office for his second term, 
-Abraham Lincoln was killed by a southern supporter, 
-John Wilkes Booth, at Ford’s Theatre in Washington, 
-D.C."
-    },
-    {
-      "Id": 76,
-      "Text": "What did the Emancipation Proclamation do?",
-      "Answers": [
-        "freed the slaves
-• 
-freed slaves in the Confederacy
-• 
-freed slaves in the Confederate states
-• 
-freed slaves in most Southern states"
-      ],
-      "AdditionalInfo": "In 1863, in the middle of the Civil War, President 
-Abraham Lincoln issued the Emancipation 
-Proclamation. The Emancipation Proclamation declared 
-that slaves living in the southern or Confederate 
-states were free. Many slaves joined the Union army. 
-In 1865, the Civil War ended and the southern 
-slaves kept their right to be free. The Emancipation 
-Proclamation led to the 13th Amendment to the 
-Constitution, which ended slavery in all of the United 
-States."
-    },
-    {
-      "Id": 77,
-      "Text": "What did Susan B. Anthony do?",
-      "Answers": [
-        "fought for women’s rights
-• 
-fought for civil rights"
-      ],
-      "AdditionalInfo": "Susan B. Anthony was born in Massachusetts on 
-February 15, 1820. She is known for campaigning for 
-the right of women to vote. She spoke out publicly 
-against slavery and for equal treatment of women in 
-the workplace. In 1920, the 19th Amendment to the 
-Constitution gave women the right to vote. Susan 
-B. Anthony died 14 years before the adoption of 
-the 19th Amendment, but it was still widely known 
-as the Susan B. Anthony Amendment. In 1979, she 
-became the first woman whose image appeared on a 
-circulating U.S. coin. The coin is called the Susan B. 
-Anthony dollar and is worth one dollar."
-    },
-    {
-      "Id": 78,
-      "Text": " Name 
-one
- war fought by the United States in the 
-1900s.*",
-      "Answers": [
-        "World War I 
-• 
-World War II
-• 
-Korean War
-• 
-Vietnam War
-• 
-(Persian) Gulf War"
-      ],
-      "AdditionalInfo": "The United States fought five wars in the 1900s: 
-World War I, World War II, the Korean War, the 
-Vietnam War, and the (Persian) Gulf War. World War I began in 1914. It was a long and 
-bloody struggle. The United States entered the war 
-in 1917 after German submarines attacked British 
-and U.S. ships, and the Germans contacted Mexico 
-about starting a war against the United States. The 
-war ended in 1918 when the Allied Powers (led by 
-Britain, France, Italy, and the United States) defeated 
-the Central Powers (led by Germany, Austria-Hungary, 
-and the Ottoman Empire). The Treaty of Versailles 
-officially ended the war in 1919. World War I was 
-called “the war to end all wars.”\nWorld War II began in 1939 when Germany invaded 
-Poland. France and Great Britain then declared war 
-on Germany. Germany had alliances with Italy and 
-Japan, and together they formed the Axis powers. The 
-United States entered World War II in 1941, after the 
-Japanese attacked Pearl Harbor, Hawaii. The United 
-States joined France, Great Britain, and the Soviet 
-Union as the Allied powers and led the 1944 invasion 
-of France known as D-Day. The liberation of Europe 
-from German power was completed by May 1945. 
-World War II did not end until Japan surrendered in 
-September 1945.\nThe Korean War began in 1950 when the North 
-Korean Army moved across the 38th parallel into 
-South Korea. The 38th parallel was a boundary 
-established after World War II. This boundary 
-separated the northern area of Korea, which was 
-under communist influence, from the southern area 
-of Korea, which was allied with the United States. 
-At the time, the United States was providing support 
-to establish a democratic South Korean government. 
-The United States provided military support to stop 
-the advance of the North Korean Army. In the Korean 
-conflict, democratic governments directly confronted 
-communist governments. The fighting ended in 1953, 
-with the establishment of the countries of North Korea 
-and South Korea.\nFrom 1959 to 1975, United States Armed Forces 
-and the South Vietnamese Army fought against the 
-North Vietnamese in the Vietnam War. The United 
-States supported the democratic government in the 
-south of the country to help it resist pressure from the 
-communist north. The war ended in 1975 with the 
-fall of Saigon, the capital of South Vietnam. In 1976, Vietnam was under total communist control. Almost 
-60,000 American men and women in the military died 
-or were missing as a result of the Vietnam War.\nOn August 2, 1990, the Persian Gulf War began 
-when Iraq invaded Kuwait. This invasion put the 
-Iraqi Army closer to Saudi Arabia and its oil reserves, 
-which supplied much of the world with oil. The 
-United States and many other countries wanted to 
-drive the Iraqi Army out of Kuwait and prevent it from 
-invading other nearby countries. In January 1991, the 
-United States led an international coalition of forces 
-authorized by the United Nations into battle against 
-the Iraqi Army. Within a month, the coalition had 
-driven the Iraqis from Kuwait. The coalition declared a 
-cease-fire on February 28, 1991."
-    },
     {
       "Id": 79,
       "Text": "Who was President during World War I?",
