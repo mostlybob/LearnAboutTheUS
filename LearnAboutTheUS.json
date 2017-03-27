@@ -958,12 +958,7 @@
         "The Star-Spangled Banner"
       ],
       "AdditionalInfo": "During the War of 1812, British soldiers invaded the United States. On the night of September 13, 1814, British warships bombed Fort McHenry. This fort protected the city of Baltimore, Maryland. An American named Francis Scott Key watched the bombing and thought that the fort would fall. As the sun rose the next morning, Key looked toward the fort. He saw that the flag above the fort was still flying. This let him know that the British had not defeated the Americans. Key immediately wrote the words to a poem he called the “Defence of Fort M’Henry.” The words of the poem became “The Star-Spangled Banner.” Congress passed a law in 1931 naming “The Star-Spangled Banner” the official national anthem. Here are the words to the first verse of the national anthem:\n\nThe Star-Spangled Banner\n\nOh, say, can you see, by the dawn’s early light,\n\nWhat so proudly we hailed at the twilight’s last gleaming?\n\nWhose broad stripes and bright stars, thro’ the perilous fight;\n\nO’er the ramparts we watched, were so gallantly streaming.\n\nAnd the rockets red glare, the bombs bursting in air,\n\nGave proof through the night that our flag was still there.\n\nOh, say, does that star-spangled banner yet wave\n\nO’er the land of the free and the home of the brave?"
-    }
-  ]
-}
-
-/*
-,
+    },
     {
       "Id": 99,
       "Text": "When do we celebrate Independence Day?*",
@@ -971,7 +966,12 @@
         "July 4"
       ],
       "AdditionalInfo": "In the United States, we celebrate Independence Day on July 4 to mark the anniversary of the adoption of the Declaration of Independence. After signing the Declaration of Independence, John Adams wrote to his wife, “I am apt to believe that it will be celebrated, by succeeding Generations, as the great anniversary Festival.” The Declaration of Independence, written by Thomas Jefferson, explained why the colonies had decided to separate from Great Britain. Americans celebrate the Fourth of July as the birthday of America, with parades, fireworks, patriotic songs, and readings of the Declaration of Independence."
-    },
+    }
+  ]
+}
+
+/*
+,
     {
       "Id": 100,
       "Text": "Name two national U.S. holidays.",
