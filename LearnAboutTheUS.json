@@ -940,10 +940,53 @@
         "because the stripes represent the original colonies"
       ],
       "AdditionalInfo": "There are 13 stripes on the flag because there were 13 original colonies. We call the American flag “the Stars and Stripes.” For 18 years after the United States became an independent country, the flag had only 13 stripes. In 1794, Kentucky and Vermont joined the United States, and two stripes were added to the flag. In 1818, Congress decided that the number of stripes on the flag should always be 13. This would honor the original states that were colonies of Great Britain before America’s independence."
+    },
+    {
+      "Id": 97,
+      "Text": "Why does the flag have 50 stars?*",
+      "Answers": [
+        "because there is one star for each state",
+        "because each star represents a state",
+        "because there are 50 states"
+      ],
+      "AdditionalInfo": "Each star on the flag represents a state. This is why the number of stars has changed over the years from 13 to 50. The number of stars reached 50 in 1959, when Hawaii joined the United States as the 50th state. In 1777, the Second Continental Congress passed the first Flag Act, stating, “Resolved, That the flag of the United States be made of thirteen stripes, alternate red and white; that the union be thirteen stars, white in a blue field, representing a new Constellation.”"
+    },
+    {
+      "Id": 98,
+      "Text": "What is the name of the national anthem?",
+      "Answers": [
+        "The Star-Spangled Banner"
+      ],
+      "AdditionalInfo": "During the War of 1812, British soldiers invaded the United States. On the night of September 13, 1814, British warships bombed Fort McHenry. This fort protected the city of Baltimore, Maryland. An American named Francis Scott Key watched the bombing and thought that the fort would fall. As the sun rose the next morning, Key looked toward the fort. He saw that the flag above the fort was still flying. This let him know that the British had not defeated the Americans. Key immediately wrote the words to a poem he called the “Defence of Fort M’Henry.” The words of the poem became “The Star-Spangled Banner.” Congress passed a law in 1931 naming “The Star-Spangled Banner” the official national anthem. Here are the words to the first verse of the national anthem:\n\nThe Star-Spangled Banner\n\nOh, say, can you see, by the dawn’s early light,\n\nWhat so proudly we hailed at the twilight’s last gleaming?\n\nWhose broad stripes and bright stars, thro’ the perilous fight;\n\nO’er the ramparts we watched, were so gallantly streaming.\n\nAnd the rockets red glare, the bombs bursting in air,\n\nGave proof through the night that our flag was still there.\n\nOh, say, does that star-spangled banner yet wave\n\nO’er the land of the free and the home of the brave?"
     }
   ]
 }
 
 /*
-
+,
+    {
+      "Id": 99,
+      "Text": "When do we celebrate Independence Day?*",
+      "Answers": [
+        "July 4"
+      ],
+      "AdditionalInfo": "In the United States, we celebrate Independence Day on July 4 to mark the anniversary of the adoption of the Declaration of Independence. After signing the Declaration of Independence, John Adams wrote to his wife, “I am apt to believe that it will be celebrated, by succeeding Generations, as the great anniversary Festival.” The Declaration of Independence, written by Thomas Jefferson, explained why the colonies had decided to separate from Great Britain. Americans celebrate the Fourth of July as the birthday of America, with parades, fireworks, patriotic songs, and readings of the Declaration of Independence."
+    },
+    {
+      "Id": 100,
+      "Text": "Name two national U.S. holidays.",
+      "Answers": [
+        "New Year’s Day",
+        "Martin Luther King, Jr. Day",
+        "Presidents’ Day",
+        "Memorial Day",
+        "Independence Day",
+        "Labor Day",
+        "Columbus Day",
+        "Veterans Day",
+        "Thanksgiving",
+        "Christmas"
+      ],
+      "AdditionalInfo": "Many Americans celebrate national or federal holidays. These holidays often honor people or events in our American heritage. These holidays are “national” in a legal sense only for federal institutions and in the District of Columbia. Typically, federal offices are closed on these holidays. Each state can decide whether or not to celebrate the holiday. Businesses, schools, and commercial establishments may choose whether or not to close on these days. Since 1971, federal holidays are observed on Mondays except for New Year’s Day, Independence Day, Veterans Day, Thanksgiving, and Christmas."
+    }
 */
