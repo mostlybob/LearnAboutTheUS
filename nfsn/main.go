@@ -20,7 +20,7 @@ func getAQuestion(w http.ResponseWriter, r *http.Request) {
 
 func hello(w http.ResponseWriter, r *http.Request) {
 	foo := r.RequestURI
-	fmt.Fprintf(w, "Hello from Go!\nfoo: "+foo+" <end>")
+	fmt.Fprintf(w, "Hello from Go!<br />foo: "+foo+"<br /><end>")
 }
 
 func main() {
