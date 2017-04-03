@@ -1,6 +1,7 @@
 package main
 
-import "github.com/mostlybob/LearnAboutTheUS/quiz"
+// import "github.com/mostlybob/LearnAboutTheUS/quiz"
+import "../LearnAboutTheUS/quiz"
 
 import (
 	"fmt"
