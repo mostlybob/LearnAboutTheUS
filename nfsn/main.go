@@ -1,36 +1,52 @@
 package main
 
 import "github.com/mostlybob/LearnAboutTheUS/quiz"
+
 import (
 	"fmt"
-	"io/ioutil"
+	"net/http"
+	"net/http/cgi"
 )
 
+func hello(w http.ResponseWriter, r *http.Request) {
+	fmt.Fprintf(w, "Hello from Go!")
+}
+
 func main() {
-	learnUs := quiz.CreateQuizFromJSON(GetQuizJson("../LearnAboutTheUS.json"))
-
-	ShowAQuestion(learnUs)
+	http.HandleFunc("/", hello)
+	cgi.Serve(nil)
 }
 
-func ShowAQuestion(quiz quiz.Quiz) {
-	question := quiz.GetRandomQuestion()
-	fmt.Printf("%d - %v\n", question.Id, question.Text)
-	fmt.Println("(press Enter to show answers)")
+// import (
+// 	"fmt"
+// 	"io/ioutil"
+// )
 
-	var input string
-	fmt.Scanln(&input)
+// func main() {
+// 	learnUs := quiz.CreateQuizFromJSON(GetQuizJson("../LearnAboutTheUS.json"))
 
-	for _, answer := range question.Answers {
-		fmt.Println(answer)
-	}
-}
+// 	ShowAQuestion(learnUs)
+// }
 
-func GetQuizJson(pathToJson string) string {
-	// read the whole file at once - it's not that big
-	data, err := ioutil.ReadFile(pathToJson)
-	if err != nil {
-		panic(err)
-	}
+// func ShowAQuestion(quiz quiz.Quiz) {
+// 	question := quiz.GetRandomQuestion()
+// 	fmt.Printf("%d - %v\n", question.Id, question.Text)
+// 	fmt.Println("(press Enter to show answers)")
 
-	return string(data)
-}
+// 	var input string
+// 	fmt.Scanln(&input)
+
+// 	for _, answer := range question.Answers {
+// 		fmt.Println(answer)
+// 	}
+// }
+
+// func GetQuizJson(pathToJson string) string {
+// 	// read the whole file at once - it's not that big
+// 	data, err := ioutil.ReadFile(pathToJson)
+// 	if err != nil {
+// 		panic(err)
+// 	}
+
+// 	return string(data)
+// }
