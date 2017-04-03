@@ -20,7 +20,8 @@ func getAQuestion(w http.ResponseWriter, r *http.Request) {
 
 func hello(w http.ResponseWriter, r *http.Request) {
 	var response = "RequestURI: " + r.RequestURI
-	response += "<br />URL: " + r.URL
+	response += "<br />URL: " + r.URL.String()
+	response += "<br />URL.EscapedPath:" + r.URL.EscapedPath()
 
 	fmt.Fprintf(w, response+"<br />(end)")
 }
