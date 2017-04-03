@@ -19,7 +19,8 @@ func getAQuestion(w http.ResponseWriter, r *http.Request) {
 }
 
 func hello(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Hello from Go!")
+	queryString := r.RequestURI
+	fmt.Fprintf(w, "Hello from Go!<br />"+queryString)
 }
 
 func main() {
