@@ -5,6 +5,7 @@ import "../quiz"
 
 import (
 	"fmt"
+	"io/ioutil"
 	"net/http"
 	"net/http/cgi"
 )
