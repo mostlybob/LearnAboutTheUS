@@ -8,12 +8,19 @@ import (
 	"net/http/cgi"
 )
 
+func getAQuestion(w http.ResponseWriter, r *http.Request) {
+	learnUs := quiz.CreateQuizFromJSON(GetQuizJson("../LearnAboutTheUS.json"))
+	question := showAQuestion(learnUs)
+	fmt.Fprintf(w, question)
+}
+
 func hello(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "Hello from Go!")
 }
 
 func main() {
 	http.HandleFunc("/", hello)
+	http.HandleFunc("/getaquestion", getAQuestion)
 	cgi.Serve(nil)
 }
 
@@ -28,18 +35,21 @@ func main() {
 // 	ShowAQuestion(learnUs)
 // }
 
-// func ShowAQuestion(quiz quiz.Quiz) {
-// 	question := quiz.GetRandomQuestion()
-// 	fmt.Printf("%d - %v\n", question.Id, question.Text)
-// 	fmt.Println("(press Enter to show answers)")
+func showAQuestion(quiz quiz.Quiz) string {
+	question := quiz.GetRandomQuestion()
 
-// 	var input string
-// 	fmt.Scanln(&input)
+	return string(question.Id) + " - " + question.Text
 
-// 	for _, answer := range question.Answers {
-// 		fmt.Println(answer)
-// 	}
-// }
+	// fmt.Printf("%d - %v\n", question.Id, question.Text)
+	// fmt.Println("(press Enter to show answers)")
+
+	// var input string
+	// fmt.Scanln(&input)
+
+	// for _, answer := range question.Answers {
+	// 	fmt.Println(answer)
+	// }
+}
 
 // func GetQuizJson(pathToJson string) string {
 // 	// read the whole file at once - it's not that big
