@@ -11,6 +11,8 @@ import (
 func getAQuestion(w http.ResponseWriter, r *http.Request) {
 	learnUs := quiz.CreateQuizFromJSON(GetQuizJson("../LearnAboutTheUS.json"))
 	question := showAQuestion(learnUs)
+	// should probably look at getting this as a json object, since that's what
+	// I want to return from the end point. Simple string for now.
 	fmt.Fprintf(w, question)
 }
 
