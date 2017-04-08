@@ -23,6 +23,7 @@ func ShowAQuestion(quiz quiz.Quiz) {
 	for _, answer := range question.Answers {
 		fmt.Println(answer)
 	}
+	fmt.Println("")
 }
 
 func GetQuizJson(pathToJson string) string {
