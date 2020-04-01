@@ -26,6 +26,6 @@ I want to get some testing in here, so I'm also playing with these two libraries
 
 [2]: https://www.uscis.gov/citizenship/learners/study-test/study-materials-civics-test
 
-[3]: https://play.golang.org/p/twW3LLHeQt
+[3]: https://play.golang.org/p/Se0O7vQjGTc
 
 [4]: https://onsi.github.io/ginkgo/
